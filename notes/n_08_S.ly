@@ -123,7 +123,7 @@ GloriaSopranoNotes = {
 		d2 d4
 		d8 r cis r r4
 		d8 r a r r4
-		h4. h8 h d
+		h4. h8 d d
 		d4 \appoggiatura d cis2 %165
 		d4 r r
 		R2.
