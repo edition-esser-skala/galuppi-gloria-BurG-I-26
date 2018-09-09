@@ -16,7 +16,7 @@ GloriaOrgano = {
 		d d d d d d
 		d d d d d d
 		d d d d d d %10
-		d-\markup {"rinforzando à poco à poco"} d d d d d
+		d^\markup {"rinforzando à poco à poco"} d d d d d
 		d d d d d d
 		d d d d d d
 		d\f d d d d d
@@ -184,38 +184,38 @@ GloriaBassFigures = \figuremode {
 	q2 q8 q \bassFigureExtendersOff
 	<5 3>2.
 	r
-	r %15
+	<[7]> %15
 	r
 	r2 <6>4
 	r2 <[6]>4
 	<3>8 q q q q q
-	r2. %20
-	r
+	<[3]> q q q q q %20
+	r2.
 	r
 	r
 	r2.*8 %31
 	r2.
 	r2 <6>4
-	q2.
-	r2 q4 %35
-	q2.
-	q
-	r
-	r4. q
-	<4>2 <3>4 %40
+	q8 <[\t]> r <[5]> <[6]> <[\t]>
+	r2 <6>4 %35
+	q8 <[\t]> r <[5]> <[6]> <[\t]>
+	<6>2.
+	r4 <[6]>2
+	r4. <6>
+	<[6] 4>4 <[5] 3>2 %40
 	r2 <[6]>4
-	q2.
-	r2 q4
-	q2.
-	q %45
-	r
+	q8 <[\t]> r <[5]> <[6]> <[\t]>
+	r2 <[6]>4
+	q8 <[\t]> r <[5]> <[6]> <[\t]>
+	<[6]>2. %45
+	r4 q2
 	<5>4 <6>2
 	<6 4>4 <[5] 3>2
 	<6>2.
-	r %50
-	<[6]>
-	r
-	r
+	r4 <[6] [4]> <[5] [3]> %50
+	<[6]>2.
+	r4 <[6] [4]> <[5] [3]> %50
+	r2.
 	r2.*9 %62
 	r2.
 	<6 4>2. \bassFigureExtendersOn
@@ -311,13 +311,13 @@ GloriaBassFigures = \figuremode {
 	r <[6]> r
 	r <6 4> <5 3>
 	r2 <[6]>4
-	q2. %180
+	q8 <[\t]> r <[5]> <[6]> <[\t]> %180
 	r2 <[6]>4
-	q2.
-	r
-	r
-	r %185
-	r
+	q2 <[7!]>4
+	<[5]> <[6]>2
+	<[\t]>2.
+	<[6] [4]>4 <[5] [3]>2 %185
+	r2.
 	r %187 finis
 }
 

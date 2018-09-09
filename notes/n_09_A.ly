@@ -111,7 +111,7 @@ GloriaAltoNotes = {
 		R2.
 		\mvTr gis4.(\pE^\soloE h8[ a gis]
 		a) g g2 %150
-		fis4.( a8([ g)] fis
+		fis4.( a8[ g)] fis
 		g4 fis4. g16[ fis]
 		e4 d4. fis8
 		g4 fis4. g16[ fis]

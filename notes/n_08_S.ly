@@ -108,9 +108,9 @@ GloriaSopranoNotes = {
 		cis4 cis d8 d
 		cis4 cis r
 		R2.
-		\mvTr d\pE^\solo(
+		\mvTr d\pE^\solo
 		cis4. e8[ d cis] %150
-		d) c c2
+		d c c2
 		h4 d2
 		h8[ g] a4 d
 		h d2
@@ -234,8 +234,8 @@ GloriaSopranoLyrics = \lyricmode {
 	cel -- sis,
 	
 	glo --
-	%150
-	ri -- a
+	_ _ %150
+	_ ri -- a
 	in ex --
 	cel -- _ _
 	_ _
