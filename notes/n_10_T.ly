@@ -20,13 +20,13 @@ GloriaTenoreNotes = {
 		\clef "treble_8"
 		\key d \major \time 3/4 \autoBeamOff \tempoGloria
 		R2.*53 %53
-		\mvTr fis8.\fE^\tuttiE d16 d4 r
+		\mvDll fis8.\fE^\tuttiE d16 d4 r
 		R2.*2 %56
 		fis8. d16 d4 r
 		R2.*2
 		fis8. d16 d4 r %60
 		R2.*2
-		r4 r \mvTr fis8\pE^\tuttiE fis
+		r4 r \mvDll fis8\pE^\tuttiE fis
 		g2.
 		g4 g8 g g g %65
 		fis2.
@@ -63,7 +63,7 @@ GloriaTenoreNotes = {
 		fis8 fis e2
 		e4 r r
 		R2.*24 %132
-		\mvTr fis8.\fE^\tuttiE d16 d4 r
+		\mvDll fis8.\fE^\tuttiE d16 d4 r
 		R2.*2 %135
 		fis8. d16 d4 r
 		R2.*2

@@ -20,14 +20,14 @@ GloriaSopranoNotes = {
 		\clef treble
 		\key d \major \time 3/4 \autoBeamOff \tempoGloria
 		R2.*53 %53
-		\mvTr d'8.\fE^\tuttiE a16 a4 r
+		\mvDll d'8.\fE^\tuttiE a16 a4 r
 		R2.*2 %56
 		d8. a16 a4 r
 		R2.*2
 		d8. a16 a4 r %60
 		\mvTr d8.\pE^\solo d16 d4 cis8 cis
 		d4 d d8 h
-		a4 a \mvTr d8\p^\tutti d
+		a4 a \mvDll d8\p^\tutti d
 		d2.
 		d4 d8 d d d %65
 		d2.
@@ -76,8 +76,8 @@ GloriaSopranoNotes = {
 		R2.*4 %112
 		\mvTr e2\pE^\solo g!4
 		\appoggiatura h,4 ais2 ais4
-		h2. %115
-		R
+		h2^\critnote r4 %115
+		R2.
 		r4 r cis
 		d8.([ cis16)] h4 a!
 		gis8 a h4 d
@@ -94,7 +94,7 @@ GloriaSopranoNotes = {
 		e cis' d %130
 		e g, fis
 		fis e r
-		\mvTr d'8.\fE^\tutti a16 a4 r
+		\mvDll d'8.\fE^\tutti a16 a4 r
 		R2.*2 %135
 		d8. a16 a4 r
 		R2.*2

@@ -20,14 +20,14 @@ GloriaAltoNotes = {
 		\clef treble
 		\key d \major \time 3/4 \autoBeamOff \tempoGloria
 		R2.*53 %53
-		\mvTr a'8.\fE^\tuttiE fis16 fis4 r
+		\mvDll a'8.\fE^\tuttiE fis16 fis4 r
 		R2.*2 %56
 		a8. fis16 fis4 r
 		R2.*2
 		a8. fis16 fis4 r %60
 		\mvTr fis8.\pE^\soloE fis16 fis4 e8 e
 		fis4 fis fis8 g
-		fis4 fis \mvTr a8\pE^\tuttiE a
+		fis4 fis \mvDll a8\pE^\tuttiE a
 		h2.
 		h4 h8 h h h %65
 		a2.
@@ -96,7 +96,7 @@ GloriaAltoNotes = {
 		cis8.[ d16] e4 fis %130
 		g e d
 		d cis r
-		\mvTr a'8.\fE^\tuttiE fis16 fis4 r
+		\mvDll a'8.\fE^\tuttiE fis16 fis4 r
 		R2.*2 %135
 		a8. fis16 fis4 r
 		R2.*3
