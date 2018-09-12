@@ -131,6 +131,8 @@ adlibitum = \markup { \remark "ad libitum" }
 adlibitumE = \markup { \remarkE "ad libitum" }
 senzaOrg = \markup { \remark "senza Organo" }
 senzaOrgE = \markup { \remarkE "senza Organo" }
+dolce = \markup { \remark "dolce" }
+dolceE = \markup { \remarkE "dolce" }
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
 l = \markup { \fontsize #-2 \transparent \number 5 }
@@ -157,6 +159,8 @@ fp = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "fp")))
 fpE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "fp")))
 piuF = #(make-dynamic-script (markup #:line (#:normal-text #:small "più" #:normal-text #:large #:bold "f")))
 piuFE = #(make-dynamic-script (markup #:line (#:normal-text #:small #:italic "più" #:normal-text #:large #:bold #:italic "f")))
+rfz = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "rfz")))
+rfzE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "rfz")))
 
 smallerGroupDistance = {
 	\override StaffGrouper.staffgroup-staff-spacing =

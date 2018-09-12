@@ -16,8 +16,8 @@ GloriaOrgano = {
 		d d d d d d
 		d d d d d d
 		d d d d d d %10
-		d^\markup { \remark "rinforzando à poco à poco"} d d d d d
-		d d d d d d
+		d\rfz d d d d d
+		d-\markup { \remark "à poco à poco" } d d d d d
 		d d d d d d
 		d\f d d d d d
 		a a a a a a %15

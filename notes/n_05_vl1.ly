@@ -17,7 +17,7 @@ GloriaViolinoI = {
 		d,\f d,16 d'[\p fis d] e cis g' e
 		fis d a fis d d' fis d e cis g' e
 		fis d a fis d d' fis d a' fis h g
-		a-\markup { \remark "rinforzando à poco à poco"} fis d a fis d' fis d a' fis d' a %10
+		a\rfz fis d a fis d' fis d a' fis d' a %10
 		h8 d4 d d8~
 		d h4 h a16 g
 		a8 d4 d d8~

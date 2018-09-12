@@ -16,13 +16,13 @@ GloriaOboeI = {
 		R2.*2
 		a''2.\p %10
 		h~
-		h^\markup { \remark "rinforzando" }
+		h\rfz
 		a~
 		a\f
 		g~ %15
 		g
-		fis8 a r fis a e
-		fis a r fis a cis
+		fis8 a r \pa fis[ a e] \pd
+		fis a r \pa fis[ a cis] \pd
 		d cis h a g fis
 		h a g fis e d %20
 		cis8.[ a'16 e8. cis16 a8. a16]
@@ -44,7 +44,7 @@ GloriaOboeI = {
 		fis8 r d r r4
 		h8( dis) e16 fis g a h g fis e
 		fis4 \appoggiatura fis8 e4. e8 %40
-		d4 r r
+		\pao d4 r r
 		a'4.\p h8 a4
 		R2.
 		a4. h8 a4
@@ -53,7 +53,7 @@ GloriaOboeI = {
 		h'8 g fis4 e %50
 		d'8. a16 d a fis d d'8 a
 		h g fis4 e
-		d r r
+		\pao d r r
 		d d, r %54
 		R2.*2
 		d'4 d, r %57
@@ -72,18 +72,18 @@ GloriaOboeI = {
 		d cis h a g fis
 		h a g fis e d
 		cis4 e e
-		e r r %75
+		e \pa r r \pd %75
 		r gis e
 		h'2.~
 		h4 a8 gis a fis
 		gis4 e r
-		r gis e %80
+		\pa r gis e \pd %80
 		a2.~
-		a4. a8 gis a
+		\pa a4. a8 gis a \pd
 		a4 gis8 gis a cis,
 		h e4 gis8 a cis,
 		h4 r r %85
-		\mvTr e2.\pE-\markup { \remark "dolce" }
+		\mvTr e2.\pE-\dolce
 		dis
 		e4 d2
 		cis2.
@@ -104,27 +104,27 @@ GloriaOboeI = {
 		a-! cis-! e-!
 		a e e
 		e r r %110
-		a2\pE-\markup { \remark "Traversieri" } c4
+		\pa \mvTr a2\pE-\markup { \remark "Traversieri" } c4
 		\appoggiatura e, dis2.
 		e4 r r
 		R2.
 		h'2 d!4 %115
 		\appoggiatura fis, eis2.
-		fis4 a cis
+		fis4 a \pd cis
 		d8. cis16 h4 a
 		gis h d
-		cis8. h16 a4( gis %120
-		fis a cis)
-		h8. a16 gis4( fis
-		eis gis h)
-		a8. h16 cis4( a
-		gis8. fis16) gis4 ais %125
-		h d( \appoggiatura cis8 h4
-		\appoggiatura a8 gis4.) h8 a gis
-		a4 cis( d
-		e) g,! fis
-		e cis'( d %130
-		e) g, fis
+		cis8. h16 a4 gis %120
+		fis a cis
+		h8. a16 gis4 fis
+		eis gis h
+		a8. h16 cis4 a
+		gis8. fis16 gis4 ais %125
+		h d \appoggiatura cis8 h4
+		\appoggiatura a8 gis4. h8 a gis
+		a4 cis d
+		e g,! fis
+		e cis' d %130
+		e g, fis
 		fis e r
 		\mvTr d\fE-\markup { \remark "Oboe" } d, r
 		R2.*2 %135

@@ -16,7 +16,7 @@ GloriaViola = {
 		d d d d d d
 		d d d d d d
 		d d d d d d %10
-		d^\markup { \remarkE "rinforzando à poco à poco"} d d d d d
+		d\rfz d d d d d
 		d d d d d d
 		d d d d d d
 		d\fE d d d d d
