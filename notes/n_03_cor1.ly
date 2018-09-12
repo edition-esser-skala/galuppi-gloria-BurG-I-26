@@ -68,23 +68,23 @@ GloriaCornoI = {
 		R2.*5 %80
 		r4 e e
 		fis8 e fis4 gis8 a
-		gis?4 r8 e e e
-		e4 r8 e e e
+		gis?4 r8 \pa e e e
+		e4 \pd r8 \pa e e e
 		e4 e e %85
-		e r r
+		e \pd r r
 		R2.*9 %95
 		e4 r r
 		e4. fis8 e4
 		R2.
 		e4. fis8 e4
-		e-! e-! r %100
+		e-! \pao e-! r %100
 		fis-! e-! r
 		r r8 fis fis fis
 		e4 e8 e e e
 		e r e r e r
-		fis r e r e r %105
+		fis r \pao e r \pao e r %105
 		e r e r e r
-		fis r e r e r
+		fis r \pao e r \pao e r
 		e r e r e r
 		e4 e e
 		e r r %110
@@ -109,7 +109,7 @@ GloriaCornoI = {
 		fis fis g %160
 		a4. h8 a4
 		R2.*2
-		r4 r e8 g
+		r4 r \pa e8 g \pd
 		fis4 e e8 e %165
 		d4 r r
 		R2.
@@ -125,8 +125,8 @@ GloriaCornoI = {
 		a'4. h8 a4 %180
 		d,8 a d a e' a,
 		a'4 r r
-		d, r r
-		r e g
+		\pao d, r r
+		r \pao e g
 		fis e e %185
 		d4. d8 d d
 		d4 r r\fermata \bar "||" %187 finis
