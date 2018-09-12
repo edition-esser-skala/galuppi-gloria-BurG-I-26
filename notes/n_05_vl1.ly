@@ -159,9 +159,9 @@ GloriaViolinoI = {
 		gis8.(\p a16) gis8 h a gis
 		a g g2 %150
 		fis8.( g16) fis8 a g fis
-		g( fis) g4. a16 fis
+		g( fis) fis4. a16 fis
 		e8( d) d4. a'16 fis
-		g8( fis) g4. a16 fis
+		g8( fis) fis4. a16 fis
 		e8 d d4. a'8 %155
 		h8. cis16 d cis d cis d8 fis,
 		fis4 e r

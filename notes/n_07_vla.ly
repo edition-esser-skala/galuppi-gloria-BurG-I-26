@@ -6,7 +6,7 @@
 
 GloriaViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 3/4 \tempoGloria
 		d'4\fE d, r
 		R2.*2
