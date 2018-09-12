@@ -21,7 +21,7 @@ GloriaViolinoI = {
 		h8 d4 d d8~
 		d h4 h a16 g
 		a8 d4 d d8~
-		d a4 a g16 fis
+		d a4\f a g16 fis
 		g8 e'4 e e8~ %15
 		e g,4 g fis16 e
 		fis8~ fis32 d( e fis64 g) a8~ a32 d,( e fis64 g) a8 e
@@ -147,7 +147,7 @@ GloriaViolinoI = {
 		e8.( fis32 g) fis8 a g h
 		h4 a r
 		R2.
-		g16 h, d g g g fis fis e e d d %140
+		g16\fE h, d g g g fis fis e e d d %140
 		e8 h gis e h4
 		a''16 cis, e a a a g g fis fis e e
 		fis8 cis ais fis cis4
