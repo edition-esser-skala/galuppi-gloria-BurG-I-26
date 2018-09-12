@@ -17,7 +17,7 @@ GloriaViolinoII = {
 		d\f d,8 d'([\p cis) cis]
 		d4 d,8 d'([ cis) cis]
 		d4 d,8 d'[ fis( e)]
-		fis4-\markup {"rinforzando à poco à poco"} d8 d fis fis %10
+		fis4-\markup { \remark "rinforzando à poco à poco"} d8 d fis fis %10
 		g16 d h d g, h d h g' d h' g
 		g d h d g, h d h g' d h' g
 		fis d a d fis, a d a fis' d a' fis
