@@ -321,6 +321,20 @@ GloriaBassFigures = \figuremode {
 	r %187 finis
 }
 
+LaudamusOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 2/2 \tempoLaudamus
+			\set Score.currentBarNumber = #188
+		R1
+		r4 r8 r32 d(\fE e fis) g8-! d-! h-! g-!
+	}
+}
+
+LaudamusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

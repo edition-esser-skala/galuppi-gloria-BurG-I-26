@@ -198,6 +198,15 @@ GloriaViolinoI = {
 	}
 }
 
+LaudamusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/2 \tempoLaudamus
+			\set Score.currentBarNumber = #188
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

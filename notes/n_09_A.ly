@@ -268,6 +268,19 @@ GloriaAltoLyrics = \lyricmode {
 	o.] %179 finis
 }
 
+LaudamusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/2 \autoBeamOff \tempoLaudamus
+			\set Score.currentBarNumber = #188
+		
+	}
+}
+
+LaudamusAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

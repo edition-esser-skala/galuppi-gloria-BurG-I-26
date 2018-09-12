@@ -197,3 +197,12 @@ GloriaViolinoII = {
 		q4 r r\fermata \bar "||" %187 finis
 	}
 }
+
+LaudamusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/2 \tempoLaudamus
+			\set Score.currentBarNumber = #188
+		
+	}
+}

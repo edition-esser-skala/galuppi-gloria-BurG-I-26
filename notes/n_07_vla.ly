@@ -190,3 +190,12 @@ GloriaViola = {
 		d4 r r\fermata \bar "||" %187 finis
 	}
 }
+
+LaudamusViola = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/2 \tempoLaudamus
+			\set Score.currentBarNumber = #188
+		
+	}
+}
