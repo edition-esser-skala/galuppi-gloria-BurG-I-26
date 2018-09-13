@@ -328,11 +328,218 @@ LaudamusOrgano = {
 			\set Score.currentBarNumber = #188
 		R1
 		r4 r8 r32 d(\fE e fis) g8-! d-! h-! g-!
+		R1 %190
+		r4 r8 r32 d'( e fis) g8-! d-! h-! g-!
+		r4 g'(\p a) d,
+		r g( a) d,
+		r g\fE a d,
+		g h c cis %195
+		d r d r
+		d, r r2
+		r4 h'(\p c) a(
+		h) fis( g) d
+		g, h'( c) a( %200
+		h) fis( g) d
+		r g r g
+		r h r g
+		r c,\f fis d
+		g e c d %205
+		g r h,\p r
+		c c d d
+		g g\f h, h
+		c c' d d,
+		g2 r %210
+		R1
+		r4 r8 r32 d( e fis) g8-\parenthesize-! d-\parenthesize-! h-\parenthesize-! g-\parenthesize-!
+		R1
+		r4 r8 r32 d'( e fis) g8-! d-! h-! g-!
+		r4 g'(\p a) d, %215
+		r g( a) d,
+		r g( a) d,
+		g g c cis
+		d\f d d, d
+		d2 r %220
+		R1*7 %227
+		r4 a'(\pE g) e(
+		fis) cis( d) a
+		r fis'( g) e %230
+		fis cis( d) a
+		r d r fis
+		r fis r d
+		r g g g
+		a h g a %235
+		r fis(\f g)e
+		fis cis(\p d) a
+		r fis'( g) e
+		fis cis( d) a
+		r d r fis %240
+		r fis r d
+		r g g g
+		a h g a
+		d, r fis r
+		g g a a %245
+		d, d, r fis'
+		g g a a,
+		d e fis g
+		a a a, a
+		d\fE fis( g) e %250
+		fis cis( d) a
+		r d' h gis
+		r a cis a
+		h fis g a
+		d,2 r %255
+		R1
+		r4 r8 r32 a'(\f h cis) d8-\parenthesize-! a-\parenthesize-! fis-\parenthesize-! d-\parenthesize-!
+		R1
+		r4 r8 r32 d( e fis) g8-! d-! h-! g-!
+		r4 g'(\p a) d, %260
+		r g( a) d,
+		r g a d,
+		g a fis g
+		d\f d' d, d
+		d2 r %265
+		R1*10 %275
+		r4 h'(\p c) a(
+		h) fis( g) d
+		r h'( c) a
+		h fis( g) d
+		r g r h %280
+		r h r g
+		r c c c
+		d e c d
+		g,\f h( c) a
+		h fis( g) d %285
+		r h'(\p c) a
+		h fis( g) d
+		r g r h
+		r h r g
+		r c c c %290
+		d e c d
+		g,2 r
+		r4 e-! c-! d-!
+		g,2 r
+		r4 e'-\parenthesize-! c-! d-! %295
+		g r h, r
+		c2 d4 d
+		g r h, r
+		c2 d4 d
+		g,\f a h c %300
+		d e d c
+		d1\fermata
+		g4 g h, h
+		c c' d d,
+		g h c c, %305
+		h e c d
+		g,2 r\fermata \bar "||" %307 finis
 	}
 }
 
 LaudamusBassFigures = \figuremode {
-	
+	r1 %188
+	r
+	r %190
+	r
+	r2 <6>4 <7>
+	r2 <6>4 <7>
+	r2 <6>4 <7>
+	r <[6]> r q %195
+	r1
+	r
+	r4 <6> <2> <6>
+	q q <5> <7>
+	r <6> <2> <6> %200
+	q q <5> <7>
+	r <5>2.
+	r4 <5!> r <7!>
+	r <5> <6> r
+	r <5> <6 5>2 %205
+	r <[6]>
+	r1
+	r2 <[6]>
+	r <[6] [4]>4 <[5] [3]>
+	r1 %210
+	r
+	r
+	r
+	r
+	r2 <6>4 <7> %215
+	r2 <6>4 <7>
+	r2 <6>4 <7>
+	r2 <6>4 <5>
+	r1
+	r %220
+	r1*7 %227
+	r4 <[_+]> <4+> <6\\>
+	<6> <6> r <_+>
+	r <6> <[4\+]> <[6\\]> %230
+	<6> q r <[_+]>
+	r2. <[6]>4
+	r <5!> r <7>
+	r <6>2 <5>4
+	<4> <5> <6 5> <[_+]> %235
+	r <6> <4+ 2> <[6\\]>
+	<6> <[6]> r <[_+]>
+	r <6> <4+ 2> <6\\>
+	<[6]> q r <[_+]>
+	r2. <[6]>4 %240
+	r <[5!]> r <[7]>
+	r <6>2 <5>4
+	<[6] [4]> r <6 5> <[_+]>
+	r2 <[6]>
+	r <[6] [4]>4 <[5] [_+]> %245
+	r2. <[6] [5!]>4
+	r2 <[6] [4]>4 <[5] [_+]>
+	r <[6\\]> <[6]> r
+	<6 4>2 <5 _+>
+	r4 <[6]> <[4+]> <[6\\]> %250
+	<[6]> q r <[_+]>
+	r2 <6\\>4 <[6] [5]>
+	r <[_+]> <[6]> <[7!] [_+]>
+	r <[6]> <[6] [5]> <[_+]>
+	r1 %255
+	r
+	r
+	r
+	r
+	r2 <6>4 <7> %260
+	r2 <6>4 <7>
+	r2 <6>4 <7>
+	r2 <[6] [5]>
+	r1
+	r %265
+	r1*10 %275
+	r4 <6> <4 2> <6>
+	q q r <7>
+	r <6> <4 2> <6>
+	q q r <7>
+	r2. <[6]>4 %280
+	r <[5!]> r <[7!]>
+	r4 <6>2 <[5]>4
+	r2 <[6] [5]>
+	r4 <6> <4 2> <6>
+	q q r <7> %285
+	r <6> <4 2> <6>
+	q q r <7>
+	r2. <[6]>4
+	r <[5!]> r <[7!]>
+	r4 <6>2 <[5]>4 %290
+	r2 <[6] [5]>
+	r1
+	r2 <[6]>
+	r1
+	r2 <[6]> %295
+	r <[6]>
+	r1
+	r2 <[6]>
+	r1
+	r4 <[6]> q2 %300
+	<[6] [4]>4 <[6]> <[6] [4]> <[6] [5]>
+	<[6] [4]>1
+	r2 <[6]>
+	r <[6] [4]>4 <[5] [3]>
+	r <[6]> r2 %305
+	q <[6] [5]>
+	r1 %307 finis
 }
 
 % Organo = {
