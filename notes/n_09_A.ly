@@ -273,12 +273,186 @@ LaudamusAltoNotes = {
 		\clef treble
 		\key g \major \time 2/2 \autoBeamOff \tempoLaudamus
 			\set Score.currentBarNumber = #188
-		
+		R1*23 %210
+		\mvTr g'2\pE^\soloE \appoggiatura h8 a4 g8([ fis)]
+		g2 r
+		h c4 h8([ a)]
+		h2 r
+		d d, %215
+		d2. d4
+		d2 d'~
+		d4 c8([ h)] a4 \tuplet 3/2 4 { g8([ fis)] g }
+		fis2 r
+		R1 %220
+		a2\f a4 a
+		d h g2~
+		g4 a8[ h] a4 g\trill
+		fis2~ fis8[ d'( a fis])
+		\appoggiatura fis4 g2~ g8[ d'( h g]) %225
+		\appoggiatura gis4 a2~ a8[ d( c a])
+		h4. cis8 d4. fis,8
+		e2 r
+		r a4.\pE g8
+		fis8.([ g16)] a4 r2 %230
+		a a
+		d4 c!2 c4~
+		c h8[ a] g[ fis a c!]
+		h4 e,2 fis8[ g]
+		\appoggiatura g fis4 e8[ d] e2\trill %235
+		d r
+		r a'4. g8
+		fis8.([ g16)] a4 r2
+		a a
+		d4 c!2 c4~ %240
+		c \appoggiatura h8 a4 \appoggiatura g8 fis4 a8[ c!]
+		h4 e,2 fis8[ g]
+		\appoggiatura g fis4 e8[ d] e2\trill
+		d4 cis'8([ d)] e([ d)] a([ c!)]
+		g8.([ a16] h8[ a16 g] fis4) e %245
+		fis cis'8([ d] e[ d)] a([ c!)]
+		h8.[ d16 \appoggiatura d cis8. h16] \appoggiatura h a8.[ g16 fis8. e16]
+		fis'4 \tuplet 3/2 4 { e8[ fis d] cis[ d h] a[ h g] }
+		fis16[ e] d4. e2\trill
+		d r %250
+		R1*5 %255
+		a'2 g4 fis8([ e)]
+		fis2 r
+		d' c!4 h8([ a)]
+		h2 r
+		R1 %260
+		d2 d,
+		d d'~
+		d4 c8[ h] a4 g
+		fis2 r
+		R1 %265
+		h2\fE h4 h
+		h2. gis8[ a]
+		h4 e,2 d4\trill
+		c2 c'4 \appoggiatura h8 a4
+		\appoggiatura g fis2. g4\trill %270
+		a d,2 c4\trill
+		\appoggiatura c h2~ h8[ g' d h]
+		\appoggiatura h4 c2~ c8[ g' e c]
+		\appoggiatura c4 d2~ d8[ g f d]
+		e4 c'8.[ h16] a4 g\trill %275
+		d'1~\pE
+		d~
+		d~
+		d~
+		d~ %280
+		d2. dis4(
+		e) a,2 h8[ c]
+		\appoggiatura c h4 a8[ g] a2\trill
+		g r
+		R1*2 %286
+		d'2 d,
+		d4 g2 g4~
+		g f2 g8[ f]
+		e4 a2 h8[ c] %290
+		\appoggiatura c h4 a8[ g] a2\trill
+		g4 r \appoggiatura d'8 c4( h8[ a)]
+		d4( g, \appoggiatura h8 a4) g8([ fis)]
+		g4 r \appoggiatura d'8 c4 h8[( a])
+		d4( g,) \appoggiatura h8 a4 g8([ fis)] %295
+		g2 r4 g
+		c8.([ d16] e8) d16([ c)] h4 a
+		g r r2
+		c8.([ d16] e8) d16([ c)] h4 a
+		h8. g16 fis8.([ e16)] d8.[ c'16 \appoggiatura c h8. a16] %300
+		g1~
+		g2 a4.\fermata g8
+		g2\fermata r
+		R1*3 %306
+		R1\fermataMarkup \bar "||" %307 finis
 	}
 }
 
 LaudamusAltoLyrics = \lyricmode {
+	Lau -- da -- mus %211
+	te,
+	lau -- da -- mus
+	te,
+	be -- ne -- %215
+	di -- ci --
+	mus, be --
+	ne -- di -- ci -- mus
+	te,
+	%220
+	glo -- ri -- fi --
+	ca -- _ _
+	_ _ _
+	_
+	_ %225
+	_
+	_ _ _ mus
+	te,
+	ad -- o --
+	ra -- mus, %230
+	ad -- o --
+	ra -- _ _
+	_ _
+	_ _ _
+	_ _ mus %235
+	te,
+	ad -- o --
+	ra -- mus,
+	ad -- o --
+	ra -- _ _ %240
+	_ _ _
+	_ _ _
+	_ _ mus
+	te, glo -- ri -- fi --
+	ca -- mus %245
+	te, ad -- o --
+	ra -- _
+	_ _ _ _
+	_ _ mus
+	te. %250
 	
+	Lau -- da -- mus %256
+	te,
+	lau -- da -- mus
+	te,
+	%260
+	be -- ne --
+	di -- _
+	_ ci -- mus
+	te,
+	%265
+	glo -- ri -- fi --
+	ca -- _
+	_ _ _
+	_ _ _
+	_ _ %270
+	_ _ _
+	_
+	_
+	_
+	_ _ _ _ %275
+	_
+	
+	_ %281
+	_ _
+	_ _ mus
+	te,
+	
+	ad -- o -- %287
+	ra -- _ _
+	_ _
+	_ _ _ %290
+	_ _ mus
+	te. Lau --
+	da -- mus
+	te, be -- ne --
+	di -- ci -- mus %295
+	te, glo --
+	ri -- fi -- ca -- mus
+	te,
+	ad -- o -- ra -- mus
+	te, ad -- o -- ra -- %300
+	_
+	_ mus
+	te. %303 finis
 }
 
 % AltoNotes = {
