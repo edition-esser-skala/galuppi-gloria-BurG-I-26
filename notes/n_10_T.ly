@@ -284,14 +284,14 @@ GratiasTenoreLyrics = \lyricmode {
 	pter ma -- gnam,
 	pro --
 	pter ma -- _
-	_ _
+	_ _ %350
 	_ gnam,
 	pro --
 	pter ma --
 	gnam glo --
-	ri -- am
+	ri -- am %355
 	tu --
-	am.
+	am. %357 finis
 }
 
 % TenoreNotes = {
