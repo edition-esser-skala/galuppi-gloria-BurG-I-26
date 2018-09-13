@@ -325,7 +325,7 @@ LaudamusAltoNotes = {
 		d4 c8[ h] a4 g
 		fis2 r
 		R1 %265
-		h2\fE h4 h
+		h2 h4 h
 		h2. gis8[ a]
 		h4 e,2 d4\trill
 		c2 c'4 \appoggiatura h8 a4
@@ -335,7 +335,7 @@ LaudamusAltoNotes = {
 		\appoggiatura h4 c2~ c8[ g' e c]
 		\appoggiatura c4 d2~ d8[ g f d]
 		e4 c'8.[ h16] a4 g\trill %275
-		d'1~\pE
+		d'1~
 		d~
 		d~
 		d~
@@ -358,7 +358,7 @@ LaudamusAltoNotes = {
 		c8.([ d16] e8) d16([ c)] h4 a
 		g r r2
 		c8.([ d16] e8) d16([ c)] h4 a
-		h8. g16 fis8.([ e16)] d8.[ c'16 \appoggiatura c h8. a16] %300
+		h8.\fE g16 fis8.([ e16)] d8.[ c'16 \appoggiatura c h8. a16] %300
 		g1~
 		g2 a4.\fermata g8
 		g2\fermata r

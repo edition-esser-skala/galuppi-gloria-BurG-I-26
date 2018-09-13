@@ -203,7 +203,126 @@ LaudamusViolinoI = {
 		\clef treble
 		\key g \major \time 2/2 \tempoLaudamus
 			\set Score.currentBarNumber = #188
-		
+		g''2\p \appoggiatura h8 a4 g8. fis16
+		g4 r8 r32 d,(\f e fis) g8-! d-! h-! g-!
+		h''2\p \appoggiatura d8 c4 h8. a16 %190
+		h4 r8 r32 d,,(\f e fis) g8-! d-! h-! g-!
+		d''8\p d4 d d d8~
+		d d4 d d d8~
+		d d4 d8~\f d8. a'16 \appoggiatura h a8.( g32 a)
+		h4 d \appoggiatura d16 c8. h16 \appoggiatura h a8. g16 %195
+		\tuplet 3/2 4 { fis8[ a fis] d a fis fis'[ a fis] d a fis }
+		<d a' fis'>4 <d a' a'> <d d' d'>2
+		r2 r8 r16 fis'\pE \appoggiatura g fis32( e fis8.)
+		g a16 \appoggiatura h a32( g) a8. h c16 \appoggiatura d c32( h c8.)
+		h32( c d8.) r4 r8 r16 fis, \appoggiatura g fis32( e fis8.) %200
+		g a16 \appoggiatura h a32( g) a8. h c16 \appoggiatura d c32( h c8.)
+		h32( c d8.) r4 g,32( a h8.) r4
+		f32( g a8.) r4 d,32( e f8.) r4
+		e8(\fE gis) a4~ a8( h) h( c)
+		\appoggiatura c16 h8[ a16 g] \appoggiatura c h8 a16 g a4.\trill g8 %205
+		g r fis16(\p g8.) \appoggiatura g16 a( g8.) d16([ f8.)]
+		c8.([ d16] e8) d16 c \appoggiatura h4 a2
+		h8 r fis'16(\f g8.) \appoggiatura g16 a( g8.) d16([ f8.)]
+		<c e,>8.([ d16] e8) d16 c h32( c d8.) \appoggiatura g,8 fis4
+		g8 d h g <d' h' g'>4 r %210
+		g'2\p \appoggiatura h8 a4 g8. fis16
+		g4 r8 r32 d,(\f e fis) g8-! d-! h-! g-!
+		h''2\p c4 h8. a16
+		h4 r8 r32 d,,(\f e fis) g8-! d-! h-! g-!
+		d''8\p d4 d d d8~ %215
+		d d4 d d d8~
+		d d4 d8~ d8. a'16 \appoggiatura h a32( g a8.)
+		h4 c8 h a4 g
+		\tuplet 3/2 4 { fis8[\f a fis] d a fis fis'[ a fis] d a fis }
+		<d a' fis'>4 <d a' a'> <d d' d'>2 %220
+		fis'4\p fis e e
+		d d d d
+		e e e e
+		fis fis fis fis
+		g g g g %225
+		a a d, d
+		d g2 fis4
+		e e, r8 r16 cis' \appoggiatura d cis32( h cis8.)
+		d8. e16 \appoggiatura fis e32( d e8.) fis8. g16 \appoggiatura a g32( fis g8.)
+		fis32( g a8.) r4 r8 r16 cis, \appoggiatura d cis32( h cis8.) %230
+		d8. e16 \appoggiatura fis e32( d e8.) fis8. g16 \appoggiatura a g32( fis g8.)
+		fis32( g a8.) r4 d,32( e fis8.) r4
+		c!32( d e8.) r4 a,32( h c!8.) r4
+		h8 dis e4~ e8 fis fis g
+		fis4 fis e e %235
+		\tuplet 3/2 4 { d8\f a a a[ a a] a a a a[ a a]
+		a a a a[\p a a] a a a a[ a a]
+		a a a a[ a a] a a a a[ a a]
+		a a a a[ a a] a a a a[ a a] }
+		fis'32( g a8.) r4 d,32( e fis8.) r4 %240
+		c!32( d e8.) r4 a,32( h c!8.) r4
+		h8 dis e4~ e8 fis fis g
+		fis4 fis e e
+		d8 r cis16( d8.) e16( d8.) a16([ c!8.)]
+		<g h,>8. a16 h8 a16 g fis4 e %245
+		fis8 r cis'16( d8.) e16( d8.) a16([ c!8.)]
+		h4 d2 cis4
+		fis\mf \tuplet 3/2 4 { e8[ fis d] cis[ d h] a h g }
+		fis\f fis' fis fis e e e e
+		\tuplet 3/2 4 { d a' a a[ a a] a a a a[ a a] %250
+		a a a a[ a a] a a a a[ a a] }
+		fis32( g a8.) a4 h32( cis d8.) d4
+		d8 e, e4~ e8 fis fis g
+		\appoggiatura g16 fis8[ e16 d] \appoggiatura g16 fis8 e16 d e4.\trill d8
+		d a fis d <d a' fis'>4 r %255
+		d'2\p \appoggiatura fis8 e4 d8 cis
+		d4 r8 r32 a(\f h cis) d8-! a-! fis-! d-!
+		d'2\p \appoggiatura d8 c4 h8 a
+		h4 r8 r32 d,(\f e fis) g8-! d-! h-! g-!
+		d''\p d4 d d d8~ %260
+		d d4 d d d8~
+		d d4 d8~ d8. a'16 \appoggiatura h a32( g a8.)
+		h4 a2 g4
+		\tuplet 3/2 4 { fis8[\f a fis] d a fis fis'[ a fis] d a fis }
+		<d a' fis'>4 d8. c16 h4 a %265
+		gis d''\p d d
+		d d d d
+		d d d d
+		c c c c
+		c c c c %270
+		c c c c
+		h h h h(
+		c) c c c(
+		d) d d d(
+		e) c2 h4 %275
+		<fis' a, d,> r r8 r16 fis \appoggiatura g fis32( e fis8.)
+		g a16 \appoggiatura h a32( g) a8. h c16 \appoggiatura d c32( h c8.)
+		h32( c d8.) r4 r8 r16 fis, \appoggiatura g fis32( e fis8.)
+		g a16 \appoggiatura h a32( g) a8. h c16 \appoggiatura d c32( h c8.)
+		h32( c d8.) r4 g,32( a h8.) r4 %280
+		f32( g a8.) r4 d,32( e f8.) r4
+		e8( gis) a2 c4
+		h2 a
+		g4 g, r8 r16 fis'\f \appoggiatura g fis32( e fis8.)
+		g a16 \appoggiatura h a32( g) a8. h c16 \appoggiatura d c32( h c8.) %285
+		h32( c d8.) r4 r8 r16 fis,\p \appoggiatura g fis32( e fis8.)
+		g a16 \appoggiatura h a32( g) a8. h c16 \appoggiatura d c32( h c8.)
+		h32( c d8.) r4 g,32( a h8.) r4
+		f32( g a8.) r4 d,32( e f8.) r4
+		e8 gis a2 c,4~ %290
+		c h a2
+		h( c)
+		d4 h-! c-! a-!
+		h2( c)
+		d4 h-! c-! a-! %295
+		h8 r fis'16( g8.) a16( g8.) d16([ f8.)]
+		<c e,>8.[\f d16] e8 d16\p c h4( a)
+		h8 r fis'16( g8.) a16( g8.) d16([ f8.)]
+		<c e,>8.[\f d16] e8 d16\p c h4( a)
+		h8.[\f g'16 \appoggiatura g fis8. e16] \appoggiatura e16 d8.[ c16 \appoggiatura c h8. a16] %300
+		g4 c h a
+		h2 r\fermata
+		r4 fis'16( g8.) a16( g8.) d16([ f8.)]
+		<c e,>8.[( d16] e8) d16 c h4 a
+		\tuplet 3/2 4 { h8[ h' g] \appoggiatura a16 g8 fis e \appoggiatura fis16 e8[ d c] \appoggiatura d16 c8[ h a] } %305
+		d4 \appoggiatura c16 h8 a16 g a4.\trill g8
+		g d h g <d' h' g'>2\fermata \bar "||" %307 finis
 	}
 }
 
