@@ -514,7 +514,7 @@ GratiasAltoNotes = {
 }
 
 GratiasAltoLyrics = \lyricmode {
-	Gra -- ti -- as %308
+	[Gra -- ti -- as %308
 	a -- gi -- mus,
 	gra -- ti -- as %310
 	a -- gi -- mus
@@ -526,7 +526,7 @@ GratiasAltoLyrics = \lyricmode {
 	ti -- bi,
 	a -- gi -- mus
 	ti --
-	bi: %320
+	bi:] %320
 	Pro -- pter
 	ma -- gnam
 	glo -- ri -- am

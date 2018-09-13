@@ -291,7 +291,7 @@ GratiasSopranoNotes = {
 		dis h e2( dis4)
 		e r r2
 		R1
-		r4 d2 c4
+		r4 d2 c!4
 		h( d2 c4~) %330
 		c h e2(
 		d4) d8 h a2

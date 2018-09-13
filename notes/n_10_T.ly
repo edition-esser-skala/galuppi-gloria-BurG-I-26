@@ -191,12 +191,107 @@ GratiasTenoreNotes = {
 		\clef "treble_8"
 		\key e \minor \time 4/4 \autoBeamOff \tempoGratias
 			\set Score.currentBarNumber = #308
-		
+		R1
+		\mvTr c2\pE^\solo c4 c
+		h4. h8 h2 %310
+		c c4 c
+		c2( a)
+		h2. r4\fermata
+		\mvTr cis2\fE^\tutti cis4 cis
+		cis?4. cis8 cis2 %315
+		cis? cis4 cis
+		d2 d
+		e e4 e
+		e( dis8[ cis] dis4 e) \noBreak
+		dis2. r4\fermata \bar "||" %320
+		\tempoPropter r4 h( cis) dis \noBreak
+		e8([ h] e2) d4
+		c!4.( e8) dis h e4~
+		e( dis) h2
+		R1*2 %326
+		r4 e2 d4
+		cis h8([ a)] h4 cis8 cis
+		d4 a r2
+		r e'( %330
+		d2. c!4~)
+		c h8 c d2
+		d4 g,( a) h
+		c h a( e'~)
+		e d8 c d4( e %335
+		a, f') e2
+		r r4 fis~
+		fis e d2~
+		d( h4) gis
+		a h8 h e,4 e %340
+		r2 r4 d'~
+		d c h d
+		e4. fis8 d4. e8
+		c4. e8 h4 dis
+		e fis h, h %345
+		r2 r4 cis(
+		d) e a, a
+		r2 r4 h(
+		c) d c e~
+		e d2 c4 %350
+		h2 h4 r
+		r2 r4 h(
+		cis) dis e2
+		h r4 e~
+		e( d) c! h %355
+		c1\fermata
+		h\fermata \bar "||" %357 finis
 	}
 }
 
 GratiasTenoreLyrics = \lyricmode {
+	Gra -- ti -- as %309
+	a -- gi -- mus, %310
+	[a -- gi -- mus
+	ti --
+	bi,
+	gra -- ti -- as
+	a -- gi -- mus, %315
+	a -- gi -- mus
+	ti -- bi,
+	a -- gi -- mus
+	ti --
+	bi:] %320
+	Pro -- pter
+	ma -- gnam
+	glo -- ri -- am tu --
+	am,
 	
+	pro -- pter %327
+	ma -- gnam glo -- ri -- am
+	tu -- am,
+	glo -- %330
+	
+	ri -- am tu --
+	am, pro -- pter
+	ma -- gnam glo --
+	ri -- am tu -- %335
+	am,
+	pro --
+	pter ma --
+	gnam
+	glo -- ri -- am tu -- am, %340
+	pro --
+	pter ma -- gnam
+	glo -- _ _ _
+	_ _ _ _
+	[ri -- am tu -- am,] %345
+	pro --
+	pter ma -- gnam,
+	pro --
+	pter ma -- _
+	_ _
+	_ gnam,
+	pro --
+	pter ma --
+	gnam glo --
+	ri -- am
+	tu --
+	am.
 }
 
 % TenoreNotes = {
