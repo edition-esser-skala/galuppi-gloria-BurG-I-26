@@ -186,6 +186,19 @@ GloriaTenoreLyrics = \lyricmode {
 	o.] %179 finis
 }
 
+GratiasTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key e \minor \time 4/4 \autoBeamOff \tempoGratias
+			\set Score.currentBarNumber = #308
+		
+	}
+}
+
+GratiasTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

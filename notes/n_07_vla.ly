@@ -318,3 +318,12 @@ LaudamusViola = {
 		g2 r\fermata \bar "||" %307 finis
 	}
 }
+
+GratiasViola = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoGratias
+			\set Score.currentBarNumber = #308
+		
+	}
+}

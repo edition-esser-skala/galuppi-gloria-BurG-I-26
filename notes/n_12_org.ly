@@ -542,6 +542,19 @@ LaudamusBassFigures = \figuremode {
 	r1 %307 finis
 }
 
+GratiasOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 4/4 \tempoGratias
+			\set Score.currentBarNumber = #308
+		\mvDll e4\fE-\soloE^\markup { \remark "staccato" } e\p e e
+	}
+}
+
+GratiasBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

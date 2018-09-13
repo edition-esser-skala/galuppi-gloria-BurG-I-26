@@ -173,3 +173,12 @@ GloriaOboeII = {
 		d4 r r\fermata \bar "||" %187 finis
 	}
 }
+
+GratiasOboeII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoGratias
+			\set Score.currentBarNumber = #308
+		
+	}
+}
