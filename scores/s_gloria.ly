@@ -97,9 +97,10 @@
 		\header {
 			movement = "2 LAUDAMUS TE"
 		}
+		\paper { systems-per-page = #2 page-count = #12 }
 		\score {
 			<<
-				\new StaffGroup <<
+				\new StaffGroup \with { \smallerGroupDistance } <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
@@ -115,7 +116,7 @@
 						\LaudamusViola
 					>>
 				>>
-				\new ChoirStaff <<
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \LaudamusAltoNotes }
@@ -132,7 +133,7 @@
 					\LaudamusBassFigures
 				}
 			>>
-% 			\layout { }
+			\layout { }
 			\midi { \tempo 2 = 60 }
 		}
 	}

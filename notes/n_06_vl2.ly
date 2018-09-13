@@ -236,7 +236,7 @@ LaudamusViolinoII = {
 		h4 d e2
 		\tuplet 3/2 4 { fis8[\f a fis] d a fis fis'[ a fis] d a fis }
 		<d a' fis'>4 <d a' a'> <d d' d'>2 %220
-		a'4\p a a a
+		a'4\p a a a~
 		a fis g g
 		g g a a
 		a a d d

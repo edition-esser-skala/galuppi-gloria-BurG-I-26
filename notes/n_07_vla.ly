@@ -193,7 +193,7 @@ GloriaViola = {
 
 LaudamusViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \major \time 2/2 \tempoLaudamus
 			\set Score.currentBarNumber = #188
 		R1
