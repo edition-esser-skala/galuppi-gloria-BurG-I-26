@@ -226,9 +226,9 @@ LaudamusViolinoI = {
 		h8 r fis'16(\f g8.) \appoggiatura g16 a( g8.) d16([ f8.)]
 		<c e,>8.([ d16] e8) d16 c h32( c d8.) \appoggiatura g,8 fis4
 		g8 d h g <d' h' g'>4 r %210
-		g'2\p \appoggiatura h8 a4 g8. fis16
+		g'2\p \appoggiatura h8 a4 g8 fis
 		g4 r8 r32 d,(\f e fis) g8-! d-! h-! g-!
-		h''2\p c4 h8. a16
+		h''2\p c4 h8 a
 		h4 r8 r32 d,,(\f e fis) g8-! d-! h-! g-!
 		d''8\p d4 d d d8~ %215
 		d d4 d d d8~
@@ -260,7 +260,7 @@ LaudamusViolinoI = {
 		h8 dis e4~ e8 fis fis g
 		fis4 fis e e
 		d8 r cis16( d8.) e16( d8.) a16([ c!8.)]
-		<g h,>8. a16 h8 a16 g fis4 e %245
+		<g h,>8.[ a16] h8 a16 g fis4 e %245
 		fis8 r cis'16( d8.) e16( d8.) a16([ c!8.)]
 		h4 d2 cis4
 		fis\mf \tuplet 3/2 4 { e8[ fis d] cis[ d h] a h g }
