@@ -548,11 +548,115 @@ GratiasOrgano = {
 		\key e \minor \time 4/4 \tempoGratias
 			\set Score.currentBarNumber = #308
 		\mvDll e4\fE-\soloE^\markup { \remark "staccato" } e\p e e
+		e\f e\p e e
+		d!\f d\p d d %310
+		c\f c\p c c
+		f\f f\p f f
+		e e e r\fermata
+		\mvTr g\f-\tutti g g g
+		fis! fis fis fis %315
+		e e e e
+		d d d d
+		c c c c
+		h h h h
+		h h h r \bar "||" %320
+		\clef treble \tempoPropter << {
+			r4 h''2 a4
+			g fis8 e fis4 gis
+			a8 e a4
+		} \\ {
+			r4 h, cis dis
+			e8 h e2 d4
+			c!4. e8
+		} >> \clef bass h,4 h'~
+		h a g fis8 e
+		fis4 gis a8 e a4~ %325
+		a4 g8 e h4 h
+		e \clef "treble_8" e'2 d4
+		cis \clef bass a2 g4
+		fis e8 d e4 fis
+		g h, c2 %330
+		d1~
+		d4 g d d,
+		g \clef treble << { g''2 f4 e } \\ { g, a h c } >>
+		\clef bass e, fis! gis
+		a8 e a2 g4 %335
+		f!4. a8 gis e a4
+		e2 fis~
+		fis1
+		f2 \once \slurDashed e~
+		e1 %340
+		es2 d~
+		d g,4. g'8
+		c,4. fis8 h,4. e8
+		a,4 a h h
+		cis dis e8 h e4~ %345
+		e d cis a
+		h cis d8 a d4~
+		d c h g'
+		a h c2
+		gis a %350
+		dis,4 e h2~-\tasto
+		h1~
+		h~
+		h2 a4 e'
+		fis gis a gis %355
+		a1\fermata
+		e\fermata \bar "||" %357 finis
 	}
 }
 
 GratiasBassFigures = \figuremode {
-	
+	r1 %308
+	<6 5>2 <6 4>
+	<6 4+ 3>1 %310
+	<7 6>
+	<7>2 <6>
+	<_+>1
+	<6 4+ _->
+	<7 5 _+> %315
+	r
+	r
+	r
+	r
+	r %320
+	r
+	r
+	r2 <7 _+>4 <6 4>
+	<2+> <4+> <6>2
+	<7>4 <5> <9> <8> %325
+	<4+> <6> <4> <_+>
+	r1
+	r
+	<6>2 <7>4 <5>
+	r <6 5!> <9> <8> %330
+	<7 3> <6 4> <9 5>2
+	<8> <4>4 <3>
+	r1
+	r4 <_+> <7> <5>
+	r <8> <2> <4+> %335
+	<6>2 <6 5>
+	<4>4 <_!> <5+ _+>2
+	<8 4 2+>4 <7 5+ _+> <6 4>2
+	<6 4>4 <\l 3> <8 5> <\l _+>
+	<8 4 2> <7 5 _+> <6! 4>2 %340
+	<6 4>4 <\l _!> <8 5> <\l 3>
+	<8 4 2> <7 5 3> r2
+	<7>4 <6>8 <\t> <7>4 <6>8 <\t>
+	<7>4 <6> <_+>2
+	<7>4 <6 5> r2 %345
+	<5->4 <6 _!> <6>2
+	<7>4 <6 5> <_!>2
+	<5->4 <6> <6>2
+	<7>4 <6 5!> <5>2
+	<6 4>4 <5 3> <9 4> <8 3> %350
+	<6 5>1
+	r
+	r
+	r2. <_+>4
+	<7> <6 5> r <6> %355
+	<5>2 <4+>
+	<_+>1 %357 finis
 }
 
 % Organo = {
