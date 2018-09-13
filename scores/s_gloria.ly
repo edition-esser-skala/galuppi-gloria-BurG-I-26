@@ -132,8 +132,8 @@
 					\LaudamusBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 2 = 50 }
+% 			\layout { }
+			\midi { \tempo 2 = 60 }
 		}
 	}
 }

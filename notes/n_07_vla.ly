@@ -196,6 +196,125 @@ LaudamusViola = {
 		\clef treble
 		\key g \major \time 2/2 \tempoLaudamus
 			\set Score.currentBarNumber = #188
-		
+		R1
+		r4 r8 r32 d(\f e fis) g8-! d-! h-! g-!
+		R1 %190
+		r4 r8 r32 d'( e fis) g8-! d-! h-! g-!
+		r4 g'(\p fis) fis-!
+		r g( fis) fis-!
+		r g(\f fis) fis-!
+		g d e e %195
+		d r d r
+		d r r2
+		r4 h'(\p c) a(
+		h) fis( g) d
+		r h'( c) a( %200
+		h) fis( g) d
+		r h'-! r h-!
+		r d-! r h-!
+		r e,\fE d fis
+		r g g fis %205
+		g r d\pE r
+		e e fis fis
+		r2 d4\f d
+		e e d a
+		h2 r %210
+		R1
+		r4 r8 r32 d( e fis) g8-! d-! h-! g-!
+		R1
+		r4 r8 r32 d'( e fis) g8-! d-! h-! g-!
+		r4 g'(\pE fis) fis-! %215
+		r g( fis) fis-!
+		r g( fis) fis-!
+		g g c, cis
+		d\fE fis a fis
+		d2 r %220
+		d4\pE d cis cis
+		h h h h
+		cis cis cis cis
+		d d d d
+		d d d d %225
+		d d fis, fis
+		g g gis gis
+		a cis( e-\critnote) g(
+		fis) cis( d) a
+		r fis'( g) e %230
+		fis cis( d) a
+		r fis' r a
+		r a r fis
+		r g g g
+		a h g a %235
+		r fis(\f g)e
+		fis cis(\p d) a
+		r fis'( g) e
+		fis cis( d) a
+		r fis' r a %240
+		r a r fis
+		r g g g
+		a h g a
+		d, r fis r
+		g g a a %245
+		d, d, r fis'
+		g g a a,
+		d\f e fis g
+		a a a, a
+		d fis( g) e %250
+		fis cis( d) a
+		r fis' gis h
+		r cis a cis
+		d d,2 cis4
+		d2 r %255
+		R1
+		r4 r8 r32 a'(\f h cis) d8-\parenthesize-! a-\parenthesize-! fis-\parenthesize-! d-\parenthesize-!
+		R1
+		r4 r8 r32 d( e fis) g8-! d-! h-! g-!
+		r4 g'(\pE fis) fis-! %260
+		r g( fis) fis-!
+		r g( fis) fis-!
+		g e d d
+		d\fE fis d d
+		d d8. c16 h4 a %265
+		gis gis\pE gis gis
+		gis gis gis gis
+		gis gis gis gis
+		a a a a
+		d, d d d %270
+		d d d d
+		g g g g
+		g g g g
+		g g g g
+		c c cis cis %275
+		d h'( c) a(
+		h) fis( g) d
+		r h'( c) a
+		h fis( g) d
+		r g r h %280
+		r h r g
+		r c c c
+		d e c d
+		g,\f h( c) a
+		h fis( g) d %285
+		r h'(\p c) a
+		h fis( g) d
+		r g r h
+		r h r g
+		r c c c %290
+		d e c d
+		g,2 r
+		r4 e-! c-! d-!
+		g,2 r
+		r4 e'-\parenthesize-! c-! d-! %295
+		g r h, r
+		c2 d4 d
+		g r h, r
+		c2 d4 d
+		g,\f a h c %300
+		d e d c
+		d2 r\fermata
+		h4 h d d
+		e g2 fis4
+		g g g e %305
+		d g2 fis4
+		g2 r\fermata \bar "||" %307 finis
 	}
 }
