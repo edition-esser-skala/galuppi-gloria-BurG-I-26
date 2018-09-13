@@ -271,7 +271,7 @@ GratiasSopranoNotes = {
 		\clef treble
 		\key e \minor \time 4/4 \autoBeamOff \tempoGratias
 			\set Score.currentBarNumber = #308
-		\mvTr h'2\pE^\soloE h4 h
+		\mvTr h'2\pE^\solo h4 h
 		h4. a8 a2
 		gis gis4 gis %310
 		a2 a4 c
@@ -282,7 +282,7 @@ GratiasSopranoNotes = {
 		b2 b4 b
 		b?2 a
 		a2 ais4 ais
-		h!1
+		h!1 \noBreak
 		h2. r4\fermata \bar "||" %320
 		\tempoPropter R1*2
 		r2 r4 h(
@@ -370,9 +370,9 @@ GratiasSopranoLyrics = \lyricmode {
 	pter ma -- _
 	_ _ _
 	_ _ gnam
-	glo -- ri -- am
+	glo -- ri -- am %355
 	tu --
-	am.
+	am. %357 finis
 }
 
 % SopranoNotes = {

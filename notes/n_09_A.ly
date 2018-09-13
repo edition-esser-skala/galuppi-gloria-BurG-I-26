@@ -460,12 +460,110 @@ GratiasAltoNotes = {
 		\clef treble
 		\key e \minor \time 4/4 \autoBeamOff \tempoGratias
 			\set Score.currentBarNumber = #308
-		
+		\mvTr g'2\pE^\solo g4 g
+		g4. e8 e2
+		f f4 f %310
+		e2 e4 e
+		e( d8[ c] d2)
+		e2. r4\fermata
+		\mvTr e2\fE^\tutti e4 e
+		e4. e8 e2 %315
+		g g4 g
+		g2 f
+		e4.( fis8) g4 g
+		g( fis8[ e] fis4 g) \noBreak
+		fis2. r4\fermata \bar "||" %320
+		\tempoPropter r4 h2 a4 \noBreak
+		g fis8([ e)] fis4( gis
+		a8[ e] a2) g8 g
+		fis2 e4 g
+		a h h( a) %325
+		h h2 a4
+		g fis8([ e)] fis4 gis8 gis
+		a4 e d e
+		fis fis g a
+		d, g2 a4 %330
+		fis g2 a4~
+		a g8 g g4( fis)
+		g g2 f4
+		e gis a h8 h
+		e,4 e r2 %335
+		r r4 a~
+		a g! fis fis(
+		gis) ais h8[ fis] h4~
+		h a gis e
+		fis gis a8[ e] a4~ %340
+		a g fis! fis
+		g a h g~
+		g fis2 e4~
+		e fis8([ e)] dis4 h'~
+		h a g2~ %345
+		g4. f8 e4 a~
+		a g f2~
+		f4. e8 d4 g~
+		g f e2~
+		e e4 e %350
+		fis!( e) dis h'~
+		h a g2
+		fis r4 e(
+		fis) gis a gis
+		a( h) e, e %355
+		e2\fermata dis\fermata
+		e1\fermata \bar "||" %357
 	}
 }
 
 GratiasAltoLyrics = \lyricmode {
-	
+	Gra -- ti -- as %308
+	a -- gi -- mus,
+	gra -- ti -- as %310
+	a -- gi -- mus
+	ti --
+	bi,
+	gra -- ti -- as
+	a -- gi -- mus, %315
+	a -- gi -- mus
+	ti -- bi,
+	a -- gi -- mus
+	ti --
+	bi: %320
+	Pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- am, glo --
+	ri -- am tu -- %325
+	am, pro -- pter
+	ma -- gnam glo -- ri -- am
+	tu -- am, glo -- _
+	_ _ _ _
+	_ _ _ %330
+	_ _ _
+	ri -- am tu --
+	am, pro -- pter
+	ma -- gnam glo -- ri -- am
+	tu -- am, %335
+	glo --
+	ri -- am, pro --
+	pter ma -- _
+	_ _ _
+	_ _ _ _ %340
+	_ _ _
+	_ _ _ _
+	_ _
+	gnam glo -- _
+	_ _ %345
+	_ _ _
+	_ _
+	_ _ _
+	_ _
+	ri -- am %350
+	tu -- am, pro --
+	pter ma --
+	gnam, pro --
+	pter ma -- gnam
+	glo -- ri -- am %355
+	tu -- _
+	am. %357 finis
 }
 
 % AltoNotes = {
