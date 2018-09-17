@@ -186,8 +186,8 @@ GratiasOboeI = {
 		a~
 		a
 		gis2. r4\fermata
-		e1~\f
-		e %315
+		e1(\f
+		e) %315
 		\once \tieDashed g~
 		g2 f
 		e e4 e
@@ -196,8 +196,8 @@ GratiasOboeI = {
 		\tempoPropter R1*6 %326
 		r4 e2 d4
 		cis8 a' a, a' h, a' cis, a'
-		d,4 d2 c4
-		h r e2 %330
+		d,4 \pa d2 c4
+		h r \pd e2 %330
 		fis4 g2 a4~
 		a g2 fis4
 		g r r2
@@ -207,7 +207,7 @@ GratiasOboeI = {
 		d d r e~
 		e d c c~ %340
 		c c r d~
-		d c h h'~
+		d c \pao h h'~
 		h a2 g4
 		g fis8 e dis4 h'~
 		h a g r %345
@@ -216,7 +216,7 @@ GratiasOboeI = {
 		r2 r4 g~
 		g f e c'~
 		c h2 a4~ %350
-		a g fis! h~
+		a \pa g fis! h~
 		h a g8 h dis, h'
 		e, h' fis a g4 e~
 		e d! c8 e gis, e'

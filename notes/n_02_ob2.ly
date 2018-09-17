@@ -179,6 +179,48 @@ GratiasOboeII = {
 		\clef treble
 		\key e \minor \time 4/4 \tempoGratias
 			\set Score.currentBarNumber = #308
-		
+		g''1\p
+		c,
+		f %310
+		e~
+		e2 d
+		e2. r4\fermata
+		b1\f(
+		ais)^\critnote %315
+		\once \tieDashed b~
+		b2 a
+		a ais
+		h4 fis8 e fis4 g
+		fis fis fis r\fermata \bar "||" %320
+		\tempoPropter R1*6 %326
+		r4 gis a h
+		cis8 a' a, a' h, a' cis, a'
+		d,4 fis, g a
+		h d2 c4~ %330
+		c h e2
+		d4 d8 h a2
+		h4 r r2
+		R1*3 %336
+		r2 r4 ais
+		h cis h h~
+		h a! r gis
+		a h a a~ %340
+		a g! r
+		fis g a h d
+		e2 d
+		c h4 dis
+		e fis h, r %345
+		r2 r4 cis
+		d e a, r
+		r2 r4 h
+		c d g, e'~
+		e d2 c4 %350
+		h e dis8 h' h, h'
+		cis, h' dis, fis e4 h~
+		h a8 fis g e' e, e'
+		fis, e' gis, h c4 \once \tieDashed e~
+		e d8 h c4 h %355
+		c1\fermata
+		h\fermata \bar "||" %357 finis
 	}
 }
