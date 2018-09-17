@@ -209,7 +209,7 @@ GratiasTenoreNotes = {
 		c!4.( e8) dis h e4~
 		e( dis) h2
 		R1*2 %326
-		r4 e2 d4
+		r4 e2 d!4
 		cis h8([ a)] h4 cis8 cis
 		d4 a r2
 		r e'( %330
