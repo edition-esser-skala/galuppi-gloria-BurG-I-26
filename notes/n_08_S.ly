@@ -316,7 +316,7 @@ GratiasSopranoNotes = {
 		a g fis h(
 		cis) dis e h~
 		h a g e'~
-		e d c h
+		e d! c h
 		r h a h %355
 		a1\fermata
 		gis\fermata \bar "||" %357 finis
