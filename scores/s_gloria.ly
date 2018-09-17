@@ -200,7 +200,7 @@
 					\GratiasBassFigures
 				}
 			>>
-% 			\layout { }
+			\layout { }
 			\midi { \tempo 4 = 80 } % 2 = 80
 		}
 	}
