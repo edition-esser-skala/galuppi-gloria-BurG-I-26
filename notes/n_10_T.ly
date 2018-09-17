@@ -204,7 +204,7 @@ GratiasTenoreNotes = {
 		e e4 e
 		e( dis8[ cis] dis4 e) \noBreak
 		dis2. r4\fermata \bar "||" %320
-		\tempoPropter r4 h( cis) dis \noBreak
+		\tempoPropter \newSpacingSection r4 h( cis) dis \noBreak
 		e8([ h] e2) d4
 		c!4.( e8) dis h e4~
 		e( dis) h2

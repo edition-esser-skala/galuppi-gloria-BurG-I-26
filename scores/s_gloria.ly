@@ -201,7 +201,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 } % 2 = 80
+			\midi { \tempo 2 = 80 } % 4 = 60
 		}
 	}
 }

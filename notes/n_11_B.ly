@@ -216,7 +216,7 @@ GratiasBassoNotes = {
 		c c4 c
 		h1 \noBreak
 		h2. r4\fermata \bar "||" %320
-		R1*2
+		\tempoPropter \newSpacingSection R1*2
 		r2 r4 h'~
 		h a g( fis8[ e]
 		fis4) gis a8([ e] a4~) %325

@@ -473,7 +473,7 @@ GratiasAltoNotes = {
 		e4.( fis8) g4 g
 		g( fis8[ e] fis4 g) \noBreak
 		fis2. r4\fermata \bar "||" %320
-		\tempoPropter r4 h2 a4 \noBreak
+		\tempoPropter \newSpacingSection r4 h2 a4 \noBreak
 		g fis8([ e)] fis4( gis
 		a8[ e] a2) g8 g
 		fis2 e4 g

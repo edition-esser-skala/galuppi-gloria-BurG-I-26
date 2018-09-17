@@ -321,7 +321,7 @@ LaudamusViola = {
 
 GratiasViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key e \minor \time 4/4 \tempoGratias
 			\set Score.currentBarNumber = #308
 		g'4\f g\p g g
@@ -337,7 +337,7 @@ GratiasViola = {
 		<e a> q e e
 		e e dis e \noBreak
 		dis dis dis r\fermata \bar "||" %320
-		\tempoPropter r4 h cis dis \noBreak
+		\tempoPropter \newSpacingSection r4 h cis dis \noBreak
 		e8 h e2 d4
 		c!4. e8 dis h e4~
 		e dis h2

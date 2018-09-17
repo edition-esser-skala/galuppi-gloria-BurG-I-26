@@ -193,7 +193,7 @@ GratiasOboeI = {
 		e e4 e
 		e dis8 cis dis4 e
 		dis dis dis r\fermata \bar "||" %320
-		\tempoPropter R1*6 %326
+		\tempoPropter \newSpacingSection R1*6 %326
 		r4 e2 d4
 		cis8 a' a, a' h, a' cis, a'
 		d,4 \pa d2 c4

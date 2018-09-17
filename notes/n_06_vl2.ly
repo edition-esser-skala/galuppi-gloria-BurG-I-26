@@ -342,9 +342,9 @@ GratiasViolinoII = {
 		r b''( fis g) r g( e cis) r b( g e) r g( e cis)
 		r b''( fis g) r d( b g) r a'( e f) r d( a f)
 		r a'( dis, e) r c( gis a) r g'( dis e) r e( g ais,)
-		r h'( fis! g) r fis( c e) r fis( dis? h) r h( g e) \noBreak
+		r h'( fis! g) r fis( cis e) r fis( dis? h) r h( g e) \noBreak
 		r fis'( cis dis?) r dis?( ais h) h,4 r\fermata \bar "||" %320
-		\tempoPropter R1*2
+		\tempoPropter \newSpacingSection R1*2
 		r2 r4 h'
 		cis dis e8 h e4~
 		e d c4. e8 %325

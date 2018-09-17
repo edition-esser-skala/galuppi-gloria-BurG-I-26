@@ -284,7 +284,7 @@ GratiasSopranoNotes = {
 		a2 ais4 ais
 		h!1 \noBreak
 		h2. r4\fermata \bar "||" %320
-		\tempoPropter R1*2
+		\tempoPropter \newSpacingSection R1*2
 		r2 r4 h(
 		cis) dis e8([ h] e4~)
 		e d c4.( e8) %325

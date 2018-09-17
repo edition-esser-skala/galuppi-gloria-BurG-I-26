@@ -560,7 +560,7 @@ GratiasOrgano = {
 		c c c c
 		h h h h \noBreak
 		h h h r\fermata \bar "||" %320
-		\clef treble \tempoPropter << {
+		\clef treble \newSpacingSection \tempoPropter << {
 			r4 h''2 a4 \noBreak
 			g fis8 e fis4 gis
 			a8 e a4
