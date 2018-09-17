@@ -225,3 +225,12 @@ GratiasOboeI = {
 		e1\fermata \bar "||" %357
 	}
 }
+
+DomineDeusOboeI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoDomineDeus
+			\set Score.currentBarNumber = #358
+		
+	}
+}

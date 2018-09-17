@@ -384,6 +384,15 @@ GratiasViolinoI = {
 	}
 }
 
+DomineDeusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoDomineDeus
+			\set Score.currentBarNumber = #358
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

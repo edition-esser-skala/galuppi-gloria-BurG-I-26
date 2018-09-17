@@ -132,3 +132,12 @@ GloriaCornoI = {
 		d4 r r\fermata \bar "||" %187 finis
 	}
 }
+
+DomineDeusCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoDomineDeus
+			\set Score.currentBarNumber = #358
+		
+	}
+}

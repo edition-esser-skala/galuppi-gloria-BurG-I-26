@@ -375,3 +375,12 @@ GratiasViola = {
 		h\fermata \bar "||" %357 finis
 	}
 }
+
+DomineDeusViola = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoDomineDeus
+			\set Score.currentBarNumber = #358
+		
+	}
+}

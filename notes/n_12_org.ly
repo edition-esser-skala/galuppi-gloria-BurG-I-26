@@ -659,6 +659,19 @@ GratiasBassFigures = \figuremode {
 	<_+>1 %357 finis
 }
 
+DomineDeusOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 2/2 \tempoDomineDeus
+			\set Score.currentBarNumber = #358
+			c8\p-\tweak TextScript.X-offset #2 -\markup { \remark "staccato" } ^\senzaOrg r r4 c8 r r4
+	}
+}
+
+DomineDeusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
