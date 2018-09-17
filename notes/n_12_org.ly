@@ -664,12 +664,220 @@ DomineDeusOrgano = {
 		\clef bass
 		\key c \major \time 2/2 \tempoDomineDeus
 			\set Score.currentBarNumber = #358
-			c8\p-\tweak TextScript.X-offset #2 -\markup { \remark "staccato" } ^\senzaOrg r r4 c8 r r4
+			c8-!\p-\tweak TextScript.X-offset #2 -\markup { \remark "staccato" } ^\senzaOrg r r4 c8-! r r4
+			c8-! r r4 c8-! r r4
+			h8 r r4 h8 r r4 %360
+			c8 r r4 c8 r r4
+			c8 r r4 c8 r r4
+			c8 r r4 c8 r r4
+			d8 r r4 g8 r r4
+			\mvTr c,8\f-\org c c c c c c c %365
+			h h h h h h h h
+			a a a a d d d d
+			g,4 g g r
+			\mvTr g'8\p-\senzaOrgE r r4 g8 r r4
+			g8 r r4 g8 r r4 %370
+			\mvTr g8\f-\orgE g g g g g g g
+			c,4 c c r
+			\mvTr g'8\p-\senzaOrgE r r4 g8 r r4
+			g8 r r4 g8 r r4
+			\mvTr g8\f-\orgE g g g g g g g %375
+			e e e e e e e e
+			f f f f f f f f
+			g4 g g, g
+			e'8\p e e e e e e e
+			f f f f f f f f %380
+			g4 g g, f'
+			e\f f e g
+			a e8. f16 g4 g,
+			c c c r
+			\mvTr c8\p-\senzaOrg r r4 c8 r r4 %385
+			c8 r r4 c8 r r4
+			h8 r r4 h8 r r4
+			c8 r r4 c8 r r4
+			c8 r r4 c8 r r4
+			c8 r r4 c8 r r4 %390
+			d8 r r4 g8 r r4
+			c,8 r r4 c8 r r4
+			c8 r r4 c8 r r4
+			c8 r r4 c8 r r4
+			d8 r r4 g,8 r r4 %395
+			\mvTr c4\f-\orgE c c c
+			c c c r
+			c'8\p c c c c c c c
+			h h h h h h h h
+			a a a a d, d d d %400
+			g g g g h h h h
+			c4 c c c
+			c c c c
+			h h h h
+			h h h h %405
+			a a fis fis
+			g e cis cis
+			d d8 d d4 r
+			d8-\senzaOrgE r r4 d8 r r4
+			d8 r r4 d8 r r4 %410
+			d4\pocoF d d d
+			g,8\p r r4 g'8 r r4
+			d8-\orgE r r4 d8 r r4
+			d8 r r4 d8 r r4
+			d8\pocoFE r r4 d8 r r4 %415
+			g,4 g h h
+			c c c c
+			d e c d
+			g2.(-\senzaOrg d4)
+			g2. g4 %420
+			g8 g c c h h a a
+			g g c c h h a a
+			h\mfE h h h c c c c
+			\mvTr d\f-\orgE d d d d, d d d
+			g4 a h c %425
+			g a h c
+			g g c c
+			d d d, d
+			g8 g d h g4 r
+			\mvTr g'8\p-\senzaOrg r r4 g8 r r4 %430
+			g8 r r4 g8 r r4
+			fis8 r r4 fis8 r r4
+			g8 r r4 g8 f e d
+			c8 r r4 c8 r r4
+			c8 r r4 c8 r r4 %435
+			h8 r r4 h8 r r4
+			c8 r r4 c8 r r4
+			c8 r r4 c8 r r4
+			c8 r r4 c8 r r4
+			f8 r r4 fis8 r r4 %440
+			g4\f g \tuplet 3/2 4 { g8[ e d] c h a }
+			g4 g'\p g f!
+			e e e e
+			e e e e
+			e e e e %445
+			f f f f
+			f f f f
+			g g g g
+			g g g g
+			a a h h %450
+			r c h g
+			r c h g
+			c c f, f
+			g g g, g
+			c\f c c r %455
+			g'8\p r r4 g8 r r4
+			g8 r r4 g8 r r4
+			g\f g g g
+			c,8 r c r c r r4
+			g'8\p r r4 g8 r r4 %460
+			g8 r r4 g8 r r4
+			g\f g g g
+			e8 e e e e\p e e e
+			f4 f f r
+			g r g, f' %465
+			e\f e e e
+			f\p f f r
+			g r g, f'
+			e h c f-\orgE
+			e h c f %470
+			e h c d
+			e8\f e e e f f f f
+			g g g g g, g g g
+			a1~
+			a4 a'( g fis) %475
+			g1\fermata
+			c,8 c d d e e f f
+			e4 e f f
+			g e8 f g4 g,
+			c c' c, c %480
+			c2 r\fermata \bar "||" %481 finis
 	}
 }
 
 DomineDeusBassFigures = \figuremode {
-	
+	r1 %358
+	r
+	r %360
+	r
+	r
+	r
+	r
+	r %365
+	<6>
+	<[6\\]>2 <[_+]>
+	r1
+	r
+	r %370
+	r
+	r
+	r
+	r
+	r %375
+	<6>
+	r2 <6>
+	<6 4> <5 3>
+	<[6]>1
+	r %380
+	<[6] [4]>2 <[5] [3]>4 <[2]>
+	<6> <5> <6> <7>
+	<5> <[6]> <[6] [4]> <[5] [3]>
+	r1
+	r %385
+	r
+	r
+	r
+	r
+	r %390
+	r
+	r
+	r
+	r
+	r %395
+	r
+	r
+	r
+	<[6]>
+	<[6\\]>2 <[_+]> %400
+	r <[6]>
+	r1
+	<6>
+	<7>
+	<6> %405
+	<5>2 <6 5>
+	r <7>
+	<6 4>4 <5 _+> r2
+	r1
+	r %410
+	r
+	r
+	<_+>
+	<6 4>
+	<7 _+> %415
+	r2 <[6]>
+	<5>4 <6>2.
+	r2 <[6] [5]>4 <[_+]>
+	r1
+	r %420
+	r
+	r
+	r
+	<6 4>2 <5 _+>
+	r4 <[7]> <[6]> r %425
+	r <[7]> <[6]> r
+	r1
+	<[6] [4]>2. <[5] [_+]>4
+	r1
+	r1*39 %468
+	r2. <4 2>4
+	<6> q r <4 2> %470
+	<6> q r q
+	q1
+	<6 4>2 <5 3>
+	<5>4 <6\\> <7> <8>
+	<5 [3]> \bassFigureExtendersOn <5 3>2. %475
+	q1 \bassFigureExtendersOff
+	r4 <[7]> <[6]> r
+	q2 q
+	<[6] [4]>4 \bassFigureExtendersOn <6 4> q \bassFigureExtendersOff <[5] [3]>
+	r1 %480
+	r %481 finis
 }
 
 % Organo = {
