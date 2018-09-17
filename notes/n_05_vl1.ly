@@ -389,7 +389,130 @@ DomineDeusViolinoI = {
 		\clef treble
 		\key c \major \time 2/2 \tempoDomineDeus
 			\set Score.currentBarNumber = #358
-		
+		c'16[\p d e e] e8 r e16[ f g g] g8 r
+		\appoggiatura g16 f8 e16 d d4 cis16([ d8.)] cis16([ d8.)]
+		h16[ c d d] d8 r d16[ e f f] f8 r %360
+		\appoggiatura a16 g8 f16 e e4 dis16([ e8.)] dis16([ e8.)]
+		f16[ g a a] a8 r f16[ g a a] a8 r
+		e16[ f g g] g8 r e16] f g g] g8 r
+		f8.[ e16 \appoggiatura e d8. c16] \appoggiatura c h8.[ a16 g8. f16]
+		e8.[\f g16 c8. g16] e'8.[ c16 e8. g16] %365
+		d8.[ g,16 h8. g16] \tuplet 3/2 4 { d'8[ h d] g d h }
+		c8.[ a16 fis'8. c16] \tuplet 3/2 4 { a'8[ g fis] e d c
+		h[ d h] g d h } g4 r
+		c'8(\(\p h) h4~ h8 f' d h
+		h c c4~ c8 e g c\) %370
+		c h h4. d16 c \appoggiatura c h8[ a16 h]
+		c8[ h16 a] g8 g g4\trill r
+		c,8(\(\p h) h4~ h8 f' d h
+		h c c4~ c8 e g c\)
+		c\f h h4. d16 c \appoggiatura c h8[ a16 h] %375
+		c8( b) b4. a16 b c8[ b]
+		gis( a) a4 d,8. e16 \tuplet 3/2 4 { f8[-! g-! a-!] }
+		a8. g16 \tuplet 3/2 4 { c,8[ e g] } g8. f16 \tuplet 3/2 4 { d8[ c h] }
+		c8\p b' b4. a16 b c8[ b]
+		gis( a) a4 d,8. e16 \tuplet 3/2 4 { f8[-! g-! a-!] } %380
+		a8. g16 \tuplet 3/2 4 { c,8[-! e-! g-!] } g8. f16 \tuplet 3/2 4 { d8[ c h]
+		c-![\f c'-! g-!] a-! d,-! a'-! g-![ c,-! g'-!] f-! e-! d-! }
+		c4 \tuplet 3/2 4 { g'8 e c } g'8. h,16 h4\trill
+		c8.[ g16 c8. e16] <c g c,>4 r
+		c16[\p d e e] e8 r e16[ f g g] g8 r %385
+		\appoggiatura g16 f8 e16 d d4 cis16([ d8.)] cis16([ d8.)]
+		h16[ c d d] d8 r d16[ e f f] f8 r
+		\appoggiatura a16 g8 f16 e e4 \slurDashed dis16([ e8.)] dis16([ e8.)] \slurSolid
+		f16[ g a a] a8 r f16[ g a a] a8 r
+		e16[ f g g] g8 r e16] f g g] g8 r %390
+		f8.[ e16 \appoggiatura e d8. c16] \appoggiatura c h8.[ a16 g8. f16]
+		e[ f g g] g8 r e'16[ f g g] g8 r
+		f16[ g a a] a8 r f16[ g a a] a8 r
+		e16[ f g g] g8 r e16[ f g g] g8 r
+		f8.[ e16 d8. c16] h8.[ a16 g8. f16] %395
+		e8[\f c'16 d] e8[ d16 c] g'8[ e16 f] g8[ f16 e]
+		<c' e, g,>4 q q r
+		e,,8.\p[ g16 c8. g16] \tuplet 3/2 4 { e'8[ c e] g f e }
+		d8.[ g,16 h8. g16] \tuplet 3/2 4 { d'8[ h d] g d h }
+		c8.[ a16 fis'8. c16] \tuplet 3/2 4 { a'8[ g fis] e d c } %400
+		c8.[ a16 h8. d16] g8. d16] d4\trill
+		e8 e e e e e e e
+		e4 e e e
+		d8 d d d d d d d
+		d4 d d d %405
+		c8 c c c c c c c
+		h4 h g' h,
+		h8\f d16 h a8 \noBeam < fis' a, d,> q4 r
+		g,8\p fis fis4. c'8( a fis)
+		fis?( g) g4. h8 d g %410
+		g(\pocoF fis) fis4. a16 g \appoggiatura g fis8[ e16 fis]
+		g8[ fis?16 e] d8 d d4 r
+		g,8\p fis fis4. c'8( a fis)
+		fis? g g4. h8 d g
+		g\pocoF fis fis4. a16 g \appoggiatura g fis8[ e16 fis] %415
+		g8 f f4. e16 f g8[ f]
+		e gis, a2 c4
+		h8 h c c a a a a
+		h4 c \tuplet 3/2 4 { d8[ h d] c h a }
+		h4 c \tuplet 3/2 4 { d8[ h d] e d c } %420
+		g'4\trill g\trill g\trill g\trill
+		g8-! g-! g-! g-! g g g g
+		g16[\mf g g g] d d d d e[ e e e] c c c c
+		h[\f h h h] h' h h h a[ a a a] a a a a
+		\tuplet 3/2 4 { h8[ g h] c a c d[ h d] c h a %425
+		h[ g h] c a c d[ h d] c h a }
+		h16[ h d h] g g h g e[ e g e] c c e c
+		h[ d g h] g8 g, d8. g16 a4\trill
+		g16[ h d h] <g' h, d,>8 q q4 r
+		g,16[\p a h h] h8 r h16[ c d d] d8 r %430
+		\appoggiatura d16 c8 h16 a a4 gis16([ a8.)] gis16( a8.)
+		fis16[ g a a] a8 r a16[ h c c] c8 r
+		\appoggiatura e16 d8 c16 h h4 g'8. h,16 h4\trill
+		c16[ d e e] e8 r e16[ f g g] g8 r
+		\appoggiatura g16 f8 e16 d d4 \slurDashed cis16([ d8.)] cis16([ d8.)] %435
+		h16[ c d d] d8 r d16[ e f f] f8 r
+		\appoggiatura a16 g8 f16 e e4 dis16([ e8.)] dis16([ e8.)] \slurSolid
+		f16[ g a a] a8 r f16[ g a a] a8 r
+		e16[ f g g] g8 r e16[ f g g] g8 r
+		a,8.[ g'16 f8. e16] d4 c %440
+		\tuplet 3/2 4 { h8[\fE g' d] h d h g[ e d] c h a }
+		g4 g''~\p \tuplet 3/2 4 { g8[ f e] d c h }
+		c c c c c c c c
+		b b b b b b b b
+		b? b b b b b b b %445
+		a4 c r8 a-! h-! c-!
+		d-! e-! f-! d-! a'4 a,
+		h d r8 h-! c-! d-!
+		e-! f-! g-! e-! h'4 h,
+		c c8 e d4 d8 f %450
+		e g-! g-! g-! <g, d'>4. f'8
+		e g-! g-! g-! <g, d'>4. f'8
+		f( e) \appoggiatura e16 d8([ c)] h( a) f'[ d]
+		e e e e d d d d
+		c4 <c g'>2\f f16\p e d c %455
+		c8\( h h4. f'8 d h\)
+		h\( c c4. e8 g c\)
+		c\f h h4. d16 c \appoggiatura c h8[ a16 h]
+		c8[ h16 a] g8 g g4\trill r
+		c,8\( h h4. f'8 d h\) %460
+		h\( c c4. e8 g c\)
+		c\f h h4. d16 c \appoggiatura c h8[ a16 h]
+		c8 b b4. a16\p b c8[ b]
+		gis([ a)] a r d,8.( e16) \tuplet 3/2 4 { f8[-! g-! a-!] }
+		\once \slurDashed a8.( g16) \tuplet 3/2 4 { c,8[-! e-! g]-! } g8.([ f16)] \tuplet 3/2 4 { d8[-! c-! h]-! } %465
+		c8(\f b') b4. a16 b c8[ b]
+		gis([ a)] a r \once \slurDashed d,8.(\p e16) \tuplet 3/2 4 { f8[-! g-! a-!] }
+		a8.( g16) \tuplet 3/2 4 { c,8[-! e-! g]-! } g8.([ f16)] \tuplet 3/2 4 { d8[-! c-! h]-! }
+		c4-! d-! e-! h-!
+		c-! d-! e-! h-! %470
+		c8-! c-! d-! d-! e-! e-! f-! f-!
+		g8.\f g16 \appoggiatura g f8. e16 a[ a a a] f f f f
+		e c' e, c' e,[ c' e, c'] d, h' d, h' d,[ h' d, h']
+		c4 fis,( g a)
+		c,1 %475
+		c2 r\fermata
+		\tuplet 3/2 4 { e8[ c e] f d f g8[ e g] a g f }
+		c'8. g16 g4\trill \tuplet 3/2 4 { a8[ d, e] f e d }
+		g,4 g'16 e d c g'8. h,16 h4\trill
+		c8.[ g16 c8. e16] c4 <e c e,> %480
+		q2 r\fermata \bar "||" %481 finis
 	}
 }
 

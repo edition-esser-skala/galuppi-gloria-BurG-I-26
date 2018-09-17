@@ -677,12 +677,12 @@ DomineDeusOrgano = {
 			g,4 g g r
 			\mvTr g'8\p-\senzaOrgE r r4 g8 r r4
 			g8 r r4 g8 r r4 %370
-			\mvTr g8\f-\orgE g g g g g g g
+			g8\f g g g g g g g
 			c,4 c c r
-			\mvTr g'8\p-\senzaOrgE r r4 g8 r r4
+			g'8\p r r4 g8 r r4
 			g8 r r4 g8 r r4
-			\mvTr g8\f-\orgE g g g g g g g %375
-			e e e e e e e e
+			g8\f g g g g g g g %375
+			e-\orgE e e e e e e e
 			f f f f f f f f
 			g4 g g, g
 			e'8\p e e e e e e e
@@ -714,12 +714,12 @@ DomineDeusOrgano = {
 			h h h h %405
 			a a fis fis
 			g e cis cis
-			d d8 d d4 r
-			d8-\senzaOrgE r r4 d8 r r4
+			d\fE d8 d d4 r
+			\mvTr d8\pE-\senzaOrgE r r4 d8 r r4
 			d8 r r4 d8 r r4 %410
 			d4\pocoF d d d
-			g,8\p r r4 g'8 r r4
-			d8-\orgE r r4 d8 r r4
+			g,8 r r4 g'8 r r4
+			\mvTr d8\p-\orgE r r4 d8 r r4
 			d8 r r4 d8 r r4
 			d8\pocoFE r r4 d8 r r4 %415
 			g,4 g h h
@@ -773,8 +773,8 @@ DomineDeusOrgano = {
 			f4 f f r
 			g r g, f' %465
 			e\f e e e
-			f\p f f r
-			g r g, f'
+			f f f r
+			g\pE r g, f'
 			e h c f-\orgE
 			e h c f %470
 			e h c d
@@ -810,13 +810,13 @@ DomineDeusBassFigures = \figuremode {
 	r
 	r
 	r %375
-	<6>
+	<6 [5-]>
 	r2 <6>
 	<6 4> <5 3>
-	<[6]>1
+	<[6] [5-]>1
 	r %380
 	<[6] [4]>2 <[5] [3]>4 <[2]>
-	<6> <5> <6> <7>
+	<6> <[6] 5> <6> <7>
 	<5> <[6]> <[6] [4]> <[5] [3]>
 	r1
 	r %385
@@ -835,7 +835,7 @@ DomineDeusBassFigures = \figuremode {
 	r
 	<[6]>
 	<[6\\]>2 <[_+]> %400
-	r <[6]>
+	<[4] [2]>4 <[5] [3]> <[6]>2
 	r1
 	<6>
 	<7>
@@ -850,9 +850,9 @@ DomineDeusBassFigures = \figuremode {
 	<_+>
 	<6 4>
 	<7 _+> %415
-	r2 <[6]>
+	<[7!]>2 <[6] [5]>
 	<5>4 <6>2.
-	<[6] [4]>4 <[5]> <[6] [5]> <[_+]>
+	<[6] [4]>4 <[6]> <[6] [5]> <[_+]>
 	r1
 	r %420
 	r
@@ -871,8 +871,8 @@ DomineDeusBassFigures = \figuremode {
 	q1
 	<6 4>2 <5 3>
 	<5>4 <6\\> <7> <8>
-	<5 [3]> \bassFigureExtendersOn <5 3>2. %475
-	q1 \bassFigureExtendersOff
+	<5 [3]> \bassFigureExtendersOn <5 3>2 q4 \bassFigureExtendersOff %475
+	<[6] [4]>2 <[5] [3]>
 	r4 <[7]> <[6]> r
 	q2 q
 	<[6] [4]>4 \bassFigureExtendersOn <6 4> q \bassFigureExtendersOff <[5] [3]>
