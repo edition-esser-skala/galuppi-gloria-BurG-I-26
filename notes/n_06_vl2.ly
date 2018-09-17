@@ -331,6 +331,54 @@ GratiasViolinoII = {
 		\clef treble
 		\key e \minor \time 4/4 \tempoGratias
 			\set Score.currentBarNumber = #308
-		
+		r16 h''(\f fis g) r g(\p dis e) r h( fis g) r g( dis e)
+		r c''(\f gis a) r h(\p dis, e) r c( gis a) r e( h c)
+		r h''(\f e, f) r f(\p cis d) r h( e, f) r d( h gis) %310
+		r a''(\f dis, e) r c(\p gis a) r a( dis, e) r c( gis a)
+		r a''(\f e f) r f(\p cis d) r a( e f) r f( cis d)
+		r gis'( dis e) r h( fis gis) <e h' e>4 r\fermata
+		r16 b''(\f^\critnote fis! g) r g( e cis) r e( cis b)^\critnote r g( e cis)
+		r ais''( dis, e) r e( cis ais) r cis( ais e) r e( cis ais) %315
+		r b''( fis g) r g( e cis) r b( g e) r g( e cis)
+		r b''( fis g) r d( b g) r a'( e f) r d( a f)
+		r a'( dis, e) r c( gis a) r g'( dis e) r e( g ais,)
+		r h'( fis! g) r fis( c e) r fis( dis? h) r h( g e) \noBreak
+		r fis'( cis dis?) r dis?( ais h) h,4 r\fermata \bar "||" %320
+		\tempoPropter R1*2
+		r2 r4 h'
+		cis dis e8 h e4~
+		e d c4. e8 %325
+		dis h e2 dis4
+		e8 e e, e' fis, e' gis, e'
+		a, a' a, a' h, a' cis, a'
+		d, d fis, d'^\critnote g, d' a c
+		h g d' h e c a' e %330
+		fis d g d e c a' e
+		fis a g h, a g' a, fis'
+		g,4 r r2
+		r4 e'2 d4
+		c h8 a h4 cis %335
+		d8 a d2 c4
+		h cis8 h ais fis' fis, fis'
+		gis, fis' ais, fis' h,4 d~
+		d d h8 e e, e'
+		fis, e' gis, e' a,4 c~ %340
+		c c a8 d fis, fis'
+		g, g' a, a' h, g' h d,
+		e g a c, d fis g h,
+		c8. h16 a8 g fis h' dis, h'
+		e, h' fis a g4 h, %345
+		b2^\tenuto a8 a' cis, a'
+		d, a' e a f4 a,
+		as2-\tenuto g8 g' h, g'
+		c, g' d f e g c e,
+		e d h' d, d c a' c, %350
+		h h'16 a g8 fis16 e dis8 h' h, h'
+		cis, h' dis, a' g h dis, h'
+		e, h' fis a g h e, e
+		fis, e' gis, e' a, e' gis, e'
+		a, e' h d c4 e %355
+		e2\fermata dis\fermata
+		e1\fermata \bar "||" %357
 	}
 }
