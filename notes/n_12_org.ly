@@ -664,7 +664,7 @@ DomineDeusOrgano = {
 		\clef bass
 		\key c \major \time 2/2 \tempoDomineDeus
 			\set Score.currentBarNumber = #358
-			c8-!\p-\tweak TextScript.X-offset #2 -\markup { \remark "staccato" } ^\senzaOrg r r4 c8-! r r4
+			c8-!\p-\tweak TextScript.X-offset #2 -\senzaOrg ^\markup { \remark "staccato" } r r4 c8-! r r4
 			c8-! r r4 c8-! r r4
 			h8 r r4 h8 r r4 %360
 			c8 r r4 c8 r r4
@@ -875,7 +875,7 @@ DomineDeusBassFigures = \figuremode {
 	<[6] [4]>2 <[5] [3]>
 	r4 <[7]> <[6]> r
 	q2 q
-	<[6] [4]>4 \bassFigureExtendersOn <6 4> q \bassFigureExtendersOff <[5] [3]>
+	r4 <[6]> <[6] [4]> <[5] [3]>
 	r1 %480
 	r %481 finis
 }

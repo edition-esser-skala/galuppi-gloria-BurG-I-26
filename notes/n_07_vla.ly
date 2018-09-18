@@ -378,7 +378,7 @@ GratiasViola = {
 
 DomineDeusViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 2/2 \tempoDomineDeus
 			\set Score.currentBarNumber = #358
 		\mvTr c8\p-\markup { \remark "staccato" } c c c c c c c
