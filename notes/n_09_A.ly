@@ -571,12 +571,85 @@ QuiTollisAltoNotes = {
 		\clef treble
 		\key a \minor \time 4/4 \autoBeamOff \tempoQuiTollis
 			\set Score.currentBarNumber = #482
-		
+		R1
+		r4 r8 r16 \mvTr e\fE^\tutti f4-! e-!
+		R1
+		r4 r8 r16 e e4-! e-! %485
+		r4 r8 e e2
+		e4. e8 g2~
+		g4 g g( f8[ e]
+		f2) e~
+		e4 r r2\fermata %490
+		\mvTr g2.\pE^\solo g4
+		c4. \appoggiatura b16 a8 f2
+		b~ b8([ g)] a([ b)]
+		b?16([ a8.)] g16([ f8.)] e16([ d8.)] b'16([ g8.)]
+		a8 c4 f,8 g2\trill %495
+		\mvTr f\fE^\tutti g
+		as8([ g] f2) g8([ as)]
+		g2. f8[\p e]
+		f2. e8[ d]
+		e2 f~ %500
+		f4 r r \mvTr c\pE^\solo
+		f4.( g8) f c' c16([ b)] b([ a)]
+		a8([ c16 a] g8[ fis)] g4 r8 c,
+		g'4.( \grace b16 a8) g d' d16([ c)] c([ b)]
+		b?8([ d16 b] a8[ g)] a4 r %505
+		\mvTr a8.\fE^\tutti a,16 a4 \mvTr c'8\pE^\solo \appoggiatura b?16 a8 f4
+		\mvTr a8.\fE^\tutti a,16 a4 \mvTr a'8\pE^\solo \appoggiatura g16 f8 d4
+		d( d'4.) b8 a gis
+		a[ b] g4. e4 f16[ g]
+		f8 d4 f8 a d4 f,8 %510
+		e g4 a b8 g[ f16 e]
+		f8[ d f a] d4. f,8
+		f4 e r2
+		\mvTr e8.\fE^\tutti e16 f4 r g8. g16
+		a8 r r4 r8 d\p b a %515
+		gis2( g)
+		f e
+		f4 r r2
+		R1
+		R\fermataMarkup \bar "||" %520 finis
 	}
 }
 
 QuiTollisAltoLyrics = \lyricmode {
+	[Qui tol -- lis,] %483
 	
+	[qui tol -- lis %485
+	pec -- ca --
+	ta, pec -- ca --
+	ta mun --
+	di:] __
+	%490
+	Mi -- se --
+	re -- _ re,
+	mi -- se --
+	re -- re no -- _
+	_ _ _ _ %495
+	[bis._Mi -- se --
+	re -- re __
+	no -- _
+	_ _
+	_ bis.] __ %500
+	Qui
+	tol -- lis pec -- ca -- ta
+	mun -- di, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di: %505
+	Sus -- ci -- pe, sus -- ci -- pe,
+	sus -- ci -- pe, sus -- ci -- pe
+	de -- pre -- ca -- ti --
+	o -- _ _ _
+	_ _ _ _ _ _ %510
+	_ _ _ _ _
+	_ _ nem
+	no -- stram,
+	[sus -- ci -- pe, sus -- ci -- %514
+	pe] de -- pre -- ca -- %515
+	tio --
+	nem no --
+	stram. %518 finis
 }
 
 % AltoNotes = {
