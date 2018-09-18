@@ -595,8 +595,8 @@ QuiTollisAltoNotes = {
 		a8([ c16 a] g8[ fis)] g4 r8 c,
 		g'4.( \grace b16 a8) g d' d16([ c)] c([ b)]
 		b?8([ d16 b] a8[ g)] a4 r %505
-		\mvTr a8.\fE^\tutti a,16 a4 \mvTr c'8\pE^\solo \appoggiatura b?16 a8 f4
-		\mvTr a8.\fE^\tutti a,16 a4 \mvTr a'8\pE^\solo \appoggiatura g16 f8 d4
+		\mvDll a8.\fE^\tutti a,16 a4 \mvTr c'8\pE^\solo \appoggiatura b?16 a8 f4
+		\mvDll a8.\fE^\tutti a,16 a4 \mvTr a'8\pE^\solo \appoggiatura g16 f8 d4
 		d( d'4.) b8 a gis
 		a[ b] g4. e4 f16[ g]
 		f8 d4 f8 a d4 f,8 %510

@@ -924,8 +924,8 @@ QuiTollisBassFigures = \figuremode {
 	r1
 	r2 r8 <6 5->4.
 	r2 r8 <9> <6>4
-	r1
-	r %490
+	r2 <[3]>4 <[4!]>
+	r1 %490
 	r1*4
 	r2 <5 3> %495
 	r8 <4 2>4. r8 <10 6 4>4.

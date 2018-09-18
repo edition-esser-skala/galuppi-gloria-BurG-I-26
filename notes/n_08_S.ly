@@ -584,30 +584,31 @@ QuiTollisSopranoNotes = {
 		a g~
 		g4 r r2\fermata %490
 		R1*5 %495
-		d'2\fE^\tuttiE d
+		\mvTr d'2\fE^\tutti d
 		c d
 		c8[ d c b] a2~\p
 		a4 b8[ a] g2~
 		g a~ %500
 		a4 r r2
 		R1*4 %505
-		\mvTr f'8.\fE^\tutti f,16 f4 r2
-		\mvTr f'8.\fE^\tutti f,16 f4 r2
+		\mvDll f'8.\fE^\tutti f,16 f4 r2
+		\mvDll f'8.\fE^\tutti f,16 f4 r2
 		R1*6 %513
 		\mvTr b8.\fE^\tutti b16 a4 r cis8. cis16
 		d8 r r4 r2 %515
-		r r8 b a g
+		r r8 b\pE a g
 		a([ g a)] h a2
 		a4 r r2
 		R1
-		R\fermataMarkup \bar "||" %520 finis>
+		R\fermataMarkup \bar "||" %520 finis
 	}
 }
 
 QuiTollisSopranoLyrics = \lyricmode {
 	Qui tol -- lis, %483
-	qui tol -- lis
-	pec -- ca -- %485
+	
+	qui tol -- lis %485
+	pec -- ca --
 	ta, pec -- ca --
 	ta mun --
 	di: __
