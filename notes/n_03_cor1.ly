@@ -176,33 +176,33 @@ DomineDeusCornoI = {
 		R1*2
 		d2\fE d4 d %415
 		d r r2
-		R1*8
-		d4-!\f c-! d-! e-!
+		R1*8 %424
+		d4-!\f c-! d-! e-! %425
 		d-! c-! d-! e-!
 		d2 e
 		d4 d d d
 		d d8 d d4 r
-		R1*7
+		R1*7 %436
 		c1~\p
 		c~
 		c
-		R
+		R %440
 		d4\f d d8 d d d
 		d2 r
-		R1*12
-		c4\fE c8 c c4 r
+		R1*12 %454
+		c4\fE c8 c c4 r %455
 		R1*2
 		d4-!\f d-! d-! d-!
 		c c8 c c4 r
-		R1*2
+		R1*2 %461
 		d4-! d-! d-! d-!
 		e r r2
-		R1*12
+		R1*12 %475
 		R1\fermataMarkup
 		e4\fE f g a
 		g g a f
 		d g8 f e4 d
-		c c c c
-		c2 r\fermata \bar "||"
+		c c c c %480
+		c2 r\fermata \bar "||" %481 finis
 	}
 }
