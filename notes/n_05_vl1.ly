@@ -395,14 +395,14 @@ DomineDeusViolinoI = {
 		\appoggiatura a16 g8 f16 e e4 dis16([ e8.)] dis16([ e8.)]
 		f16[ g a a] a8 r f16[ g a a] a8 r
 		e16[ f g g] g8 r e16] f g g] g8 r
-		f8.[ e16 \appoggiatura e d8. c16] \appoggiatura c h8.[ a16 g8. f16]
+		f8.[ e16 \appoggiatura e d8. c16] \appoggiatura c h8.[ a16 \appoggiatura a g8.^\critnote f16]
 		e8.[\f g16 c8. g16] e'8.[ c16 e8. g16] %365
 		d8.[ g,16 h8. g16] \tuplet 3/2 4 { d'8[ h d] g d h }
 		c8.[ a16 fis'8. c16] \tuplet 3/2 4 { a'8[ g fis] e d c
 		h[ d h] g d h } g4 r
 		c'8(\(\p h) h4~ h8 f' d h
 		h c c4~ c8 e g c\) %370
-		c h h4. d16 c \appoggiatura c h8[ a16 h]
+		c\f h h4. d16 c \appoggiatura c h8[ a16 h]
 		c8[ h16 a] g8 g g4\trill r
 		c,8(\(\p h) h4~ h8 f' d h
 		h c c4~ c8 e g c\)

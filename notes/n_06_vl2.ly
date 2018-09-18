@@ -388,6 +388,116 @@ DomineDeusViolinoII = {
 		\clef treble
 		\key c \major \time 2/2 \tempoDomineDeus
 			\set Score.currentBarNumber = #358
-		
+		g''32([\p fis g8.)] \repeat unfold 15 { \grace a16 g32([ fis g8.)] } %361
+		\repeat unfold 4 { \grace g16 f32([ e f8.)] }
+		\repeat unfold 4 { \grace f16 e32([ d e8.)] }
+		d8.[ c16 \appoggiatura c h8. a16] \appoggiatura a g8.[ f16 \appoggiatura f e8. d16]
+		c4\f g' e'8.[ c16 e8. g16] %365
+		d8.[ g,16 h8. g16] \tuplet 3/2 4 { d'8[ h d] g d h }
+		c8.[ a16 fis'8. c16] \tuplet 3/2 4 { a'8[ g fis] e d c
+		h[ d h] g d h } g4 r
+		\grace g''16 f32([\p e f8.)] \repeat unfold 3 { \grace g16 f32([ e f8.)] }
+		\repeat unfold 4 { \grace f16 e32([ d e8.)] } %370
+		\grace e16 d32([\f c d8.)] \repeat unfold 3 { \grace e16 d32([ c d8.)] }
+		\repeat unfold 4 { \grace f16 e32([ d e8.)] }
+		\grace g16 f32([\p e f8.)] \repeat unfold 3 { \grace g16 f32([ e f8.)] }
+		\repeat unfold 4 { \grace f16 e32([ d e8.)] }
+		\grace e16 d32([\f c d8.)] \repeat unfold 3 { \grace e16 d32([ c d8.)] } %375
+		e8 g g4. f16 g a8[ g]
+		e( f) f4 d8. e16 \tuplet 3/2 4 { f8[-! g-! a-!] }
+		a8. g16 \tuplet 3/2 4 { c,8[ e g] } g8. f16 \tuplet 3/2 4 { d8[ c h] }
+		c8\p g' g4. f16 g a8[ g]
+		e( f) f4 d8. e16 \tuplet 3/2 4 { f8[-! g-! a-!] } %380
+		a8. g16 \tuplet 3/2 4 { c,8[-! e-! g-!] } g8. f16 \tuplet 3/2 4 { d8[ c h]
+		c-![\f c'-! g-!] a-! d,-! a'-! g-![ c,-! g'-!] f-! e-! d-! }
+		c4 \tuplet 3/2 4 { g'8 e c } g'8. h,16 h4\trill
+		c8.[ g16 c8. e16] <c g c,>4 r
+		\grace a'16 g32([\p fis g8.)] \repeat unfold 15 { \grace a16 g32([ fis g8.)] } %388
+		\repeat unfold 4 { \grace g16 f32([ e f8.)] }
+		\repeat unfold 4 { \grace f16 e32([ d e8.)] } %390
+		d8.[ c16 h8. a16] g8.[ f16 e8. d16]
+		c4 \repeat unfold 3 { \grace f'16 e32([ d e8.)] }
+		\repeat unfold 4 { \grace g16 f32([ e f8.)] }
+		\repeat unfold 4 { \grace f16 e32([ d e8.)] }
+		d8.[ c16 h8. a16] g8.[ f16 e8. d16] %395
+		c8[\f e16 f] g8 e e'8[ c16 d] e8 c
+		<e c e,>4 q q r
+		e,8.\p[ g16 c8. g16] \tuplet 3/2 4 { e'8[ c e] g f e }
+		d8.[ g,16 h8. g16] \tuplet 3/2 4 { d'8[ h d] g d h }
+		c8.[ a16 fis'8. c16] \tuplet 3/2 4 { a'8[ g fis] e d c } %400
+		c8.[ a16 h8. d16] g8. d16] d4\trill
+		e8 g, g g g g g g
+		a4 a a a
+		a8 a a a a a a a
+		g4 g g g %405
+		e8 e e e a a a a
+		d,4 g h g
+		g\f fis8 fis' <fis a, d,>4 r
+		\grace d16 c32([\p h c8.)] \repeat unfold 3 { \grace d16 c32([ h c8.)] }
+		\repeat unfold 4 { \grace c16 h32([ a h8.)] } %410
+		\grace h16 a32([\pocoF g a8.)] \repeat unfold 3 { \grace h16 a32([ g a8.)] }
+		\repeat unfold 4 { \grace c16 h32([ a h8.)] }
+		\grace d16 c32([\p h c8.)] \repeat unfold 3 { \grace d16 c32([ h c8.)] }
+		\repeat unfold 4 { \grace c16 h32([ a h8.)] }
+		\grace h16 a32([\pocoF g a8.)] \repeat unfold 3 { \grace h16 a32([ g a8.)] } %415
+		h8 d d4. c16 d e8[ d]
+		c4 e, e8 e a a
+		g g g g g g fis fis
+		g4 a h \tuplet 3/2 4 { a8 g fis }
+		g4 a h \tuplet 3/2 4 { c8 h a %420
+		h[ g h] c a c d[ h d] c h a
+		h[ g h] c a c d[ h d] c h a }
+		d16[\mf d d d] g, g g g g[ g g g] g g g g
+		g[\f g g g] g' g g g g[ g g g] fis fis fis fis
+		\repeat unfold 8 { \grace a16 g32([ fis g8.)] } %426
+		h16[ h d h] g g h g e[ e g e] c c e c
+		h[ d g h] g8 g, d8. g16 a4\trill
+		g16[ h d h] <g' h, d,>8 q q4 r
+		\grace e16 d32([\p cis d8.)] \repeat unfold 15 { \grace e16 d32([ cis d8.)] } %433
+		\repeat unfold 16 { \grace a'16 g32([ fis g8.)] } %437
+		\repeat unfold 4 { \grace g16 f32([ e f8.)] }
+		\repeat unfold 4 { \grace f16 e32([ d e8.)] }
+		a,8.[ g'16 f8. e16] d4 c %440
+		\tuplet 3/2 4 { h8[\fE g' d] h d h g[ e d] c h a }
+		g4 h'~\p \tuplet 3/2 4 { h8[ d c] h a h }
+		c g g g g g g g
+		g g g g g g g g
+		g g g g g g g g %445
+		c, c c c a r r4
+		r a' d,8 d d d
+		d d d d h r r4
+		r h' e,8 e e e
+		e e e e g g g g %450
+		c g'-! g-! g-! <g, d'>4. f'8
+		e g-! g-! g-! d4 h
+		c c2 c4
+		c8 c c c h h h h
+		c4 \repeat unfold 3 { \grace f16 e32([ d e8.)] } %455
+		\repeat unfold 4 { \grace g16 f32([ e f8.)] }
+		\repeat unfold 4 { \grace f16 e32([ d e8.)] }
+		\repeat unfold 4 { \grace e16 d32([ c d8.)] }
+		\repeat unfold 4 { \grace f16 e32([ d e8.)] }
+		\repeat unfold 4 { \grace g16 f32([ e f8.)] } %460
+		\repeat unfold 4 { \grace f16 e32([ d e8.)] }
+		\grace e16 d32([\f c d8.)] \repeat unfold 3 { \grace e16 d32([ c d8.)] }
+		e8 g g4. f16\p g a8[ g]
+		e([ f)] f r d8.( e16) \tuplet 3/2 4 { f8[-! g-! a-!] }
+		\once \slurDashed a8.( g16) \tuplet 3/2 4 { c,8[-! e-! g]-! } g8.([ f16)] \tuplet 3/2 4 { d8[-! c-! h]-! } %465
+		c8(\f g') g4. f16 g a8[ g]
+		e([ f)] f r \once \slurDashed d8.(\p e16) \tuplet 3/2 4 { f8[-! g-! a-!] }
+		a8.( g16) \tuplet 3/2 4 { c,8[-! e-! g]-! } g8.([ f16)] \tuplet 3/2 4 { d8[-! c-! h]-! }
+		c4 g2 g4~
+		g g2 g4~ %470
+		g g g8 g h h
+		c8.\f g'16 \appoggiatura g f8. e16 a[ a a a] a, a a a
+		c e c e c[ e c e] h d h d h[ d h d]
+		c1~
+		c4 e,2 e4 %475
+		e2 r\fermata
+		\repeat unfold 4 { \grace d'16 c32([ h c8.)] }
+		c'8. g16 g4\trill \tuplet 3/2 4 { a8[ d, e] f e d }
+		g,4 g'16 e d c g'8. h,16 h4\trill
+		c8.[ g16 c8. e16] c4 <e c e,> %480
+		q2 r\fermata \bar "||" %481 finis
 	}
 }
