@@ -138,6 +138,71 @@ DomineDeusCornoI = {
 		\clef treble
 		\key c \major \time 2/2 \tempoDomineDeus
 			\set Score.currentBarNumber = #358
-		
+		R1*7 %364
+		e'2\f e4 e %365
+		d2 d4 d
+		e2 d4 d
+		d d d r
+		R1*2 %370
+		d4-!\fE d-! d-! d-!
+		e-! e-! e-! r
+		R1*2
+		d4-!\f d-! d-! d-! %375
+		e2 c4 c
+		c r r2
+		e4 r d r
+		c r r2
+		R1*2 %381
+		g'4-!\fE a-! g-! d-!
+		r e e d
+		c c c r
+		R1*3 %387
+		c1~\p
+		c~
+		c %390
+		R
+		c~\p
+		c~
+		c
+		R %395
+		e4\f e e e
+		e c c r
+		R1*9 %406
+		r2 e4\pE e
+		d\f d8 d d4 r
+		R1*2 %410
+		d4\f d d d
+		d2 r
+		R1*2
+		d2\fE d4 d %415
+		d r r2
+		R1*8
+		d4-!\f c-! d-! e-!
+		d-! c-! d-! e-!
+		d2 e
+		d4 d d d
+		d d8 d d4 r
+		R1*7
+		c1~\p
+		c~
+		c
+		R
+		d4\f d d8 d d d
+		d2 r
+		R1*12
+		c4\fE c8 c c4 r
+		R1*2
+		d4-!\f d-! d-! d-!
+		c c8 c c4 r
+		R1*2
+		d4-! d-! d-! d-!
+		e r r2
+		R1*12
+		R1\fermataMarkup
+		e4\fE f g a
+		g g a f
+		d g8 f e4 d
+		c c c c
+		c2 r\fermata \bar "||"
 	}
 }
