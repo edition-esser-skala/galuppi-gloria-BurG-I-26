@@ -230,6 +230,92 @@ DomineDeusOboeII = {
 		\clef treble
 		\key c \major \time 2/2 \tempoDomineDeus
 			\set Score.currentBarNumber = #358
-		
+		e'1\p %358
+		d~
+		d %360
+		c
+		f
+		e
+		d8 r r4 h8 r r4
+		c2\f c4 c %365
+		g2 g4 g
+		e2 fis4 fis
+		g d d r
+		h'1(\p
+		c2. e4) %370
+		f\f f2 f4
+		e8. f16 e8[ e] e4 r
+		h1(\p
+		c2. e4)
+		f4\f f2 f4 %375
+		e g4. f16 g a8[ g]
+		e( f) f4 d8. e16 \tuplet 3/2 4 { f8[-! g-! a-!] }
+		a8. g16 \tuplet 3/2 4 { c,8[ e g] } g8. f16 \tuplet 3/2 4 { d8[ c h] }
+		c4 r r2
+		R1*2 %381
+		\tuplet 3/2 4 { c8-![\f c'-! g-!] a-! d,-! a'-! g-![ c,-! g'-!] f-! e-! d-! }
+		c4 \tuplet 3/2 4 { g'8 e c } g'8. h,16 h4\trill
+		c g e r
+		e'1\p %385
+		d~
+		d
+		c
+		f
+		e %390
+		d4 r h r
+		c1
+		f
+		e
+		d4 r h r %395
+		e,8[\f e16 f] g8 f16 e e'8[ c16 d] e8 d16 c
+		g'4 e e r
+		R1*11 %408
+		fis,1(\p
+		g) %410
+		a\f
+		h4 r r2
+		fis1(\p
+		g)
+		a\f %415
+		h4 r r2
+		R1*7 %423
+		r4 g'2\f fis4
+		\repeat unfold 8 { \grace a16 g32([ fis g8.)] } %426
+		g4 h, c a
+		h16[ d g h] g8 g, d8. g16 a4\trill
+		g16[ h d h] g'8 h, h4 r
+		h1\p %430
+		a~
+		a
+		g2 r
+		e'1
+		d~ %435
+		d
+		c2 r
+		f1
+		e
+		R %440
+		h4\f h \tuplet 3/2 4 { h8[ e d] c h a }
+		g2 r
+		R1*13 %455
+		h1(\p
+		c2.~ c8 e)
+		e d d2 d4
+		e e8 e e4 r
+		h1(\p %460
+		c2.~ c8 e)
+		e d d2 d4
+		e4 r r2
+		R1*8 %471
+		r2 r4 a,\f
+		c2 h
+		c1~
+		c4 e,2 e4 %475
+		e2 r\fermata
+		\repeat unfold 4 { \grace d'16 c32([ h c8.)] }
+		c'8. g16 g4\trill \tuplet 3/2 4 { a8[ d, e] f e d }
+		g,4 g'16 e d c g'8. h,16 h4\trill
+		c8.[ g16 c8. e16] c4 c %480
+		c2 r\fermata \bar "||" %481 finis
 	}
 }

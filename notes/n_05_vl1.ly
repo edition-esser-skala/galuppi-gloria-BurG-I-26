@@ -439,7 +439,7 @@ DomineDeusViolinoI = {
 		d4 d d d %405
 		c8 c c c c c c c
 		h4 h g' h,
-		h8\f d16 h a8 \noBeam < fis' a, d,> q4 r
+		h8\f d16 h a8 \noBeam <fis' a, d,> q4 r
 		g,8\pE fis fis4. c'8( a fis)
 		fis?( g) g4. h8 d g %410
 		g(\pocoF fis) fis4. a16 g \appoggiatura g fis8[ e16 fis]
