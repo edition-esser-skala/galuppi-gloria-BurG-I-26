@@ -885,7 +885,7 @@ QuiTollisOrgano = {
 		\clef bass
 		\key a \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #482
-		\mvTr a4~\fE-\tuttiE a8 r r2
+		\mvTr a4~\fE-\tutti a8 r r2
 		r4 r8 r16 a' a4 a,
 		R1
 		r4 r8 r16 a' e4 a, %485
@@ -940,8 +940,8 @@ QuiTollisBassFigures = \figuremode {
 	r1*6 %513
 	<10- 6 4+>4 <6>2 <6\\>4
 	r2 <5>4 <6->8 <5> %515
-	<6\\>2 <_+>
-	r8 <6> <6 4> <7 5 [_!]> <[5] [4]>4 <\t [_+]>
+	<6\\>2 <_+>8 <[_-]> <[6]> <[6\\]>
+	r <6> <6 4> <7 5 [_!]> <[5] [4]>4 <\t [_+]>
 	r4 <[6]> <[6] [_-]> <[_+]>
 	r <[6]> <[6] [_-]> <[6] [4]>8 <[5] [_+]>
 	r1 %520 finis
