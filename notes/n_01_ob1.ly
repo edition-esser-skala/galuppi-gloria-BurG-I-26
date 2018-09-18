@@ -231,6 +231,93 @@ DomineDeusOboeI = {
 		\clef treble
 		\key c \major \time 2/2 \tempoDomineDeus
 			\set Score.currentBarNumber = #358
-		
+		g''1\p %358
+		f~
+		f %360
+		e
+		a
+		g
+		f8 r r4 d8 r r4
+		e2\f e4 e %365
+		d2 d4 d
+		c2 c4 c
+		h h h r
+		f'1(\p
+		e2. c'4) %370
+		c8\f h h2-! h4-!
+		c8[ h16 a] g8 g g4 r
+		f1(\p
+		e2. c'4)
+		c8\f h h2 h4 %375
+		c8[ b] b4. a16 b c8[ b]
+		gis( a) a4 d,8. e16 \tuplet 3/2 4 { f8[-! g-! a-!] }
+		a8. g16 \tuplet 3/2 4 { c,8[ e g] } g8. f16 \tuplet 3/2 4 { d8[ c h] }
+		c4 r r2
+		R1*2 %381
+		\tuplet 3/2 4 { c8-![\f c'-! g-!] a-! d,-! a'-! g-![ c,-! g'-!] f-! e-! d-! }
+		c4 \tuplet 3/2 4 { g'8 e c } g'8. h,16 h4\trill
+		c c c r
+		g'1\p %385
+		f~
+		f
+		e
+		a
+		g %390
+		f4 r d r
+		e1
+		a
+		g
+		f4 r d r %395
+		e8[\f c16 d] e8 d16 c g'8[ e16 f] g8 f16 e
+		c'4 g g r
+		R1*11 %408
+		c,1(\p
+		h2. g'4) %410
+		g8(\f fis) fis2.
+		g4 r r2
+		c,1(\p
+		h2. g'4)
+		g8(\f fis) fis2. %415
+		g4 r r2
+		R1*7 %423
+		r4 h\f a2
+		\tuplet 3/2 4 { h8[ g h] c a c d[ h d] c h a %425
+		h[ g h] c a c d[ h d] c h a }
+		h4 g e c
+		h16[ d g h] g8 g, d8. g16 a4\trill
+		g16[ h d h] g'8 d d4 r
+		d1\p %430
+		c~
+		c
+		h2 r
+		g'1
+		f~ %435
+		f
+		e2 r
+		a1
+		g
+		R1 %440
+		g4\f d \tuplet 3/2 4 { h8[ e d] c h a }
+		g2 r
+		R1*13 %455
+		f'1(\p
+		e2. e8 c')
+		c8-!\f h-! h2-! h4-!
+		c g8 g g4 r
+		f1(\p %460
+		e2. e8 c')
+		c8-!\f h-! h2-! h4-!
+		c4 r r2
+		R1*8 %471
+		r2 r4 f,\f
+		e2 d
+		c4 fis( g a)
+		c,1 %475
+		c2 r\fermata
+		\tuplet 3/2 4 { e8[ c e] f d f g8[ e g] a g f }
+		c'8. g16 g4\trill \tuplet 3/2 4 { a8[ d, e] f e d }
+		g,4 g'16 e d c g'8. h,16 h4\trill
+		c8.[ g16 c8. e16] c4 e %480
+		e2 r\fermata \bar "||" %481 finis
 	}
 }
