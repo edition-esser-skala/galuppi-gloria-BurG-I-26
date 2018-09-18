@@ -566,6 +566,19 @@ GratiasAltoLyrics = \lyricmode {
 	am. %357 finis
 }
 
+QuiTollisAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #482
+		
+	}
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

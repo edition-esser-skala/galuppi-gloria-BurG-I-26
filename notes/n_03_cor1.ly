@@ -206,3 +206,12 @@ DomineDeusCornoI = {
 		c2 r\fermata \bar "||" %481 finis
 	}
 }
+
+QuiTollisCornoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #482
+		
+	}
+}

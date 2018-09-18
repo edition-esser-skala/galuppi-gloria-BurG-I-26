@@ -501,3 +501,12 @@ DomineDeusViolinoII = {
 		q2 r\fermata \bar "||" %481 finis
 	}
 }
+
+QuiTollisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #482
+		
+	}
+}

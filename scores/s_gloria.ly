@@ -204,59 +204,132 @@
 % 			\midi { \tempo 2 = 80 } % 4 = 60
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "4 DOMINE DEUS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in C" } }
+% 						\partcombine \DomineDeusCornoI \DomineDeusCornoII
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Oboe I, II"
+% 						\partcombine \DomineDeusOboeI \DomineDeusOboeII
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DomineDeusViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DomineDeusViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\DomineDeusViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \DomineDeusSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \DomineDeusSopranoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DomineDeusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\DomineDeusBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "4 DOMINE DEUS"
+			movement = "5 QUI TOLLIS"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in C" } }
-						\partcombine \DomineDeusCornoI \DomineDeusCornoII
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[in C]" } }
+						\partcombine \QuiTollisCornoI \QuiTollisCornoII
 					>>
 				>>
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \DomineDeusOboeI \DomineDeusOboeII
+						\partcombine \QuiTollisOboeI \QuiTollisOboeII
 					>>
 				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\DomineDeusViolinoI
+							\QuiTollisViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\DomineDeusViolinoII
+							\QuiTollisViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\DomineDeusViola
+						\QuiTollisViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \DomineDeusSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \DomineDeusSopranoLyrics
+					\new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DomineDeusOrgano
+						\QuiTollisOrgano
 					}
 				>>
 				\new FiguredBass {
-					\DomineDeusBassFigures
+					\QuiTollisBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

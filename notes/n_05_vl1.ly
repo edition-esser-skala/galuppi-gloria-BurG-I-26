@@ -516,6 +516,15 @@ DomineDeusViolinoI = {
 	}
 }
 
+QuiTollisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #482
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

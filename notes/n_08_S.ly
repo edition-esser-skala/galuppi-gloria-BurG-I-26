@@ -569,6 +569,19 @@ DomineDeusSopranoLyrics = \lyricmode {
 	tris. %477 finis
 }
 
+QuiTollisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #482
+		
+	}
+}
+
+QuiTollisSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
