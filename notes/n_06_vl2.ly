@@ -433,7 +433,7 @@ DomineDeusViolinoII = {
 		e8 e e e a a a a
 		d,4 g h g
 		g\f fis8 fis' <fis a, d,>4 r
-		\grace d16 c32([\p h c8.)] \repeat unfold 3 { \grace d16 c32([ h c8.)] }
+		\grace d16 c32([\pE h c8.)] \repeat unfold 3 { \grace d16 c32([ h c8.)] }
 		\repeat unfold 4 { \grace c16 h32([ a h8.)] } %410
 		\grace h16 a32([\pocoF g a8.)] \repeat unfold 3 { \grace h16 a32([ g a8.)] }
 		\repeat unfold 4 { \grace c16 h32([ a h8.)] }
@@ -472,12 +472,12 @@ DomineDeusViolinoII = {
 		e g-! g-! g-! d4 h
 		c c2 c4
 		c8 c c c h h h h
-		c4 \repeat unfold 3 { \grace f16 e32([ d e8.)] } %455
+		c4 \grace f16 e32([\f d e8.)] \grace f16 e32([ d e8.)] \grace f16 e32([\p d e8.)] %455
 		\repeat unfold 4 { \grace g16 f32([ e f8.)] }
 		\repeat unfold 4 { \grace f16 e32([ d e8.)] }
-		\repeat unfold 4 { \grace e16 d32([ c d8.)] }
+		\grace e16 d32([\f c d8.)] \repeat unfold 3 { \grace e16 d32([ c d8.)] }
 		\repeat unfold 4 { \grace f16 e32([ d e8.)] }
-		\repeat unfold 4 { \grace g16 f32([ e f8.)] } %460
+		\grace g16 f32([\p e f8.)] \repeat unfold 3 { \grace g16 f32([ e f8.)] } %460
 		\repeat unfold 4 { \grace f16 e32([ d e8.)] }
 		\grace e16 d32([\f c d8.)] \repeat unfold 3 { \grace e16 d32([ c d8.)] }
 		e8 g g4. f16\p g a8[ g]

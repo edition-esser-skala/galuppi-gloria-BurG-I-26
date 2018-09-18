@@ -381,6 +381,129 @@ DomineDeusViola = {
 		\clef treble
 		\key c \major \time 2/2 \tempoDomineDeus
 			\set Score.currentBarNumber = #358
-		
+		\mvTr c8\p-\markup { \remark "staccato" } c c c c c c c
+		c c c c c c c c
+		h h h h h h h h %360
+		c c c c c c c c
+		c c c c c c c c
+		c c c c c c c c
+		d d d d g, g g g
+		g\f g e' e g g g g %365
+		g g d d g g d d
+		e e a a fis fis fis fis
+		g4 g, g r
+		g'8\p g g g g g g g
+		g g g g g g g g %370
+		g\f g g g g g g g
+		g g g g g g g g
+		g\p g g g g g g g
+		g g g g g g g g
+		g\fE g g g g g g g %375
+		c, c c c c c c c
+		c c c c d d d d
+		e4 e d d
+		c8\p c c c c c c c
+		c c c c d d d d %380
+		e4 e d d
+		g\fE c c h
+		c g8. f16 e4 d
+		e e e r
+		c8\p c c c c c c c %385
+		c c c c c c c c
+		h h h h h h h h
+		c c c c c c c c
+		c c c c c c c c
+		c c c c c c c c %390
+		d d d d g, g g g
+		c c c c c c c c
+		c c c c c c c c
+		c c c c c c c c
+		d d d d g, g g g %395
+		c4\f c c c
+		c c c r
+		e8\p e e e e e e e
+		g g g g g g g g
+		fis fis fis fis fis fis fis fis %400
+		g g g g g g g g
+		c,4 c c c
+		c c c c
+		h h h h
+		h h h h %405
+		a a fis' fis
+		g e cis cis
+		d\fE d8 d d d d d
+		d\pE d d d d d d d
+		d d d d d d d d %410
+		d\pocoFE d d d d d d d
+		g, g g g g g g g
+		d'\pE d d d d d d d
+		d d d d d d d d
+		d\pocoFE d d d d d d d %415
+		g,4 g h h
+		c c c c
+		d e c d
+		g2.( d4)
+		g2. g4 %420
+		g8 g c c h h a a
+		g g c c h h a a
+		h\mfE h h h c c c c
+		d\f d d d d, d d d
+		g4 a h c %425
+		g a h c
+		g h c a
+		g g2 fis4
+		g8 g d h g4 r
+		g8\pE g g g g g g g %430
+		g g g g g g g g
+		fis fis fis fis fis fis fis fis
+		g g g g g' f! e d
+		c c c c c c c c
+		c c c c c c c c %435
+		h h h h h h h h
+		c c c c c c c c
+		c c c c c c c c
+		c c c c c c c c
+		f f f f fis fis fis fis %440
+		g4\fE g \tuplet 3/2 4 { g8[ e d] c h a }
+		g4 g'\pE g f!
+		e e e e
+		e e e e
+		e e e e %445
+		f f, f f
+		f f f f
+		g g g g
+		g g g g
+		a a h g' %450
+		g8 g g g g g g g
+		g g g g g g g g
+		g4 g a a
+		g g g, g
+		c8\fE c c c c c c\pE c %455
+		g' g g g g g g g
+		g g g g g g g g
+		g\fE g g g g g g g
+		g g g g g g g g
+		g\pE g g g g g g g %460
+		g g g g g g g g
+		g\fE g g g g g g g
+		g g g g c,\pE c c c
+		c4 c f r
+		e r d r %465
+		c8\fE c c c c c c c
+		c4 f f r
+		e\pE r d r
+		e h c f
+		e h c f %470
+		e h c f
+		e8\f e e e f f f f
+		g g g g g, g g g
+		a1~
+		a4 a'( g fis) %475
+		g2 r\fermata
+		c,8 c d d e e f f
+		g4 c a c,
+		h g'8 f e4 d
+		e e e g %480
+		g2 r\fermata \bar "||" %481 finis
 	}
 }

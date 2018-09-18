@@ -440,7 +440,7 @@ DomineDeusViolinoI = {
 		c8 c c c c c c c
 		h4 h g' h,
 		h8\f d16 h a8 \noBeam < fis' a, d,> q4 r
-		g,8\p fis fis4. c'8( a fis)
+		g,8\pE fis fis4. c'8( a fis)
 		fis?( g) g4. h8 d g %410
 		g(\pocoF fis) fis4. a16 g \appoggiatura g fis8[ e16 fis]
 		g8[ fis?16 e] d8 d d4 r
@@ -491,7 +491,7 @@ DomineDeusViolinoI = {
 		h\( c c4. e8 g c\)
 		c\f h h4. d16 c \appoggiatura c h8[ a16 h]
 		c8[ h16 a] g8 g g4\trill r
-		c,8\( h h4. f'8 d h\) %460
+		c,8\(\p h h4. f'8 d h\) %460
 		h\( c c4. e8 g c\)
 		c\f h h4. d16 c \appoggiatura c h8[ a16 h]
 		c8 b b4. a16\p b c8[ b]

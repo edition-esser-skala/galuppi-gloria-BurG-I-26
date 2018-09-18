@@ -681,7 +681,7 @@ DomineDeusOrgano = {
 			c,4 c c r
 			g'8\p r r4 g8 r r4
 			g8 r r4 g8 r r4
-			g8\f g g g g g g g %375
+			g8\fE g g g g g g g %375
 			e-\orgE e e e e e e e
 			f f f f f f f f
 			g4 g g, g
@@ -861,8 +861,8 @@ DomineDeusBassFigures = \figuremode {
 	<6 4>2 <[5] [4]>4 <[\t] [_+]>
 	r <[7]> <[6]> r %425
 	r <[7]> <[6]> r
-	r1
-	<[6] [4]>2. <[5] [_+]>4
+	r2 <[5]>4 <[6]>
+	<[6] [4]>2 <[5] [\t]>4 <[\t] [_+]>
 	r1
 	r1*39 %468
 	r2. <4 2>4
