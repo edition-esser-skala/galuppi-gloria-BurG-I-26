@@ -886,11 +886,65 @@ QuiTollisOrgano = {
 		\key a \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #482
 		\mvTr a4~\fE-\tuttiE a8 r r2
+		r4 r8 r16 a' a4 a,
+		R1
+		r4 r8 r16 a' e4 a, %485
+		r2 r8 a' c a
+		r a c a r e g e
+		r e g e r f a f
+		r f f, f' r c e c
+		r c e c c4 r\fermata %490
+		R1*4
+		r2 c8\pE c c c %495
+		r c\f c c r b b b
+		r as as as r as' g f
+		r e! e e r f\p a f
+		r d f d r b d b
+		c c c c r f, f f %500
+		r f f f f4 r
+		R1*4 %505
+		f'8\f f f f r2
+		d8 d d d r2
+		R1*6 %513
+		g8.\f g16 f4 r e8. e16
+		d8 r r4 d'2\p %515
+		b a,8 g'([ f e)]
+		d b' a gis a4 a,
+		d8 r f r g r a r
+		d, r f r g r a r
+		d, d d d d4 r\fermata \bar "||" %520 finis
 	}
 }
 
 QuiTollisBassFigures = \figuremode {
-	
+	r1 %482
+	r2 <6 4>4 <5 3>
+	r1
+	r2 <7 _+> %485
+	r1
+	r2 r8 <6 5->4.
+	r2 r8 <9> <6>4
+	r1
+	r %490
+	r1*4
+	r2 <5 3> %495
+	r8 <4 2>4. r8 <10 6 4>4.
+	r8 <6>4. r8 <6 4 2!>4.
+	r8 <6>4. r8 <9> <6>4
+	r8 <5 3>4. r8 <6 5>4.
+	<5 3>1 %500
+	r
+	r1*4 %505
+	<5 3>1
+	q
+	r1*6 %513
+	<10- 6 4+>4 <6>2 <6\\>4
+	r2 <5>4 <6->8 <5> %515
+	<6\\>2 <_+>
+	r8 <6> <6 4> <7 5 [_!]> <[5] [4]>4 <\t [_+]>
+	r4 <[6]> <[6] [_-]> <[_+]>
+	r <[6]> <[6] [_-]> <[6] [4]>8 <[5] [_+]>
+	r1 %520 finis
 }
 
 % Organo = {
