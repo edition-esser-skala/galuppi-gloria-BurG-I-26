@@ -521,7 +521,7 @@ QuiTollisViolinoI = {
 		\clef treble
 		\key a \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #482
-		a4~\f a8. e''16 a8-! e-! c-! a-!
+		\mvDll a4~\f a8. e''16 a8-! e-! c-! a-!
 		e4 c8. e16 f4 e
 		r r8 r16 e' a8 e c a
 		e4 c8. e16 d4 c %485
@@ -557,8 +557,8 @@ QuiTollisViolinoI = {
 		f8~ f64 d-. e-. f-. g-. a-. h-. cis-. d8 r r d\pE b a %515
 		gis16 gis gis gis gis gis gis gis g g g g g g g g
 		f f f f f f f f e e e e e e e e
-		r a-! a( f) r f-! f( d) r b b g r e e g
-		r a'-! a( f) r f-! f( d) r b b g f a cis, e
+		r a-! a( f) r f-! f( d) r b-\parenthesize-! \slurDashed b( g) r e-\parenthesize-! e( g) \slurSolid
+		r a'-! a( f) r f-! f( d) r b-\parenthesize-! \once \slurDashed b( g) f a cis, e
 		d8(-. d-. d-. d-.) d4 r\fermata \bar "||" %520 finis
 	}
 }
