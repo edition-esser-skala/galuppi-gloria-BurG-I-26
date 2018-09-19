@@ -657,12 +657,165 @@ QuiSedesAltoNotes = {
 		\clef treble
 		\key f \major \time 2/2 \autoBeamOff \tempoQuiSedes
 			\set Score.currentBarNumber = #521
-		
+		\partial 4 r4 R1*22 %542
+		r2 r4 r8 \mvTr c'\pE^\soloE
+		c4.( a8) f4. f8
+		f([ e)] e4 r r8 b' %545
+		b4.( g8) e4. b'8
+		b([ a)] a2 r8 f
+		d2~ d8([ f)] b d
+		c4.~ c32[ b a g] f4 a8[ c]
+		\appoggiatura c4 b1 %550
+		a2 r4 f
+		f b~ b8[ f] b d
+		c4. a8 \tuplet 3/2 4 { f[ a g] a[ b c] }
+		\appoggiatura c4 b1
+		a2 r %555
+		a h
+		c1~
+		c4 \appoggiatura b8 a4 \appoggiatura g8 fis4. c'8
+		\appoggiatura c4 b1~
+		b4 \appoggiatura a8 g4 \appoggiatura f!8 e4. b'8 %560
+		\appoggiatura gis4 a2~ a8[ f a c]
+		\appoggiatura c4 h2~ h8[ g h d]
+		c4 c2 c4~
+		c h16([ a8.)] \appoggiatura g4 fis2
+		g4( a) f2~ %565
+		f8[ e] c'4 \appoggiatura h8 a4 g8[ f]
+		e( g4) c,8 d2\trill
+		c r
+		f4( e2) d4
+		e8.([\trill f16)] g4 r2 %570
+		f4( e2) d4
+		e4 c'8[ a] \appoggiatura g4 fis2
+		g4 d'2 e,4\trill
+		d d'2 e,4\trill
+		d h'2 c4 %575
+		a g8[ f] e4 d
+		e16[ g f e] f[ g a h] c[ d c h] c[ e d f]
+		e4 d8[ c] h[ a] g[( f])
+		e g4 c,8 d2\trill
+		c r %580
+		R1*3
+		r2 r4 g'
+		g8.([ f16)] e2 g4 %585
+		g8([ a)] a4 r a
+		b( a8[ g)] a([ f)] c'([ a)]
+		a4 g r2
+		R1
+		r2 r4 r8 b %590
+		b4.( g8) e4. b'8
+		b4 a r c
+		d2 d,4 d
+		d r8 g4 b d8
+		c4. c,8 c2\trill %595
+		r4 r8 f4 a c8
+		b4. b,8 b2\trill
+		r4 r8 e4 g b8
+		a4 c2 b16[ a g f]
+		g[ b a c] b4 r8 g g4\trill %600
+		a c2 b16[ a g f]
+		d'4 \appoggiatura c8 b4 \appoggiatura a g4. f8
+		e4. d8 c2
+		c c
+		c'1~ %605
+		c4 b \appoggiatura b8 as4 g8[ f]
+		c'1~
+		c4 b \appoggiatura b8 a!4 g8[ f]
+		d'4 d,2 e4
+		f8[ c' b a] a[ g b g] %610
+		f4~ f16[ g f g] g2
+		f r
+		r8 d'([ c b] a4) g
+		f8.([ a16)] a4 r2
+		r a4 g %615
+		\tuplet 3/2 4 { f8[ a f] g[ b g] a[ c a] b[ d b] }
+		c4 f \appoggiatura f16 e8[ d16 c] \appoggiatura c b8[ a16 g]
+		f1~
+		f4.\fermata g8 g2\trill
+		f\fermata r %620
+		R1*2
+		R1\fermataMarkup \bar "||" %623 finis
 	}
 }
 
 QuiSedesAltoLyrics = \lyricmode {
+	Qui %543
+	se -- des, qui
+	se -- des, qui %545
+	se -- des, qui
+	se -- des ad
+	dex -- te -- ram
+	Pa -- _ _
+	_ %550
+	tris, ad
+	dex -- _ te -- ram
+	Pa -- _ _ _
+	_
+	tris: %555
+	Mi -- se --
+	re --
+	_ _ _
+	_
+	_ _ _ %560
+	_
+	_
+	_ _ _
+	_ _
+	_ _ %565
+	_ _ _
+	_ [re no] --
+	bis,
+	mi -- se --
+	re -- re, %570
+	mi -- se --
+	re -- _ _
+	_ _ _
+	_ _ _
+	_ _ _ %575
+	_ _ _ re
+	no -- _ _ _
+	_ _ _ bis,
+	no -- _ _ _
+	bis. %580
 	
+	Qui %584
+	se -- des, qui %585
+	se -- des ad
+	dex -- te -- ram
+	Pa -- tris,
+	
+	qui %590
+	se -- des, qui
+	se -- des ad
+	dex -- te -- ram
+	Pa -- _ _ _
+	_ _ _ %595
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _ _ %600
+	_ _ _
+	_ _ _ _
+	_ _ tris:
+	Mi -- se --
+	re -- %605
+	_ _ _
+	_
+	_ _ _
+	_ _ re
+	no -- _ %610
+	_ _
+	bis,
+	mi -- se --
+	re -- re,
+	mi -- se -- %615
+	re -- _ _ _
+	_ _ _ re
+	no --
+	_ _
+	bis. %620 finis
 }
 
 % AltoNotes = {
