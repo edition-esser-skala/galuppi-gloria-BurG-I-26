@@ -548,3 +548,12 @@ QuiTollisViolinoII = {
 		d8(-. d-. d-. d-.) d4 r\fermata \bar "||" %520 finis
 	}
 }
+
+QuiSedesViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \tempoQuiSedes
+			\set Score.currentBarNumber = #521
+		
+	}
+}

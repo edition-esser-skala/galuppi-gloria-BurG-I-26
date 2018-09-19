@@ -947,6 +947,19 @@ QuiTollisBassFigures = \figuremode {
 	r1 %520 finis
 }
 
+QuiSedesOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 2/2 \tempoQuiSedes
+			\set Score.currentBarNumber = #521
+		\partial 4 r4 r \mvTr f\p-\soloE a f
+	}
+}
+
+QuiSedesBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

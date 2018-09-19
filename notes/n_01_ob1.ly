@@ -356,3 +356,12 @@ QuiTollisOboeI = {
 		d8(-. d-. d-. d-.) d4 r\fermata \bar "||" %520 finis
 	}
 }
+
+QuiSedesOboeI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \tempoQuiSedes
+			\set Score.currentBarNumber = #521
+		
+	}
+}

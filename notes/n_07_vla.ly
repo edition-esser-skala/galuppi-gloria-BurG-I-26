@@ -554,3 +554,12 @@ QuiTollisViola = {
 		f f f f f4 r\fermata \bar "||"
 	}
 }
+
+QuiSedesViola = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \tempoQuiSedes
+			\set Score.currentBarNumber = #521
+		
+	}
+}

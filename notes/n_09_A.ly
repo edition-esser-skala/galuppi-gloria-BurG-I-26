@@ -652,6 +652,19 @@ QuiTollisAltoLyrics = \lyricmode {
 	stram. %518 finis
 }
 
+QuiSedesAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \autoBeamOff \tempoQuiSedes
+			\set Score.currentBarNumber = #521
+		
+	}
+}
+
+QuiSedesAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
