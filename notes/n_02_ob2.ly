@@ -325,6 +325,32 @@ QuiTollisOboeII = {
 		\clef treble
 		\key a \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #482
-		
+		R1
+		r4 r8 r16 c'\fE d4-! c-!
+		R1
+		r4 r8 r16 c h4-! a-! %485
+		r2 c
+		c4. c8 b2
+		b?4. b8 a f' r a,
+		\once \slurDashed a( c) r h! c( e) r g,
+		c-\parenthesize-! e-\parenthesize-! g,-\parenthesize-! e-\parenthesize-! e4 r\fermata %490
+		R1*5 %495
+		f8(\f a) r f g( b) r g
+		as( c) r f d( f) r h,!
+		\once \slurDashed c( g') r c, c( a'!) r a,
+		a( f') r f,\p g( d') r g,
+		e( g) r e f( a) r f %500
+		f a f f f4 r
+		R1*4 %505
+		f'16.\f c32 a16. f32 f'8 f, r2
+		f'16.\f d32 a16. f32 f'8 f, r2
+		R1*6 %512
+		cis'8.\fE cis16 d4 r cis8. cis16
+		d8 r r4 r2
+		r2 r8 cis4\p cis8 %515
+		d4 d2 cis4
+		r16 f-! f( d) r d-! d( a) r g-! g( e) r cis-\parenthesize-! \once \slurDashed cis( e)
+		r f'-\parenthesize-! \slurDashed f( d) r d-\parenthesize-! d( a) r g-\parenthesize-! g( e) \slurSolid d f cis e
+		d8(-. d-. d-. d-.) d4 r\fermata \bar "||" %520 finis
 	}
 }
