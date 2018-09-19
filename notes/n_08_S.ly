@@ -586,7 +586,7 @@ QuiTollisSopranoNotes = {
 		R1*5 %495
 		\mvTr d'2\fE^\tutti d
 		c d
-		c8[ d c b] a2~\p
+		c8[ d c b] a!2~\p
 		a4 b8[ a] g2~
 		g a~ %500
 		a4 r r2

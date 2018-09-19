@@ -521,7 +521,45 @@ QuiTollisViolinoI = {
 		\clef treble
 		\key a \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #482
-		
+		a4~\f a8. e''16 a8-! e-! c-! a-!
+		e4 c8. e16 f4 e
+		r r8 r16 e' a8 e c a
+		e4 c8. e16 d4 c %485
+		r r8 e' e( a) r e
+		e( c) r c c( g') r b,
+		b( g) r g' a( c) r c,
+		f( a) r d, e( g) r e
+		e-! g-! c,-! g-! g4 r\fermata %490
+		e'8\p e e e e e e e
+		f f f f f f f f
+		d d d d g g g g
+		c, c c c d d b b
+		a a a a g g g g %495
+		a8(\f d) r d e( g) r e
+		f( as) r c h!( d) r as
+		g( c) r g a( c) r c,
+		f( a) r a,\p d( f) r b,
+		g( c) r e, f( a) r f %500
+		a c a a a4 r
+		r8 a' a a a a a a
+		a a( g fis) g g g g
+		g g g g g g g g
+		c, c c c c c c c %505
+		a'16.\f f32 c16. a32 a'16. f32 c16. a32 a'8\p a a a
+		a16.\f f32 d16. a32 a'16. f32 d16. a32 a'8\p a a a
+		a a a a gis gis gis gis
+		a e e e e e e e
+		f f f f f f f f %510
+		e e e e e e e e
+		f f f f f f f f
+		f a16 f e8 e e a e r
+		cis8.\f cis16 d8~ d64 a-. h-. cis-. d-. e-. f-. g-. a8 r g8. g16
+		f8~ f64 d-. e-. f-. g-. a-. h-. cis-. d8 r r d\pE b a %515
+		gis16 gis gis gis gis gis gis gis g g g g g g g g
+		f f f f f f f f e e e e e e e e
+		r a-! a( f) r f-! f( d) r b b g r e e g
+		r a'-! a( f) r f-! f( d) r b b g f a cis, e
+		d8(-. d-. d-. d-.) d4 r\fermata \bar "||" %520 finis
 	}
 }
 
