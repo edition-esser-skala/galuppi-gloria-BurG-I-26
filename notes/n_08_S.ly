@@ -592,7 +592,7 @@ QuiTollisSopranoNotes = {
 		a4 r r2
 		R1*4 %505
 		\mvDll f'8.\fE^\tutti f,16 f4 r2
-		\mvDll f'8.\fE^\tutti f,16 f4 r2
+		f'8. f,16 f4 r2
 		R1*6 %513
 		\mvTr b8.\fE^\tutti b16 a4 r cis8. cis16
 		d8 r r4 r2 %515

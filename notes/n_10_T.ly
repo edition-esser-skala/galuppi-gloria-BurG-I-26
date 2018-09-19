@@ -317,7 +317,7 @@ QuiTollisTenoreNotes = {
 		c4 r r2
 		R1*4 %505
 		\mvDll f8.\fE^\tutti f,16 f4 r2
-		\mvDll f'8.\fE^\tutti f,16 f4 r2
+		f'8. f,16 f4 r2
 		R1*6 %513
 		\mvTr cis'8.\fE^\tutti cis16 d4 r e8. e16
 		f8 r r4 r2 %515
