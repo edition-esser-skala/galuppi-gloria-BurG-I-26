@@ -212,6 +212,22 @@ QuiTollisCornoII = {
 		\clef treble
 		\key a \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #482
-		
+		R1*4 %485
+		r2 c'\fE
+		c4 r c2
+		c4 r r c,
+		c2 c4. g'8
+		e4 e8 e e4 r\fermata %490
+		R1*6 %496
+		c'2\fE d
+		c c,
+		R1*7 %505
+		f'8.\fE f16 f4 r2
+		f8.\fE f16 f4 r2
+		R1*6 %513
+		e8.\fE e16 d4 r e8. e16
+		d8 r r4 r2 %515
+		R1*4
+		R1\fermataMarkup \bar "||" %%20 finis
 	}
 }
