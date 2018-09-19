@@ -513,6 +513,44 @@ QuiTollisViola = {
 		\clef treble
 		\key a \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #482
-		
+		a4~\f a8 r r2
+		r4 r8 r16 a a4 a
+		R1
+		r4 r8 r16 a gis4 a %485
+		r2 r8 c e c
+		r c e c r g' b g
+		r g b g r c, f c
+		r c f d r e g e
+		r c e c c4 r\fermata %490
+		c8\p c c c b b b b
+		a a a a a a a a
+		g g g g e e e e
+		f f f f b b b b
+		c c c c c, c c c %495
+		r c'\fE c c r b b b
+		r as as as r as'( g f)
+		r e! e e r f\pE a! f
+		r d f d r b b b
+		c c c c r f, f f %500
+		r f f f f4 r
+		r8 f' f f f f f f
+		c c c c c c c c
+		e e e e e e e e
+		f f f f f f f f %505
+		f\fE f f f f\pE f f f
+		d\fE d d d d\pE d d d
+		b b b b b b b b
+		a a a a a a a a
+		a a a a a a a a %510
+		a a a a a a a a
+		a a a a a a a a
+		a a a a a a a r
+		e'8.\fE e16 f4 r e8. e16
+		f8 r r4 r2 %515
+		r r8 b(\pE a g)
+		a d, d h' a4 a,
+		d8 r f, r g r a r
+		d r f, r g r a r
+		f f f f f4 r\fermata \bar "||"
 	}
 }
