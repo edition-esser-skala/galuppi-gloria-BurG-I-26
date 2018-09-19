@@ -327,6 +327,32 @@ QuiTollisOboeI = {
 		\clef treble
 		\key a \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #482
-		
+		R1
+		r4 r8 r16 e'\fE f4-! e-!
+		R1
+		r4 r8 r16 e d4-! c-! %485
+		r2 e
+		e4. e8 g2
+		g4. g8 a c r c,
+		f( a) r d, e( g) r e
+		e-! g-! c,-! g-! g4 r\fermata %490
+		R1*5 %495
+		a8(\f d) r d e( g) r e
+		f( as) r c h!( d) r as
+		g( c) r g a( c) r c,
+		f( a) r a,\p d( f) r b,
+		g( c) r e, f( a) r f %500
+		a c a a a4 r
+		R1*4 %505
+		a'16.\f f32 c16. a32 a'8 a, r2
+		a'16.\f f32 d16. a32 a'8 a, r2
+		R1*6 %512
+		b'8.\fE b16 a4 r g8. g16
+		f8 r r4 r2
+		r r8 b(\p a g) %515
+		f f4 f8 e2
+		r16 a-! a( f) r f-! f( d) r b-\parenthesize-! \slurDashed b( g) r e-\parenthesize-! e( g) \slurSolid
+		r a'-! a( f) r f-! f( d) r b-\parenthesize-! \once \slurDashed b( g) f a cis, e
+		d8(-. d-. d-. d-.) d4 r\fermata \bar "||" %520 finis
 	}
 }
