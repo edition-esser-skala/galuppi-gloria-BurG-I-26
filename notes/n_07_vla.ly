@@ -510,7 +510,7 @@ DomineDeusViola = {
 
 QuiTollisViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key a \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #482
 		a4~\f a8 r r2
