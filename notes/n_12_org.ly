@@ -953,11 +953,215 @@ QuiSedesOrgano = {
 		\key f \major \time 2/2 \tempoQuiSedes
 			\set Score.currentBarNumber = #521
 		\partial 4 r4 r \mvTr f\p-\soloE a f
+		g\f g b g
+		r c,\p e c
+		f\f f a f
+		r f a b %525
+		a b a b
+		a d g, c
+		f,\p f,-! f-! f-!
+		r f'-! f-! f-!
+		r c-! c-! c-! %530
+		r c-! c-! c-!
+		r d-! d-! d-!
+		r g,-! g-! g-!
+		r c\f c f\p
+		r c\f e f\p %535
+		c c' c,2
+		r4 f a f
+		b2 g
+		f r4 a,
+		b b' c c, %540
+		f2 r4 a,
+		b\f b' c c,
+		f f, r2
+		r4 f'\p a f
+		g\f g g g, %545
+		r c\p e c
+		f\f f f f,
+		r b'\p b b
+		r a a a
+		g g c, c %550
+		r f a f
+		r b b b
+		r a a a
+		g g c, c
+		f\f f,8. f16 f4 r %555
+		f\p f' f f
+		e e( es) es
+		d d d d
+		d d( des) des
+		c c c c %560
+		r f f f
+		r f f f
+		e f e d
+		c c a' a
+		g2 r4 g %565
+		a a f f
+		g g g, g
+		c c' r c,
+		f f g g
+		c, c' r c, %570
+		f f g g
+		c, c a' a
+		r h,2\f c4\p
+		g' h,2\f c4\p
+		g' f2\f e4\p %575
+		f f g g
+		c, d e d
+		c8\fE c c c f f f f
+		g4 g g, g
+		c h2 c4 %580
+		g' h,2 c4
+		g' f2 e4
+		f a g g,
+		c2 r
+		r4 c'\pE c c, %585
+		r c' c c,
+		r e f f,
+		c' c' c,2
+		r4 f a f
+		g\f g g g, %590
+		r c\p c c
+		f\f f f f,
+		r b'\pE b b
+		g g g g
+		e e e e %595
+		f f f f
+		d d d d
+		e e e e
+		f f f f
+		c c c c %600
+		f f a a
+		b b h h
+		c\f c, c c
+		c2 r
+		r4 as'(\pE g f) %605
+		e2 f
+		r4 as( g f)
+		e2 f
+		b4 b g g
+		a! a b b %610
+		c c c, c
+		f2 r4 a
+		b g c c,
+		f2 r4 a
+		b g c c, %615
+		a e' f g
+		a\f b c c,
+		d d c b
+		c1\fermata
+		f4 a g e %620
+		f a b d
+		f, a, b c
+		f, f' f,2\fermata \bar "||" %623 finis
 	}
 }
 
 QuiSedesBassFigures = \figuremode {
-	
+	r4 r1 %521
+	<6>
+	r4 <7>2.
+	r1
+	r %525
+	r
+	r
+	r
+	r
+	r %530
+	r
+	r
+	r4 <_!>2.
+	r1
+	r %535
+	r
+	r
+	r2 <5>4 <6>
+	r2. <[6]>4
+	r1 %540
+	r2. <[6]>4
+	r1
+	r
+	r
+	<6> %545
+	r4 <7>2.
+	r1
+	r
+	r4 <6>2.
+	<7>2 q %550
+	r1
+	r
+	r4 <6>2.
+	<7>2 q
+	r1 %555
+	r2 <4!>
+	<6>1
+	<7 _+>
+	<6- 4>2 <[6-] 3>
+	<7>1 %560
+	r
+	r4 <4! 2>2.
+	<6>1
+	r2 <6\\>
+	<[_!]>2. <7 [_!]>4 %565
+	<5>1
+	<6 4>2 <5 [_!]>
+	r1
+	r2 <6 4>4 <5 [_!]>
+	r1 %570
+	r2 <6 4>4 <5 [_!]>
+	r2 <6\\>
+	r4 <6 5>2.
+	r4 <6 5>2.
+	r4 <4! 2>2 <6>4 %575
+	r1
+	r
+	r
+	<6 4>2 <5 [_!]>
+	r4 <6 5>2. %580
+	r4 <6 5>2.
+	r4 <4! 2>2 <6>4
+	r2 <4>4 <_!>
+	r1
+	r %585
+	r4 <6 4>2.
+	r4 <[6]>2.
+	<6 4>4 <5 3>2.
+	r1
+	<6> %590
+	r
+	r
+	r
+	<5>
+	<6 5> %595
+	r
+	<6 5>
+	r
+	r
+	r %600
+	r
+	r
+	r
+	r
+	r4 <[6]>2. %605
+	<6>2 <_->
+	r4 <6>2.
+	<[6]>2 <[_-]>
+	r <6>
+	q q %610
+	<6 4> <5 3>
+	r2. <[6]>4
+	r1
+	r2. <[6]>4
+	r1 %615
+	r
+	r
+	r
+	r
+	r %620
+	r
+	r
+	r %623 finis
 }
 
 % Organo = {
