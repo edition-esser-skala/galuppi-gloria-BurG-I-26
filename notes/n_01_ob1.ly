@@ -379,7 +379,7 @@ QuiSedesOboeI = {
 		e4 g2\f a,4\p
 		g8 r g'2\f a,4 %535
 		g2 r
-		c2. cis4
+		\pa c2. cis4 \pd
 		d2.( e4)
 		f16.[\f f32] \grace g16 f32( e f16) a16.[ f32] \grace g16 f32( e f16) a8 r \tuplet 3/2 4 { f,\p a c
 			d,[ b' c] d c b } \appoggiatura a4 g2 %540
@@ -387,19 +387,19 @@ QuiSedesOboeI = {
 		d, b'[\f c] d c b } a4 g\trill
 		f4 f f r
 		R1*24 %567
-		r4 \grace { a'16[ g f] } g8.\fE a16 \tuplet 3/2 4 { g8[ c-! a-!] g-! f-! e-! }
+		r4 \pa \grace { a'16[ g f] } \pd g8.\fE a16 \tuplet 3/2 4 { g8[ c-! a-!] g-! f-! e-! }
 		f4 r r2
-		r4 \grace { a16[ g f] } g8.\fE a16 \tuplet 3/2 4 { g8[ c-! a-!] g-! f-! e-! } %570
+		r4 \pa \grace { a16[ g f] } \pd g8.\fE a16 \tuplet 3/2 4 { g8[ c-! a-!] g-! f-! e-! } %570
 		f4 r r2
 		R1
-		r4 f~\fE f8. e16 e4\p
-		d f~\fE f8. e16 e4\p
+		r4 f~\fE f8. e16 e4\pE
+		d f~\fE f8. e16 e4\pE
 		d r r2 %575
 		R1*2
 		e8.\f e16 d8. c16 h8. a16 g8. f16
 		e8 e' e e d d d d
-		c4 f~ f8. e16 e4\trill %580
-		d f~ f8. e16 e4\trill
+		\pao c4 f~ f8. e16 e4 %580
+		d f~ f8. e16 e4
 		d h'2 \tuplet 3/2 4 { c8 g c }
 		a[ g16 f] e8 d16 c d4.\trill d8
 		c4 g c,2

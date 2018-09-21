@@ -360,6 +360,66 @@ QuiSedesOboeII = {
 		\clef treble
 		\key f \major \time 2/2 \tempoQuiSedes
 			\set Score.currentBarNumber = #521
-		
+		\partial 4 r8 r16 c'\p
+			c4.~ c32( b a g) f4 r8 r16 f'\f
+		\appoggiatura g f8 e e2 r8 r16 b\p
+		b4.~ b32( a g f) e4 r8 r16 g'\f
+		\appoggiatura a g8 f f2 r8 r16 a
+		a4.~ \once \slurDashed a32( b a g) f8 f f f %525
+		f4~ f16 e f g f4~ f16 e f g
+		f4 r r2
+		f1~\p
+		f
+		e~ %530
+		e
+		d~
+		d
+		c4 b2\f f4\p
+		e4 b'2\f f4\p %535
+		e2 r
+		r c'~
+		c4( a) b2
+		a16.[\f f'32] \grace g16 f32( e f16) a16.[ f32] \grace g16 f32( e f16) a8 r \tuplet 3/2 4 { f,\p a c
+			d,[ b' c] b a g } \appoggiatura f4 e2 %540
+		f16.[\f f'32] \grace g16 f32( e f16) a16.[ f32] \grace g16 f32( e f16)a8 r \tuplet 3/2 4 { f,\p a c
+		d, b'[\f c] b a g } f4 e\trill
+		f4 f f r
+		R1*24 %567
+		r4 e'8.\fE f16 \tuplet 3/2 4 { e8[ a-! f-!] e-! d-! c-! }
+		d4 r r2
+		r4 e8.\fE f16 \tuplet 3/2 4 { e8[ a-! f-!] e-! d-! c-! } %570
+		d4 r r2
+		R1
+		r4 d~\fE d8. c16 c4\pE
+		h d~\fE d8. c16 c4\pE
+		h r r2 %575
+		R1*2
+		c8.\f c16 h8. a16 g8. f16 e8. d16
+		c8 c' c c h h h h
+		c4 d~ d8. c16 c4 %580
+		h d~ d8. c16 c4
+		h d2 \tuplet 3/2 4 { c'8 g c }
+		a[ g16 f] e8 d16 c d4.\trill d8
+		c4 g c,2
+		R1*3 %587
+		r2 r4 r8 r16 c'\pE
+		c4.~ c32( b a g) f4 r8 r16 a\f
+		b4 b2 r8 r16 b\p %590
+		b4.~ b32 a g f e4 r8 r16 g'\f
+		\appoggiatura a g8 f f2.
+		R1*10 %602
+		e8.\f c16 g'8. e16 c8-! g-! e-! c-!
+		c'2 r
+		R1*7 %611
+		r16.\f f32 \grace g16 f32[ e f16] a16.[ f32] \grace g16 f32 e f16 a8 r r4
+		R1
+		r16.\f f32 \grace g16 f32[ e f16] a16.[ f32] \grace g16 f32 e f16 a8 r r4
+		R1*3 %617
+		f,8\fE f' b, f' a, f' g, b
+		f2 r\fermata
+		f4 f' e8[ f16 g] g,8 a16 b %620
+		a8[ b16 c] f,8 g16 a d,8[ d'16 c] \appoggiatura d b8 a16 g
+		c4 f,8 g16 a d,8 d' c e,
+		f4 f f2\fermata \bar "||" %623 finis
 	}
 }

@@ -662,7 +662,7 @@ QuiSedesViolinoI = {
 		a a g g
 		a16.[\f f'32] \grace g16 f32 e f16 a16.[ f32] \grace g16 f32 e f16 a8 r \tuplet 3/2 4 { f,\p a c }
 		d,4 \tuplet 3/2 4 { d'8 c b } \appoggiatura a4 g2
-		a16.[\f f'32] \grace g16 f32 e f16 a16.[ f32] \grace g16 f32 e f16) a8 r \tuplet 3/2 4 { f,\p a c
+		a16.[\f f'32] \grace g16 f32 e f16 a16.[ f32] \grace g16 f32 e f16 a8 r \tuplet 3/2 4 { f,\p a c
 		d,[ b' c] d c b } a4 g %615
 		f g \tuplet 3/2 4 { a8[ c a] b d b }
 		c4\f f e8[ d16 c] b8 a16 g

@@ -602,9 +602,9 @@ QuiSedesViolinoII = {
 		h2. h4 %565
 		c2. c4
 		c c h h
-		r e8.\fE f16 \tuplet 3/2 4 { e8[ a-! g-!] f-! e-! d-! }
+		r e8.\fE f16 \tuplet 3/2 4 { e8[ a-! f-!] e-! d-! c-! }
 		d4 c2\pE h4
-		c8 r e8.\fE f16 \tuplet 3/2 4 { e8[ a-! g-!] f-! e-! d-! } %570
+		c8 r e8.\fE f16 \tuplet 3/2 4 { e8[ a-! f-!] e-! d-! c-! } %570
 		d4 c2\pE h4
 		c g c c
 		h <d f>4~\f q8. c16 c4\trill\p
@@ -648,7 +648,7 @@ QuiSedesViolinoII = {
 		f f'2 e4
 		r16.\f f32 \grace g16 f32[ e f16] a16.[ f32] \grace g16 f32 e f16 a8 r \tuplet 3/2 4 { f,\p a c }
 		d,4 \tuplet 3/2 4 { b'8 a g } \appoggiatura f4 e2
-		r16.\f f'32 \grace g16 f32[ e f16] a16.[ f32] \grace g16 f32 e f16) a8 r \tuplet 3/2 4 { f,\p a c
+		r16.\f f'32 \grace g16 f32[ e f16] a16.[ f32] \grace g16 f32 e f16 a8 r \tuplet 3/2 4 { f,\p a c
 		d,[ g a] b a g } f4 e %615
 		f c f e
 		f4\f f' e8[ d16 c] b8 a16 g
