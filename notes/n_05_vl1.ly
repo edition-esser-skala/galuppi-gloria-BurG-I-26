@@ -568,7 +568,110 @@ QuiSedesViolinoI = {
 		\clef treble
 		\key f \major \time 2/2 \tempoQuiSedes
 			\set Score.currentBarNumber = #521
-		
+		\partial 4 r8 r16 c'\p
+			c4.~ c32( b a g) f4 r8 r16 f'\f
+		\appoggiatura g f8 e e2 r8 r16 b\p
+		b4.~ b32( a g f) e4 r8 r16 b''\f
+		\appoggiatura c b8 a a2 r8 r16 d
+		c4.~ c32( b a g) f8 f f f %525
+		f4~ f16 e f g f4~ f16 e f g
+		f8 a \appoggiatura g16 f8 \appoggiatura e16 d8 \appoggiatura c4 b2
+		a \tuplet 3/2 4 { r8 a\pE b c[ d e]
+		f[-! e-! d-!] c-! b-! a-! f'[-! e-! d-!] c-! b-! a-! }
+		\appoggiatura a4 g2~ \tuplet 3/2 4 { g8 g a b[ c d] %530
+		e d c b[ a g] e' d c b[ a g] }
+		f4 f' \tuplet 3/2 4 { f,8[ f g] a h c
+		d[ c h] a g f d'[ c h] a g f }
+		e4 \once \tieDashed <b' g'>4.~\f g'16. a,32 \appoggiatura b8 a4\trill\p
+		g8 r \once \tieDashed <b g'>4.~\f g'16 a, a4\trill\p %535
+		g2 r
+		c2. cis4
+		d2.( e4)
+		f16.[\f f32] \grace g16 f32( e f16) a16.[ f32] \grace g16 f32( e f16) a8 r \tuplet 3/2 4 { f,\p a c
+			d,[ b' c] d c b } \appoggiatura a4 g2 %540
+		a16.[\f f'32] \grace g16 f32( e f16) a16.[ f32] \grace g16 f32( e f16)a8 r \tuplet 3/2 4 { f,\p a c
+		d, b'[\f c] d c b } a4 g\trill
+		f8. c16 a8. c16 f4 r
+		c'4.~\p c32 b a g f4 r8 r16 f'\f
+		\appoggiatura g f8 e e2 r8 r16 b\p %545
+		b4.~ b32 a g f e4 r8 r16 b''\f
+		\appoggiatura c b8 a a2~ a16. c,32\pE c8\trill
+		d4~ d16 e f g f8 f f f
+		f4~ f16 e f g f4 c
+		d d e e %550
+		f4~ f16 e f g f4~ f16 e f g
+		f4~ f16 e f g f8 f f f
+		f4 c c c
+		d d e e
+		f\f c8. a16 <f c' f>4 r %555
+		c'\p c d d
+		g g g g
+		fis2. fis4
+		g g f f
+		e2. e4 %560
+		f c c c
+		r d d d
+		g a g f
+		e e fis fis
+		g( a) f2 %565
+		e f4 d
+		e e d d
+		r \grace { a'16[ g f] } g8. a16 \tuplet 3/2 4 { g8[ c-! a-!] g-! f-! e-! }
+		f4 e2 d4
+		e8 r \grace { a16[ g f] } g8. a16 \tuplet 3/2 4 { g8[ c-! a-!] g-! f-! e-! } %570
+		f4 e2 d4
+		e e fis fis
+		g <d d'>4~\f q8. e16 e4\trill\p
+		d <d d'>4~\f q8. e16 e4\trill\p
+		d <d h'>2\f c'4\p %575
+		a g8 f e4 d
+		e f g f
+		e8.\f e16 d8. c16 h8. a16 g8. f16
+		e8 e' e e d d d d
+		c4 <d d'>~ q8. e16 e4\trill %580
+		d <d d'>~ q8. e16 e4\trill
+		d <d h'>2 \tuplet 3/2 4 { c'8 g c }
+		a[ g16 f] e8 d16 c d4.\trill d8
+		c4 g c,2
+		r4 g''\p g g, %585
+		r a' a a,
+		r g' a a,
+		a g r r8 r16 c
+		c4.~ c32( b a g) f4 r8 r16 f'\f
+		\appoggiatura g f8 e e2 r8 r16 b\p %590
+		b4.~ b32 a g f e4 r8 r16 b''\f
+		\appoggiatura c b8 a a2.
+		r4 f\p f f
+		r b b b
+		b b b b %595
+		a a a a
+		a a a a
+		g g g g
+		f a2 a,4
+		g g' g b, %600
+		a c2( cis4)
+		d b' g f
+		e8.\f c16 g'8. e16 c8-! g-! e-! c-!
+		<c g' c>2 r
+		R1 %605
+		r4 b''(\pE as f)
+		c1~
+		c4 g' a! c,
+		d d2 e4
+		f8 c b a d4 b %610
+		a a g g
+		a16.[\f f'32] \grace g16 f32 e f16 a16.[ f32] \grace g16 f32 e f16 a8 r \tuplet 3/2 4 { f,\p a c }
+		d,4 \tuplet 3/2 4 { d'8 c b } \appoggiatura a4 g2
+		a16.[\f f'32] \grace g16 f32 e f16 a16.[ f32] \grace g16 f32 e f16) a8 r \tuplet 3/2 4 { f,\p a c
+		d,[ b' c] d c b } a4 g %615
+		f g \tuplet 3/2 4 { a8[ c a] b d b }
+		c4\f f e8[ d16 c] b8 a16 g
+		f8 f' b, f' a, f' g, b
+		<f a>2 r\fermata
+		f4 f' e8[ f16 g] g,8 a16 b %620
+		a8[ b16 c] f,8 g16 a d,8[ d'16 c] \appoggiatura d b8 a16 g
+		<f c' a'>4 f8 g16 a d,8 d' c e,
+		f8. c16 a8. c16 f2\fermata \bar "||" %623 finis
 	}
 }
 
