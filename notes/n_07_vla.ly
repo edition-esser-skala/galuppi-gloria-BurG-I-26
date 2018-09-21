@@ -560,6 +560,118 @@ QuiSedesViola = {
 		\clef treble
 		\key f \major \time 2/2 \tempoQuiSedes
 			\set Score.currentBarNumber = #521
-		
+		\partial 4 r4 r a-!\p c-! a-!
+		b\f b' g d
+		r e\p g e
+		c\f c2 a4
+		r a' c d %525
+		c d c d
+		c a g g
+		<< {
+			a1~^\markup { \remark "prima" }
+			a
+			g~ %530
+			g
+			f~
+			f
+			e4
+		} \\ {
+			\mvTr f1~\pE_\markup { \remark "seconda" }
+			f
+			e~ %530
+			e
+			d~
+			d
+			c4
+		} >> c2\fE c4\pE
+		r c2\f c4\pE %535
+		c g' e2
+		r4 a f a
+		f2 g
+		c, r4 c
+		d d c c %540
+		c2 r4 c
+		d\f d c c
+		a c a2
+		r4 f'\p a f
+		g\f g g g, %545
+		r c\p e c
+		f\f f f f,
+		r b'\p b b
+		r a a a
+		g g c, c %550
+		r f a f
+		r b b b
+		r a a a
+		g g c, c
+		f\f f,8. f16 f4 r %555
+		f\p f' f f
+		e e( es) es
+		d d d d
+		d d( des) des
+		c c c c %560
+		r f f f
+		r f f f
+		e f e d
+		c c a' a
+		g2 r4 g %565
+		a a f f
+		g g g, g
+		c c' r c,
+		f f g g
+		c, c' r c, %570
+		f f g g
+		c, c a' a
+		r h,2\f c4\p
+		g' h,2\f c4\p
+		g' f2\f e4\p %575
+		f f g g
+		c, d e d
+		c8\fE c c c f f f f
+		g4 g g, g
+		g'4 g2 g4 %580
+		g g2 g4
+		g g2 g4
+		g c2 h4
+		c2 r
+		r4 c\pE c c, %585
+		r c' c c,
+		r e f f,
+		c' c' c,2
+		r4 f a f
+		g\f g g g, %590
+		r c\p c c
+		f\f f f f,
+		r b'\pE b b
+		g g g g
+		g g g g %595
+		f f f f
+		f f f f
+		e e c c
+		f f f f
+		c c c c %600
+		f f a a
+		b b h h
+		c\f c, c c
+		c2 r
+		r4 as'(\pE g f) %605
+		e2 f
+		r4 as( g f)
+		e2 f
+		b4 b g g
+		a! a b b %610
+		c c c, c
+		f2 r4 a
+		b g c c,
+		f2 r4 a
+		b g c c, %615
+		a e' f g
+		a\f b c c,
+		d d c b
+		c1\fermata
+		f4 c' b g %620
+		c, f f f
+		f c d g,
+		a c a2\fermata \bar "||" %623 finis
 	}
 }
