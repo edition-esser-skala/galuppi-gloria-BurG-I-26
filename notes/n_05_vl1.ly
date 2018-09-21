@@ -582,7 +582,7 @@ QuiSedesViolinoI = {
 		e d c b[ a g] e' d c b[ a g] }
 		f4 f' \tuplet 3/2 4 { f,8[ f g] a h c
 		d[ c h] a g f d'[ c h] a g f }
-		e4 \once \tieDashed <b' g'>4.~\f g'16. a,32 \appoggiatura b8 a4\trill\p
+		e4 \once \tieDashed <b' g'>4.~\f g'16 a, \appoggiatura b8 a4\trill\p
 		g8 r \once \tieDashed <b g'>4.~\f g'16 a, a4\trill\p %535
 		g2 r
 		c2. cis4

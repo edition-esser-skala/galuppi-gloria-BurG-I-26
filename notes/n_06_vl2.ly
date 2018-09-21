@@ -554,6 +554,109 @@ QuiSedesViolinoII = {
 		\clef treble
 		\key f \major \time 2/2 \tempoQuiSedes
 			\set Score.currentBarNumber = #521
-		
+		\partial 4 r8 r16 c'\p
+			c4.~ c32( b a g) f4 r8 r16 f'\f
+		\appoggiatura g f8 e e2 r8 r16 b\p
+		b4.~ b32( a g f) e4 r8 r16 g'\f
+		\appoggiatura a g8 f f2 r8 r16 a
+		a4.~ \once \slurDashed a32( b a g) f8 f f f %525
+		f4~ f16 e f g f4~ f16 e f g
+		f8 a \appoggiatura g16 f8 \appoggiatura e16 d8 \appoggiatura c4 b2
+		a \tuplet 3/2 4 { r8 a\pE b c[ d e]
+		f[-! e-! d-!] c-! b-! a-! f'[-! e-! d-!] c-! b-! a-! }
+		\appoggiatura a4 g2~ \tuplet 3/2 4 { g8 g a b[ c d] %530
+		e d c b[ a g] e' d c b[ a g] }
+		f4 f' \tuplet 3/2 4 { f,8[ f g] a h c
+		d[ c h] a g f d'[ c h] a g f }
+		e4 \once \tieDashed <g b>4.~\f g16 f f4\trill\p
+		e8 r \once \tieDashed <g b>4.~\f g16 f f4\trill\p %535
+		e2 r
+		r c'~
+		c4( a) b2
+		a16.[\f f'32] \grace g16 f32( e f16) a16.[ f32] \grace g16 f32( e f16) a8 r \tuplet 3/2 4 { f,\p a c
+			d,[ b' c] b a g } \appoggiatura f4 e2 %540
+		f16.[\f f'32] \grace g16 f32( e f16) a16.[ f32] \grace g16 f32( e f16)a8 r \tuplet 3/2 4 { f,\p a c
+		d, b'[\f c] b a g } f4 e\trill
+		f8. c16 a8. c16 f4 r
+		r4 a(\p c) r8 r16 a\f
+		b4 <g b>2 d4 %545
+		r e(\p g) r8 r16 g'\f
+		\appoggiatura a g8 f f2 a,4\p
+		b d d d
+		r c c f,
+		b b g g %550
+		r a c a
+		r d d d
+		c f, f f
+		b b g g
+		a\f a8. f16 <f c' f>4 r %555
+		a\p a h h
+		c c c c
+		c2. a4
+		b! b b b
+		b2. g4 %560
+		a a a a
+		r h h h
+		c c2 c4
+		c g c c
+		h2. h4 %565
+		c2. c4
+		c c h h
+		r e8. f16 \tuplet 3/2 4 { e8[ a-! g-!] f-! e-! d-! }
+		d4 c2 h4
+		c8 r e8. f16 \tuplet 3/2 4 { e8[ a-! g-!] f-! e-! d-! } %570
+		d4 c2 h4
+		c g c c
+		h <d f>4~\f q8. c16 c4\trill\p
+		h <d f>4~\f q8. c16 c4\trill\p
+		h <h g'>2\f g'4\p %575
+		f e8 d c4 h
+		c h c h
+		c8.\f c16 h8. a16 g8. f16 e8. d16
+		c8 c' c c h h h h
+		c4 <d f>~ q8. c16 c4\trill %580
+		h <d f>~ q8. c16 c4\trill
+		h <d h'>2 \tuplet 3/2 4 { c'8 g c }
+		a[ g16 f] e8 d16 c d4.\trill d8
+		c4 g c,2
+		r4 e'\p e e, %585
+		r f' f f,
+		r c' c f,
+		f e r r8 r16 c'
+		c4.~ c32( b a g) f4 r8 r16 a\f
+		b4 <g b>2 r8 r16 b\p %590
+		b4.~ b32 a g f e4 r8 r16 g'\f
+		\appoggiatura a g8 f f2.
+		r4 d\p d d
+		r d d d
+		c c c c %595
+		c c c c
+		b b b b
+		b b b b
+		a c2 f,4
+		e b' b g %600
+		f a f2~
+		f4 d'2 d4
+		e8.\f c16 g'8. e16 c8-! g-! e-! c-!
+		<c g' c>2 r
+		r4 c'(\p b as) %605
+		g2 f
+		r4 c'( b as)
+		g2 f
+		f4 f b b
+		a! a g g %610
+		f f'2 e4
+		r16.\f f32 \grace g16 f32[ e f16] a16.[ f32] \grace g16 f32 e f16 a8 r \tuplet 3/2 4 { f,\p a c }
+		d,4 \tuplet 3/2 4 { b'8 a g } \appoggiatura f4 e2
+		r16.\f f'32 \grace g16 f32[ e f16] a16.[ f32] \grace g16 f32 e f16) a8 r \tuplet 3/2 4 { f,\p a c
+		d,[ g a] b a g } f4 e %615
+		f c f e
+		f4\f f' e8[ d16 c] b8 a16 g
+		f8 f' b, f' a, f' g, b
+		<f a>2 r\fermata
+		f4 f' e8[ f16 g] g,8 a16 b %620
+		a8[ b16 c] f,8 g16 a d,8[ d'16 c] \appoggiatura d b8 a16 g
+		<f c' a'>4 f8 g16 a d,8 d' c e,
+		f8. c16 a8. c16 f2\fermata \bar "||" %623 finis
 	}
 }
