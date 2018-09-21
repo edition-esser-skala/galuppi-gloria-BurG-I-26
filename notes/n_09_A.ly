@@ -818,6 +818,19 @@ QuiSedesAltoLyrics = \lyricmode {
 	bis. %620 finis
 }
 
+QuoniamAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/8 \autoBeamOff \tempoQuoniam
+			\set Score.currentBarNumber = #624
+		
+	}
+}
+
+QuoniamAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

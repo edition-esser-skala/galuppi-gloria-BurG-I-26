@@ -660,3 +660,12 @@ QuiSedesViolinoII = {
 		f8. c16 a8. c16 f2\fermata \bar "||" %623 finis
 	}
 }
+
+QuoniamViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/8 \tempoQuoniam
+			\set Score.currentBarNumber = #624
+		
+	}
+}

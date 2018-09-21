@@ -423,3 +423,12 @@ QuiSedesOboeII = {
 		f4 f f2\fermata \bar "||" %623 finis
 	}
 }
+
+QuoniamFlautoII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/8 \tempoQuoniam
+			\set Score.currentBarNumber = #624
+		
+	}
+}

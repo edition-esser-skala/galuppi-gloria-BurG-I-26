@@ -332,53 +332,120 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "6 QUI SEDES"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Oboe I, II"
+% 						\partcombine \QuiSedesOboeI \QuiSedesOboeII
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\QuiSedesViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\QuiSedesViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\QuiSedesViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \QuiSedesAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \QuiSedesAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\QuiSedesOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\QuiSedesBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 72 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "6 QUI SEDES"
+			movement = "7 QUONIAM"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \QuiSedesOboeI \QuiSedesOboeII
+						\set Staff.instrumentName = "Flauto I, II"
+						\partcombine \QuoniamFlautoI \QuoniamFlautoII
 					>>
 				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\QuiSedesViolinoI
+							\QuoniamViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\QuiSedesViolinoII
+							\QuoniamViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\QuiSedesViola
+						\QuoniamViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \QuiSedesAltoNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
 					}
-					\new Lyrics \lyricsto Alto \QuiSedesAltoLyrics
+					\new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \QuoniamAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \QuoniamAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \QuoniamTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \QuoniamBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \QuoniamBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\QuiSedesOrgano
+						\QuoniamOrgano
 					}
 				>>
 				\new FiguredBass {
-					\QuiSedesBassFigures
+					\QuoniamBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 72 }
+			\midi { \tempo 4. = 80 }
 		}
 	}
 }

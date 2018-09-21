@@ -202,6 +202,7 @@ tempoGratias = \tempoMarkup "Andante"
 tempoDomineDeus = \tempoMarkup "[Tempo deest]"
 tempoQuiTollis = \tempoMarkup "[Tempo deest]"
 tempoQuiSedes = \tempoMarkup "[Tempo deest]"
+tempoQuoniam = \tempoMarkup "Andante"
 
 
 % modify the Scheme function 'format-bass-figure'

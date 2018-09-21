@@ -629,6 +629,19 @@ QuiTollisSopranoLyrics = \lyricmode {
 	stram. %518 finis
 }
 
+QuoniamSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/8 \autoBeamOff \tempoQuoniam
+			\set Score.currentBarNumber = #624
+		
+	}
+}
+
+QuoniamSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
