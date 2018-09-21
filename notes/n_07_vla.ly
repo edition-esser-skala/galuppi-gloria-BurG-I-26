@@ -557,7 +557,7 @@ QuiTollisViola = {
 
 QuiSedesViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \major \time 2/2 \tempoQuiSedes
 			\set Score.currentBarNumber = #521
 		\partial 4 r4 r a-!\p c-! a-!
@@ -632,7 +632,7 @@ QuiSedesViola = {
 		g'4 g2 g4 %580
 		g g2 g4
 		g g2 g4
-		g c2 h4
+		a c2 h4
 		c2 r
 		r4 c\pE c c, %585
 		r c' c c,
