@@ -1170,11 +1170,297 @@ QuoniamOrgano = {
 		\key a \major \time 3/8 \tempoQuoniam
 			\set Score.currentBarNumber = #624
 		\mvTr a'8\pE-\soloE cis a
+		e gis e %625
+		a fis e
+		d e e,
+		a' cis a
+		gis e gis
+		a cis a %630
+		gis e gis
+		a a, r16 cis\f
+		d8 d' r16 d,
+		e8 e, r16 gis'
+		a8\p fis cis %635
+		d e e,
+		a\f a' r16 cis,
+		d8 d, r16 dis'
+		e8 e, r16 gis'\p
+		a8 fis cis %640
+		d\f e e,
+		a r r
+		a'\p cis a
+		e gis e
+		a fis e %645
+		d e e,
+		r cis'' a
+		gis e gis
+		r cis a
+		gis e gis %650
+		a cis, a
+		d4 dis8
+		e gis e
+		fis dis h
+		e4 gis8 %655
+		a h h,
+		e gis e
+		h dis h
+		e cis' h
+		a h h, %660
+		e gis e
+		dis h dis
+		r gis e
+		dis h dis
+		e gis e %665
+		a4 ais8
+		h dis, h
+		cis ais' fis
+		h4 dis,8
+		e fis fis, %670
+		h[ h'] h,
+		h4 r8
+		r h' h,
+		h4 e8
+		h' fis dis %675
+		h4 r8
+		r h' h,
+		h4 e8
+		h' fis dis
+		h h' r %680
+		r e e,
+		h h' h,
+		e[ e'] e,
+		R4.
+		e8 e, e' %685
+		a h h,
+		e e, e
+		R4.
+		e'8 e, e'
+		a h h, %690
+		e r e
+		a h h,
+		e \mvTr e,16[\f-\tutti e' gis e]
+		h'8 h,16[ h' gis e]
+		h'8 h,16[ h' gis e] %695
+		h'8 h, r
+		a' gis r
+		fis e r
+		a h h,
+		cis'16 h a gis fis e %700
+		dis8 e gis
+		a16[ fis] h8 h,
+		e e, r16 gis'
+		a8 a, r16 ais'
+		h8 h, r16 dis %705
+		e8 cis' gis
+		a h h,
+		e r r
+		\mvTr e\p-\soloE gis e
+		h dis h %710
+		e gis e
+		a h h,
+		e e'16 d! cis h
+		a8 cis a
+		e gis e %715
+		a, cis a
+		d e e,
+		a' cis a
+		gis e gis
+		a cis a %720
+		gis e gis
+		a cis a
+		d r gis,
+		cis r fis,
+		h r e, %725
+		a r a,
+		e'4.
+		a8 r a,
+		e' gis e
+		a r a, %730
+		d e e,
+		\mvTr a16\f-\tuttiE a a a a a
+		a a a a a a
+		a a a a a a
+		a a a a a a %735
+		a a a a a a
+		a a a a a a
+		d8 cis r
+		gis' a r
+		d, cis a' %740
+		fis16[ d] e8 e,
+		a a' r
+		R4.
+		r16 a a8[ a,]
+		R4. %745
+		r16 a' a8[ a,]
+		R4.
+		r16 a' a8[ a,]
+		R4.*11 %759
+		\mvTr a16\f-\tuttiE a a a a a %760
+		a a a a a a
+		a a a a a a
+		a a a a a a
+		a a a a a a
+		a a a a a a %765
+		d cis h a' gis fis
+		e8 gis a
+		d, e e,
+		a d h'
+		gis gis a %770
+		d, e e,
+		a a a
+		a a a
+		a a a
+		a a a %775
+		a' e cis
+		a r r\fermata \bar "||" %777 finis
 	}
 }
 
 QuoniamBassFigures = \figuremode {
-	
+	r4. %624
+	r %625
+	r
+	r
+	r
+	r
+	r %630
+	r
+	r
+	r
+	r
+	r %635
+	r
+	r
+	r
+	r
+	r %640
+	r
+	r
+	r
+	r
+	r %645
+	r
+	r
+	r
+	r
+	r %650
+	r
+	r
+	r
+	r
+	r %655
+	r
+	r
+	<_+>
+	r4 <6 4>8
+	r <6 4> <5 _+> %660
+	r4.
+	<6>
+	r
+	<6>
+	r %665
+	r
+	r
+	r
+	r
+	r8 <_+>4 %670
+	<_+>4.
+	r
+	r
+	r
+	<6 4>8 <6\\> r %675
+	r4.
+	r8 <_+>4
+	r4.
+	r
+	<7> %680
+	r
+	<7>
+	r
+	r
+	r %685
+	r
+	r
+	r
+	r
+	r %690
+	r
+	r
+	r
+	<_+>
+	<_+> %695
+	<_+>
+	r8 <6> r
+	<6\\>4.
+	r8 <4> <_+>
+	r4. %700
+	<6>
+	r8 <_+>4
+	r4.
+	r4 r16 <6>
+	r4. %705
+	r4 <6>8
+	r <4> <_+>
+	r4.
+	r
+	r %710
+	r
+	r
+	r
+	r
+	r %715
+	r
+	r
+	r
+	<6>
+	r %720
+	<6>
+	r
+	r4 <5>8
+	q4 q8
+	q4. %725
+	r
+	<5 3>8 <6 4> <7 5>
+	r4.
+	<7>
+	r %730
+	r
+	r
+	<6 4>8 <5 3> <7 4 2>
+	<5 3>4.
+	<6 4>8 <5 3> <7 4 2> %735
+	<5 3>4.
+	<6 4>8 <5 3>4
+	r8 <6>4
+	<6 5>8 <3>4
+	r4. %740
+	r
+	r
+	r
+	r
+	r %745
+	r
+	r
+	r
+	r4.*11 %759
+	<5 3>4. %760
+	<6 4>8 <5 3> <7 4 2>
+	<5 3>4.
+	<6 4>8 <5 3> <7 4 2>
+	<5 3>4.
+	<6 4>8 <5 3>4 %765
+	r4.
+	r
+	r
+	r
+	r %770
+	r
+	r
+	r
+	r
+	r %775
+	r
+	r %777 finis
 }
 
 % Organo = {
