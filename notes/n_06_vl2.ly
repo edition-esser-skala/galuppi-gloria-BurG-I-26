@@ -602,10 +602,10 @@ QuiSedesViolinoII = {
 		h2. h4 %565
 		c2. c4
 		c c h h
-		r e8. f16 \tuplet 3/2 4 { e8[ a-! g-!] f-! e-! d-! }
-		d4 c2 h4
-		c8 r e8. f16 \tuplet 3/2 4 { e8[ a-! g-!] f-! e-! d-! } %570
-		d4 c2 h4
+		r e8.\fE f16 \tuplet 3/2 4 { e8[ a-! g-!] f-! e-! d-! }
+		d4 c2\pE h4
+		c8 r e8.\fE f16 \tuplet 3/2 4 { e8[ a-! g-!] f-! e-! d-! } %570
+		d4 c2\pE h4
 		c g c c
 		h <d f>4~\f q8. c16 c4\trill\p
 		h <d f>4~\f q8. c16 c4\trill\p

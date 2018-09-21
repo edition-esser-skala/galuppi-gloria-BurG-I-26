@@ -616,10 +616,10 @@ QuiSedesViolinoI = {
 		g( a) f2 %565
 		e f4 d
 		e e d d
-		r \grace { a'16[ g f] } g8. a16 \tuplet 3/2 4 { g8[ c-! a-!] g-! f-! e-! }
-		f4 e2 d4
-		e8 r \grace { a16[ g f] } g8. a16 \tuplet 3/2 4 { g8[ c-! a-!] g-! f-! e-! } %570
-		f4 e2 d4
+		r \grace { a'16[ g f] } g8.\fE a16 \tuplet 3/2 4 { g8[ c-! a-!] g-! f-! e-! }
+		f4 e2\pE d4
+		e8 r \grace { a16[ g f] } g8.\fE a16 \tuplet 3/2 4 { g8[ c-! a-!] g-! f-! e-! } %570
+		f4 e2\pE d4
 		e e fis fis
 		g <d d'>4~\f q8. e16 e4\trill\p
 		d <d d'>4~\f q8. e16 e4\trill\p
