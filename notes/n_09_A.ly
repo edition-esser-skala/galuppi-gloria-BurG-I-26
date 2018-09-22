@@ -823,12 +823,246 @@ QuoniamAltoNotes = {
 		\clef treble
 		\key a \major \time 3/8 \autoBeamOff \tempoQuoniam
 			\set Score.currentBarNumber = #624
-		
+		R4.*33 %656
+		\mvTr e4.\pE^\soloE
+		fis4~ fis16 fis
+		fis([ gis)] gis8. gis16
+		a([ gis32 fis e8)] dis %660
+		e16([ dis?)] e8 r16 h'
+		h,4 h8
+		h16. a32 h8 r16 h'
+		h,8 h h
+		h16. a32 h8 gis'~ %665
+		gis16[( a32 h a8)] gis
+		gis fis4
+		e4.
+		dis16[ fis dis h' fis h]
+		gis fis32([ e]) \appoggiatura dis8 cis4 %670
+		h4 r8
+		R4.*2
+		dis16.([ e32)] fis8 e
+		e dis r %675
+		R4.*2
+		dis16.([ e32)] fis8 e
+		e16. dis32 dis4
+		fis8.[ a16 dis, fis] %680
+		e[ gis8 gis e16]
+		fis8.[ a16 dis, fis]
+		e16.[ fis32 gis8] r16 cis
+		\appoggiatura dis?32 cis16[ h] \appoggiatura cis32 h16[ a] \appoggiatura h32 a16[ gis]
+		gis8.[ a16] gis16.[ gis32] %685
+		a16 gis32([ fis)] \appoggiatura e8 dis4\trill
+		\appoggiatura dis?8 e4 r16 cis'
+		\appoggiatura dis?32 cis16[ h] \appoggiatura cis32 h16[ a] \appoggiatura h32 a16[ gis]
+		gis8.[ a16] gis16.[ gis32]
+		a16[ gis32 fis] \appoggiatura e8 dis4\trill %690
+		e16[-! gis-! h-! e-! h-! gis-!]
+		a gis32([ fis)] \appoggiatura e8 dis4\trill
+		e8 r16 \mvTr gis\fE^\tutti gis gis
+		fis8 fis16 fis gis gis
+		fis16. fis32 fis16 fis gis gis %695
+		fis8 fis r
+		e gis r
+		a gis r
+		a16 a fis4
+		e16 gis a([ h)] a gis %700
+		fis8 gis e
+		a16 a fis4
+		gis8 r r
+		R4.*5 %708
+		\mvTr e4.\pE^\solo
+		fis4~ fis16 fis %710
+		fis([ gis)] gis8. gis16
+		a([ gis32 fis e8)] dis
+		e16([ dis?)] e4
+		R4.*4 %717
+		r8 r r16 e'
+		e,4 e8
+		e16. e32 e8 e' %720
+		e, e e
+		e16. dis32 e8 r
+		d'16.[ h32] h8.([\trill cis32 d)]
+		\appoggiatura d32 cis16[ h32 a]  a4
+		h16.[ gis32] gis8.([\trill a32 h)] %725
+		\tuplet 3/2 8 { a16[ cis h] h[ d cis] } cis8
+		gis[ a h]
+		\tuplet 3/2 8 { a16[ cis h] h[ d cis] } cis8
+		h8.[ d16 gis, h]
+		a[ e a cis a cis] %730
+		d cis32([ h)] \appoggiatura a8 gis4\trill
+		a8 r16 \mvTr a\fE^\tutti a a
+		a4 gis8
+		a16.([ gis32)] a16 a a a
+		a4 gis8 %735
+		a16. gis32 a16 a a a
+		a8 a a
+		a16. a32 a8 r
+		h a r
+		gis a a~ %740
+		a16 a a8([ gis)]
+		a r << \context Voice = "AltoSolo" {
+			\voiceOne \autoBeamOff r16 \mvTr a_\pE_\solo
+			gis8([ gis16 a)] h8
+			h a r16 a
+			gis8([ gis16 a)] h8 %745
+			h16 a a8 r16 a
+			gis8 gis16([ a)] h8
+			h16. a32 a8 r
+		} \\ \context Voice = "Alto" {
+			\voiceTwo r8
+			R4.
+			r16 a a8 a
+			R4. %745
+			r16 a a8 a
+			R4.
+			r16 a a8 a
+		} >> \oneVoice
+		d16.[ h32] h8.([\trill cis32 d)]
+		\appoggiatura d cis16[ h32 a] a4 %750
+		h16.[ gis32] gis8.([\trill a32 h)]
+		\tuplet 3/2 8 { a16[ cis h] h[ d cis] } cis8
+		gis[ a h]
+		\tuplet 3/2 8 { a16[ cis h] h[ d cis] } cis8
+		h8.[ d16 gis, h] %755
+		a[ e a cis a cis]
+		d cis32([ h)] \appoggiatura a8 gis4
+		a16 e([ a cis e cis]
+		d) cis32([ h)] \appoggiatura a8 gis4
+		a8 r16 \mvTr a\fE^\tutti a a %760
+		a8 a gis
+		a16.([ gis32)] a16 a a a
+		a16. a32 a8 gis
+		a16.([ gis32)] a16 a a a
+		a8 a a %765
+		a gis16([ a)] h([ a)]
+		gis8([ h)] a
+		a( gis4)
+		a8 a h
+		h4 a8~ %770
+		a gis4
+		a8 r r
+		R4.*4 %776
+		R4.\fermataMarkup \bar "||" %777 finis
 	}
 }
 
 QuoniamAltoLyrics = \lyricmode {
+	Quo -- %657
+	niam tu
+	so -- lus, tu
+	so -- lus %660
+	san -- ctus, tu
+	so -- lus
+	Do -- mi -- nus, tu
+	so -- lus al --
+	tis -- si -- mus Je -- %665
+	su
+	Chri -- ste,
+	Je --
+	_
+	_ su Chri -- %670
+	ste.
 	
+	[Tu so -- lus %674
+	san -- ctus,] %675
+	
+	[tu so -- lus %678
+	Do -- mi -- nus,
+	Je -- %680
+	_
+	_
+	_ _
+	_ _ _
+	_ _ %685
+	_ su Chri --
+	ste, Je --
+	_ _ _
+	_ _
+	_ _ %690
+	_
+	_ su Chri --
+	ste.] [Tu so -- lus
+	san -- ctus, tu so -- lus
+	Do -- mi -- nus, tu so -- lus, %695
+	so -- lus
+	Je -- su,
+	Je -- su,
+	Je -- su Chri --
+	ste, tu so -- lus al -- %700
+	tis -- si -- mus
+	Je -- su Chri --
+	ste.]
+	
+	Quo -- %709
+	niam tu %710
+	so -- lus, tu
+	so -- lus
+	san -- ctus,
+	
+	tu %718
+	so -- lus
+	Do -- mi -- nus, tu %720
+	so -- lus al --
+	tis -- si -- mus
+	Je -- _
+	_ _
+	_ _ %725
+	_ _ _
+	_
+	_ _ _
+	_
+	_ %730
+	_ su Chri --
+	ste. [Tu so -- lus,
+	so -- lus
+	san -- ctus, tu so -- lus,
+	so -- lus %735
+	Do -- mi -- nus, tu so -- lus,
+	so -- lus al --
+	tis -- si -- mus,
+	Je -- su,
+	Je -- su, Je -- %740
+	su Chri --
+	ste.]
+	
+	Tu so -- lus,
+	%745
+	tu so -- lus,
+	
+	tu so -- lus,
+	[Je -- _
+	_ _ %750
+	_ _
+	_ _ _
+	_
+	_ _ _
+	_ %755
+	_
+	_ su Chri --
+	ste, Je --
+	su Chri --
+	ste.] [Tu so -- lus, %760
+	san -- ctus, tu
+	so -- lus, tu so -- lus
+	Do -- mi -- nus, tu
+	so -- lus, tu so -- lus,
+	so -- lus al -- %765
+	tis -- si -- mus,
+	Je -- su
+	Chri --
+	ste, Je -- su,
+	Je -- su __ %770
+	Chri --
+	ste.] %772 finis
+}
+
+QuoniamAltoSoloLyrics = \lyricmode {
+	[Tu so -- lus
+	san -- ctus, tu
+	so -- lus
+	Do -- mi -- nus, tu
+	so -- lus al --
+	tis -- si -- mus,]
 }
 
 % AltoNotes = {

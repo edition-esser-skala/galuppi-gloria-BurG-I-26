@@ -359,12 +359,99 @@ QuoniamTenoreNotes = {
 		\clef "treble_8"
 		\key a \major \time 3/8 \autoBeamOff \tempoQuoniam
 			\set Score.currentBarNumber = #624
-		
+		R4.*69 %692
+		r8 r16 \mvTr e\fE^\tutti e e
+		dis8 dis16 dis e e
+		dis16. dis32 dis16 dis e e %695
+		dis8 dis r
+		e e r
+		a, h r
+		cis16 e e8([ dis)]
+		e16 dis cis([ e)] dis e %700
+		h8 e e
+		e16 fis \appoggiatura e8 dis4
+		e8 r r
+		R4.*28 %731
+		r8 r16 \mvTr cis\fE^\tutti d e
+		fis8([ e)] d
+		cis16([ e)] e cis d e
+		fis8([ e)] d %735
+		cis16 e e cis d e
+		fis8 e cis
+		d16. d32 e8 r
+		e e r
+		e e e( %740
+		fis16) fis e4
+		e8 r r
+		R4.
+		r16 e e8 cis
+		R4. %745
+		r16 e e8 cis
+		R4.
+		r16 e e8 cis
+		R4.*11 %759
+		r8 r16 \mvTr cis\fE^\tutti d e %760
+		fis8 e d
+		cis16.([ e32)] e16 cis d e
+		fis16. fis32 e8 d
+		cis16.([ e32)] e16 cis d e
+		fis8 e cis %765
+		d d fis
+		h,4 e8
+		fis( e4)
+		e8 fis fis
+		e4 e8( %770
+		fis) e4
+		e8 r r
+		R4.*4 %776
+		R4.\fermataMarkup \bar "||" %777 finis
 	}
 }
 
 QuoniamTenoreLyrics = \lyricmode {
+	[Tu so -- lus %693
+	san -- ctus, tu so -- lus
+	Do -- mi -- nus, tu so -- lus, %695
+	so -- lus
+	Je -- su,
+	Je -- su,
+	Je -- su Chri --
+	ste, tu so -- lus al -- %700
+	tis -- si -- mus
+	Je -- su Chri --
+	ste.]
 	
+	[Tu so -- lus, %732
+	so -- lus
+	san -- ctus, tu so -- lus,
+	so -- lus %735
+	Do -- mi -- nus, tu so -- lus,
+	so -- lus al --
+	tis -- si -- mus,
+	Je -- su,
+	Je -- su, Je -- %740
+	su Chri --
+	ste.]
+	
+	[Tu so -- lus,]
+	%745
+	[tu so -- lus,]
+	
+	[tu so -- lus.]
+	
+	[Tu so -- lus, %760
+	san -- ctus, tu
+	so -- lus, tu so -- lus
+	Do -- mi -- nus, tu
+	so -- lus, tu so -- lus,
+	so -- lus al -- %765
+	tis -- si -- mus,
+	Je -- su
+	Chri --
+	ste, Je -- su,
+	Je -- su __ %770
+	Chri --
+	ste.] %772 finis
 }
 
 % TenoreNotes = {

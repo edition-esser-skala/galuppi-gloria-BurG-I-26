@@ -634,12 +634,248 @@ QuoniamSopranoNotes = {
 		\clef treble
 		\key a \major \time 3/8 \autoBeamOff \tempoQuoniam
 			\set Score.currentBarNumber = #624
-		
+		R4.*19 %642
+		\mvTr a'4.\pE^\soloE
+		h4~ h16 h
+		h([ cis)] cis8. cis16 %645
+		d([ cis32 h a8)] gis
+		a16([ gis]) a8 r16 e'
+		e,4 e8
+		e16. d32 e8 r16 e'
+		e,8 e e %650
+		e16. d32 e8 cis'~
+		cis16([ d32 e d8)] cis
+		cis h r
+		a4.
+		gis16[ h gis e' h e] %655
+		\appoggiatura d32 cis16 h32([ a])] gis8([ fis)]
+		e4 r8
+		R4.*14 %671
+		h'16([ cis)] dis8 e
+		dis?16([ cis)] h4
+		fis16.([ gis32)] a!8 gis
+		gis fis r %675
+		h16.([ cis32)] dis8 e
+		dis?16.([ cis32)] h4
+		fis16.([ gis32)] a!8 gis
+		gis16. fis32 fis4
+		a8.[ cis16 fis, a] %680
+		gis[ h8 e gis,16]
+		a8.[ cis16 fis, a]
+		gis16.[ a32 h8] r16 e
+		\appoggiatura fis32 e16[ dis] \appoggiatura e32 dis16[ cis] \appoggiatura dis32 cis16[ h]
+		h8.[ cis16] h16.[ e32] %685
+		cis16 h32([ a)] \appoggiatura gis8 fis4\trill
+		\appoggiatura fis8 gis4 r16 e'
+		\appoggiatura fis32 e16[ dis] \appoggiatura e32 dis16[ cis] \appoggiatura dis32 cis16[ h]
+		h8.[ cis16] h16.[ e32]
+		cis16[ h32 a] \appoggiatura gis8 fis4\trill %690
+		gis16[-! h-! e-! gis-! e-! h-!]
+		cis16 h32([ a)] \appoggiatura gis8 fis4\trill
+		e8 r16 \mvTr h'\fE^\tutti e h
+		h8 h16 h e h
+		h16. h32 h16 h e h %695
+		h8 h r
+		cis h r
+		dis e r
+		cis16 cis h4
+		gis16 h cis([ h)] h h %700
+		h8 h h
+		cis16 cis h4
+		h8 r r
+		R4.*10 %713
+		\mvTr a4.\pE^\solo
+		h4~ h16 h %715
+		h([ cis)] cis8. cis16
+		d([ cis32 h a8)] gis
+		a16([ gis]) a4
+		r8 r16 h h d
+		cis16.([ h32)] a8 r %720
+		r r16 h h d
+		cis16. h32 a8 r
+		fis'16.[ d32] d8.([\trill e32 fis)]
+		\appoggiatura fis32 e16[ d32 cis] cis4
+		d16.[ h32] h8.([\trill cis32 d)] %725
+		\tuplet 3/2 8 { cis16[ e d] d[ fis e] } e8
+		h[ cis d]
+		\tuplet 3/2 8 { cis16[ e d] d[ fis e] } e8
+		d8.[ fis16 h, d]
+		cis[-! a-! cis-! e-! cis-! e-!] %730
+		fis e32([ d)] \appoggiatura cis8 h4\trill
+		a8 r16 \mvTr a\fE^\tutti h cis
+		d8([ cis)] h
+		cis16.([ h32)] cis16 a h cis
+		d8([ cis)] h %735
+		cis16. h32 cis16 a h cis
+		d8 cis e
+		fis16. fis32 e8 r
+		d cis r
+		h a cis( %740
+		d16) d \appoggiatura cis8 h4
+		cis8 r << \context Voice = "SopranoSolo" {
+			\autoBeamOff \voiceOne r16 \mvTr cis_\pE_\solo
+			h8[( h16 cis)] d8
+			d cis r16 cis
+			h8[( h16 cis)] d8 %745
+			d16 cis cis8 r16 cis
+			h8 h16([ cis)] d8
+			d16. cis32 cis8 r
+		} \\ \context Voice = "Soprano" {
+			 \voiceTwo r8
+			 R4.
+			 r16 cis cis8 cis
+			 R4. %745
+			 r16 cis cis8 cis
+			 R4.
+			 r16 cis cis8 cis
+		} >> \oneVoice
+		fis16.[ d32] d8.([\trill e32 fis)]
+		\appoggiatura fis32 e16[ d32 cis] cis4 %750
+		d16.[ h32] h8.([\trill cis32 d)]
+		\tuplet 3/2 8 { cis16[ e d] d[ fis e] } e8
+		h[ cis d]
+		\tuplet 3/2 8 { cis16[ e d] d[ fis e] } e8
+		d8.[ fis16 h, d] %755
+		cis[ a cis e cis e]
+		fis e32([ d)] \appoggiatura cis8 h4
+		cis16 a([ cis e a e]
+		fis) e32([ d)] \appoggiatura cis8 h4
+		a8 r16 \mvTr a\fE^\tutti h cis %760
+		d8 cis h
+		cis16.([ h32)] cis16 a h cis
+		d16. d32 cis8 h
+		cis16.([ h32)] cis16 a h cis
+		d8 cis e %765
+		fis16([ e)] d8 d
+		d([ h)] cis
+		d( h4)
+		cis8 d d
+		d4 cis8~ %770
+		cis h4
+		cis8 r r
+		R4.*4 %776
+		R4.\fermataMarkup \bar "||" %777 finis
 	}
 }
 
 QuoniamSopranoLyrics = \lyricmode {
+	Quo -- %643
+	niam tu
+	so -- lus, tu %645
+	so -- lus
+	san -- ctus, tu
+	so -- lus
+	Do -- mi -- nus, tu
+	so -- lus al -- %650
+	tis -- si -- mus Je --
+	su
+	Chri -- ste,
+	Je --
+	_ %655
+	_ su Chri --
+	ste.
 	
+	Quo -- niam tu %672
+	so -- lus,
+	tu so -- lus
+	san -- ctus, %675
+	quo -- niam tu
+	so -- lus,
+	tu so -- lus
+	Do -- mi -- nus,
+	Je -- %680
+	_
+	_
+	_ _
+	_ _ _
+	_ _ %685
+	_ su Chri --
+	ste, Je --
+	_ _ _
+	_ _
+	_ _ %690
+	_
+	_ su Chri --
+	ste. Tu so -- lus
+	san -- ctus, tu so -- lus
+	Do -- mi -- nus, tu so -- lus, %695
+	so -- lus
+	Je -- su,
+	Je -- su,
+	Je -- su Chri --
+	ste, tu so -- lus al -- %700
+	tis -- si -- mus
+	Je -- su Chri --
+	ste.
+	
+	Quo -- %714
+	niam tu %715
+	so -- lus, tu
+	so -- lus
+	san -- ctus,
+	tu so -- lus
+	san -- ctus, %720
+	tu so -- lus
+	Do -- mi -- nus,
+	Je -- _
+	_ _
+	_ _ %725
+	_ _ _
+	_
+	_ _ _
+	_
+	_ %730
+	_ su Chri --
+	ste. Tu so -- lus,
+	so -- lus
+	san -- ctus, tu so -- lus,
+	so -- lus %735
+	Do -- mi -- nus, tu so -- lus,
+	so -- lus al --
+	tis -- si -- mus,
+	Je -- su,
+	Je -- su, Je -- %740
+	su Chri --
+	ste.
+	
+	Tu so -- lus,
+	%745
+	tu so -- lus,
+	
+	tu so -- lus,
+	Je -- _
+	_ _ %750
+	_ _
+	_ _ _
+	_
+	_ _ _
+	_ %755
+	_
+	_ su Chri --
+	ste, Je --
+	su Chri --
+	ste. Tu so -- lus, %760
+	san -- ctus, tu
+	so -- lus, tu so -- lus
+	Do -- mi -- nus, tu
+	so -- lus, tu so -- lus,
+	so -- lus al -- %765
+	tis -- si -- mus,
+	Je -- su
+	Chri --
+	ste, Je -- su,
+	Je -- su __ %770
+	Chri --
+	ste. %772 finis
+}
+
+QuoniamSopranoSoloLyrics = \lyricmode {
+	Tu so -- lus
+	san -- ctus, tu
+	so -- lus
+	Do -- mi -- nus, tu
+	so -- lus al --
+	tis -- si -- mus,
 }
 
 % SopranoNotes = {

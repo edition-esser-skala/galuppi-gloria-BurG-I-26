@@ -410,13 +410,14 @@
 					>>
 				>>
 				\new ChoirStaff <<
-					\new Staff {
+					\new Staff = "SopranoStaff" {
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
 					}
+					\new Lyrics \with { alignAboveContext = "SopranoStaff" } \lyricsto SopranoSolo \QuoniamSopranoSoloLyrics
 					\new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
 					
-					\new Staff {
+					\new Staff = "AltoStaff" {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \QuoniamAltoNotes }
 					}
@@ -445,7 +446,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4. = 80 }
+			\midi { \tempo 8 = 120 }
 		}
 	}
 }
