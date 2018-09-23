@@ -460,7 +460,7 @@ QuoniamOboeI = {
 		e, gis8 h d16 %650
 		d[ cis e8] r
 		R4.*5 %656
-		e,4.
+		e,4.\pE
 		\appoggiatura eis?8 fis4~ fis16 fis
 		fis8 gis8.[ gis16]
 		a[ gis32 fis] e8 dis %660
@@ -493,7 +493,7 @@ QuoniamOboeI = {
 		r8 r r16 a %705
 		a[ gis fis e] h' gis
 		cis a gis8[ fis]
-		e r r
+		\pao e r r
 		e4.\pE
 		\appoggiatura eis16 fis4~ fis16 fis %710
 		\appoggiatura fis16 gis4~ gis16 gis
@@ -521,11 +521,11 @@ QuoniamOboeI = {
 		fis fis, e8[ gis]
 		a r r
 		R4.
-		r16 e'\fE e8 cis
+		r16 e'-! e8-! cis-!
 		R4. %745
-		r16 e e8 cis
+		r16 e-! e8-! cis-!
 		R4.
-		r16 e e8 cis
+		r16 e-! e8-! cis-!
 		R4.*11 %759
 		a'16\fE a, r cis-! d-! e-! %760
 		fis8 e d
@@ -534,7 +534,7 @@ QuoniamOboeI = {
 		a'16 e r cis-! d-! e-!
 		fis8 e e %765
 		fis16 a d cis h a
-		gis h h, d cis e
+		\pa gis h h, d cis e \pd
 		fis8 e h
 		cis16 e fis[ a d fis,]
 		e h' h, d cis e %770
