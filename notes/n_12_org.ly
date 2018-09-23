@@ -1469,9 +1469,173 @@ CumSanctoOrgano = {
 		\key d \major \time 4/4 \tempoCumSancto
 			\set Score.currentBarNumber = #778
 		\mvTr eis4\pE-\soloE r r2
+		R1
+		fis4 fis8 e! dis4 r %780
+		dis? r r2
+		e4 r cis r
+		d! r h2~
+		h a4 r\fermata \bar "||"
+		\tempoCumSanctoFuga \mvTr d2\fE-\tuttiE d %785
+		g fis4. fis8
+		h4. h8 a4 h8 a
+		g4 a8 g fis4 e8 d
+		e2 d4 r
+		<< {
+			a'2 d %790
+			cis4. cis8 fis4. fis8
+			e4^\critnote fis8 e d4 e8 d
+			cis4 h8 a h2
+			a
+		} \\ {
+			r4 d,8 e fis4 gis %790
+			a8 h cis a d4 h
+			gis a fis gis
+			a8 e a2 g4~
+			g fis
+		} >> g4. fis8
+		e2 d4 r %795
+		r g2 fis4~
+		fis e fis h
+		g a d, r
+		\clef "treble_8" fis'8 e d cis h2
+		a4 r r d~ %800
+		d cis2 h4~
+		h fis' d e
+		a, \clef treble << { s4 h'' } \\ { a2 g!4 } >>
+		\clef bass d,,2 d
+		g fis4. fis8 %805
+		h4. h8 a4 h8 a
+		g4 a8 g fis4 e8 d
+		e4 a, e' e,
+		a \clef treble << {
+			cis'' fis4. e8
+			d4 h e4. d8 %810
+			cis4 a
+		} \\ {
+			r4 r fis
+			h4. a8 g!4 e %810
+			a4. g8
+		} >> \clef bass << {
+			d4. cis8 %811
+			h4 g cis4. h8
+			ais4 ais
+		} \\ {
+			r d, %811
+			g4. fis8 e4 cis
+			fis4. e8
+		} >> d4 h
+		r d e8 fis g a
+		h4 a g c %815
+		a h g a
+		d,1
+		e
+		fis~
+		fis2. h4 %820
+		g a fis g
+		e8 d e fis g a h g
+		a4 a, g r
+		r c'2 h4~
+		h a g4. fis8 %825
+		e4 a, d r
+		\clef "treble_8" h'2 a4 d8 cis
+		h4 cis8 h a4 fis'~
+		fis e2 d4
+		cis d8 cis \clef bass d,2 %830
+		d g
+		fis4. fis8 h4. h8
+		a4 h8 a g4 a8 g
+		fis4 fis8 e fis4 gis
+		a,1~-\tasto %835
+		a~
+		a~
+		a~
+		a
+		a4 h'8 a g4 a8 g %840
+		fis4 g8 fis e4 fis8 e
+		d e fis d g a h g
+		a4 d, a' a,
+		d4 r r2
+		r4 d g a %845
+		d, r r2
+		r4 d g a
+		d, a' d a
+		d, a' d a
+		d, r r2\fermata \bar "|." %850 FINIS
 	}
 }
 
 CumSanctoBassFigures = \figuremode {
-	
+	<[6] [_+]>1 %778
+	r
+	r4. <[6] [_+]>8 <[6]>2 %780
+	q1
+	<[_!]>2 <[6]>
+	r <6\\>
+	r1
+	r %785
+	r
+	r
+	r
+	r
+	r %790
+	r
+	r
+	r
+	r2 <5>4. <6>8
+	<5>4 <6> r2 %795
+	r4 <5 3> <4 2> <6>
+	<4> <6> q <5>
+	<6 5>1
+	<5>2 <5>4 <6\\>
+	r1 %800
+	r
+	r
+	r
+	<5 4>4 <\l 3> r2
+	<5 3>4 <6 4> <6>2 %805
+	q <7>4 <5>
+	<7> <5> <6>2
+	<_+>2 <4>4 <_+>
+	r1
+	r %810
+	r
+	r
+	r2 <6>
+	r4 <6> r2
+	r4 <4+> <6> <5> %815
+	<6 5> <5> <6 5> <5 _!>
+	<7! 5> <6 4> <5 4> <6 3>
+	<5 _+> <6 4> <5 4> <6+ 3>
+	<7 _+> <6 4> <5 4> <6 _+>
+	<9 8> <7> <7> <3> %820
+	<6 5> <_!> <6 5> <3>
+	<6!>2 <5>
+	<5>4 <6> <5>2
+	r4 <6 3> <4 2> <6>
+	<4 2> <6> r4. <6>8 %825
+	<3>4 <_+> r2
+	r1
+	r
+	r
+	r2 <10 4>4 <9 \t> %830
+	<9 3> <8 \t> <5 3> <6 4>
+	<6>2 q
+	<7>4 <5> <7> <5>
+	<7> <6> r <7 5>
+	r1 %835
+	r
+	r
+	r
+	r
+	r4 <5> <7 5> <5> %840
+	<7> <5> <7> <5>
+	r1
+	r2 <4>4 <3>
+	r1
+	r %845
+	r
+	r
+	r
+	r
+	r %850 FINIS
 }
