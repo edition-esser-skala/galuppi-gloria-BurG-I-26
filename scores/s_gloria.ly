@@ -389,6 +389,12 @@
 			<<
 				\new StaffGroup <<
 					\new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in D" } }
+						\partcombine \QuoniamCornoI \QuoniamCornoII
+					>>
+				>>
+				\new StaffGroup <<
+					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Flauto I, II" "Oboe I, II" } }
 						\partcombine \QuoniamOboeI \QuoniamOboeII
 					>>

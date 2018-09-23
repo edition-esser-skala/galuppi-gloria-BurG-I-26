@@ -231,3 +231,12 @@ QuiTollisCornoII = {
 		R1\fermataMarkup \bar "||" %%20 finis
 	}
 }
+
+QuoniamCornoII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/8 \tempoQuoniam
+			\set Score.currentBarNumber = #624
+		
+	}
+}

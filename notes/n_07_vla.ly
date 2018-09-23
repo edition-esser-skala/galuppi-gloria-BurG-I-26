@@ -681,6 +681,159 @@ QuoniamViola = {
 		\clef treble
 		\key a \major \time 3/8 \tempoQuoniam
 			\set Score.currentBarNumber = #624
-		
+		cis8\pE e cis
+		e h gis %625
+		e' a gis
+		fis16 d cis8 h
+		cis e cis
+		h e e
+		e a, cis %630
+		h e e
+		e cis r16 cis\fE
+		d8 fis r16 dis
+		e8 gis r16 h\pE
+		e,8 fis e %635
+		d \appoggiatura cis h4
+		cis8\fE cis r16 cis
+		d8 fis r16 dis
+		e8 gis r16 h
+		e,8\pE fis e %640
+		fis\fE e h
+		cis r r
+		e\pE cis' a
+		e gis e
+		a fis e %645
+		d e e,
+		r cis'' a
+		gis e gis
+		r cis a
+		gis e gis %650
+		a cis, a
+		d4 dis8
+		e gis e
+		fis dis h
+		e4 gis,8 %655
+		a h h
+		e, gis e
+		h' dis h
+		e cis h
+		a h4 %660
+		h8 gis gis
+		fis h4~
+		h8 gis gis
+		fis h4
+		h8 gis e %665
+		a4 ais8
+		h dis h
+		cis ais fis
+		h4 dis8
+		e fis fis, %670
+		h[ h'] h,
+		h4 r8
+		r h' h,
+		h4 e8
+		h' fis dis %675
+		h4 r8
+		r h' h,
+		h4 e8
+		h' fis dis
+		h h' r %680
+		r e e,
+		h h' h,
+		e[ e'] e,
+		R4.
+		e8 e, e' %685
+		a h h,
+		e e, e
+		R4.
+		e'8 e, e'
+		a h h, %690
+		e r e
+		a h h,
+		e e,16[\f e' gis e]
+		h'8 h,16[ h' gis e]
+		h'8 h,16[ h' gis e] %695
+		h'8 h, r
+		a' gis r
+		fis e r
+		a h h,
+		cis'16 h a gis fis e %700
+		dis8 e gis
+		a16[ fis] h8 h,
+		e e, r16 gis'
+		a8 a, r16 ais'
+		h8 h, r16 dis %705
+		e8 cis e~
+		e e dis
+		e r r
+		e,\pE gis e
+		h' dis h %710
+		e, gis e
+		a h4
+		e,8 e'16 d! cis h
+		a8 cis a
+		e' gis e %715
+		a, cis a
+		d e e,
+		a' cis a
+		gis e gis
+		a cis a %720
+		gis e gis
+		a cis a
+		d r gis,
+		cis r fis,
+		h r e, %725
+		a r a,
+		e'4.
+		a8 r a,
+		e' gis e
+		a r a, %730
+		d e e,
+		a16\f a a a a a
+		a a a a a a
+		a a a a a a
+		a a a a a a %735
+		a a a a a a
+		a a a a a a
+		a'8 e r
+		e e r
+		e e a %740
+		fis16[ d] e8 e,
+		a r r
+		R4.
+		r16 a' a8 e
+		R4. %745
+		r16 a a8 e
+		R4.
+		r16 a a8 cis,
+		d\pE r gis
+		cis, r fis %750
+		h, r e
+		a,4 a8
+		e'4.
+		a,4 a8
+		h gis' e %755
+		a4 a,8
+		d e e,
+		a4 a8
+		d e e,
+		a16\fE a a a a a %760
+		a a a' a gis gis
+		a a, a a a a
+		a a a' a gis gis
+		a a, a a a a
+		a a a' a a, a %765
+		d' cis h a gis fis
+		e8 e a
+		d, e e,
+		a d h'
+		gis gis a %770
+		d, e e,
+		a a a
+		a a a
+		a a a
+		a a a %775
+		a' e cis
+		a r r\fermata \bar "||" %777 finis
 	}
 }
