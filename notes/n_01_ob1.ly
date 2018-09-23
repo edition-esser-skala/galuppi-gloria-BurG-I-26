@@ -426,7 +426,7 @@ QuiSedesOboeI = {
 	}
 }
 
-QuoniamFlautoI = {
+QuoniamOboeI = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 3/8 \tempoQuoniam

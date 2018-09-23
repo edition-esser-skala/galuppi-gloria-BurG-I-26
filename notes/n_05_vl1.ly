@@ -688,7 +688,7 @@ QuoniamViolinoI = {
 		e, gis8 h d16
 		\appoggiatura e32 d16 cis e8 r16 e %630
 		e, gis8 h d16
-		\appoggiatura e32 d16 cis e~[ e64 e,(\f fis gis)] a16 cis,
+		\appoggiatura e32 d16 cis e~[ e64 \mvDll e,(\f fis gis)] a16 cis,
 		d8[ r32 fis-! gis-! ais-!] h16 dis,
 		e8[ r32 h'-! cis-! d!-!] e16 d
 		d(\p cis) \appoggiatura cis32 h16([ a)] gis( a) %635
