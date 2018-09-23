@@ -837,3 +837,12 @@ QuoniamViola = {
 		a r r\fermata \bar "||" %777 finis
 	}
 }
+
+CumSanctoViola = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoCumSancto
+			\set Score.currentBarNumber = #778
+		
+	}
+}

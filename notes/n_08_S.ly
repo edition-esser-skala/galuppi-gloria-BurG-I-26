@@ -878,14 +878,15 @@ QuoniamSopranoSoloLyrics = \lyricmode {
 	tis -- si -- mus,
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+CumSanctoSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
+			\set Score.currentBarNumber = #778
+		
+	}
+}
+
+CumSanctoSopranoLyrics = \lyricmode {
+	
+}

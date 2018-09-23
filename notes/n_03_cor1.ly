@@ -274,3 +274,12 @@ QuoniamCornoI = {
 		e r r\fermata \bar "||" %777 finis
 	}
 }
+
+CumSanctoCornoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoCumSancto
+			\set Score.currentBarNumber = #778
+		
+	}
+}

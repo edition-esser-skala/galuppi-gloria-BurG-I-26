@@ -203,6 +203,8 @@ tempoDomineDeus = \tempoMarkup "[Tempo deest]"
 tempoQuiTollis = \tempoMarkup "[Tempo deest]"
 tempoQuiSedes = \tempoMarkup "[Tempo deest]"
 tempoQuoniam = \tempoMarkup "Andante"
+tempoCumSancto = \tempoMarkup "Recitativo"
+	tempoCumSanctoFuga = \tempoMarkup "Spirotoso"
 
 
 % modify the Scheme function 'format-bass-figure'
@@ -245,6 +247,7 @@ tempoQuoniam = \tempoMarkup "Andante"
 
          (alt-dir (ly:context-property context 'figuredBassAlterationDirection))
          (plus-dir (ly:context-property context 'figuredBassPlusDirection)))
+
 
     (if (and (not fig-markup) alt-markup)
         (begin

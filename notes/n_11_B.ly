@@ -467,14 +467,15 @@ QuoniamBassoLyrics = \lyricmode {
 	ste.] %772 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+CumSanctoBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
+			\set Score.currentBarNumber = #778
+		
+	}
+}
+
+CumSanctoBassoLyrics = \lyricmode {
+	
+}

@@ -454,14 +454,15 @@ QuoniamTenoreLyrics = \lyricmode {
 	ste.] %772 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+CumSanctoTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
+			\set Score.currentBarNumber = #778
+		
+	}
+}
+
+CumSanctoTenoreLyrics = \lyricmode {
+	
+}

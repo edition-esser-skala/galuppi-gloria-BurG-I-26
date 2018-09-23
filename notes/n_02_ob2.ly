@@ -545,3 +545,12 @@ QuoniamOboeII = {
 		cis8 r r\fermata \bar "||" %777 finis
 	}
 }
+
+CumSanctoOboeII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoCumSancto
+			\set Score.currentBarNumber = #778
+		
+	}
+}

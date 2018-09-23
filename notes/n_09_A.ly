@@ -1065,14 +1065,15 @@ QuoniamAltoSoloLyrics = \lyricmode {
 	tis -- si -- mus,]
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+CumSanctoAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
+			\set Score.currentBarNumber = #778
+		
+	}
+}
+
+CumSanctoAltoLyrics = \lyricmode {
+	
+}
