@@ -237,6 +237,40 @@ QuoniamCornoII = {
 		\clef treble
 		\key a \major \time 3/8 \tempoQuoniam
 			\set Score.currentBarNumber = #624
-		
+		R4.*109 %732
+		a'4.
+		a
+		a %735
+		a
+		a
+		d8-! a-! r
+		e'-! a,-! r
+		r r a %740
+		d e e
+		a, r r
+		R4.
+		r8 a-! a-!
+		R4. %745
+		r8 a-! a-!
+		R4.
+		r8 a-! a-!
+		R4.*12 %760
+		a4.
+		a
+		a
+		a
+		a4 a8 %765
+		d r r
+		r e a,
+		d e4
+		a,8 d d
+		e4 a,8 %770
+		d e e
+		a, r r
+		a r r
+		a r r
+		a r r %775
+		a a a
+		a r r\fermata \bar "||" %777 finis
 	}
 }

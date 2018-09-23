@@ -238,39 +238,39 @@ QuoniamCornoI = {
 		\key a \major \time 3/8 \tempoQuoniam
 			\set Score.currentBarNumber = #624
 		R4.*109 %732
-		a'4.\fE
+		\pao a'4.\fE
 		a'
-		a,
+		\pao a, %735
 		a'
-		a,
+		\pao a,
 		fis'8-! e-! r
 		e-! e-! r
-		r r e
+		r r e %740
 		fis e e
 		e r r
 		R4.
 		r8 e-! e-!
-		R4.
+		R4. %745
 		r8 e-! e-!
 		R4.
 		r8 e-! e-!
-		R4.*12
-		a,4.\fE
+		R4.*12 %760
+		\pao a,4.\fE
 		a'
-		a,
+		\pao a,
 		a'
-		a,4 e'8
+		\pao a,4 e'8 %765
 		fis r r
 		r e e
 		fis e4
 		e8 fis fis
-		e4 e8
+		e4 e8 %770
 		fis e e
 		e r r
 		e r r
 		e r r
-		e r r
+		e r r %775
 		e e e
-		e r r\fermata \bar "||"
+		e r r\fermata \bar "||" %777 finis
 	}
 }
