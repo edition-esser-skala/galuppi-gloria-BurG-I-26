@@ -431,6 +431,119 @@ QuoniamOboeI = {
 		\clef treble
 		\key a \major \time 3/8 \tempoQuoniam
 			\set Score.currentBarNumber = #624
-		
+		\mvTr a''4.\pE-\markup { \remark "Traversi" }
+		\appoggiatura ais16 h4. %625
+		\appoggiatura his16 cis4~ cis16 cis
+		d cis32 h a8[ gis]
+		a16 gis a8 r16 e'
+		e, gis8 h d16
+		d cis e8 r16 e %630
+		e, gis8 h d16
+		d cis e8 r
+		R4.
+		r8 r r16 d\pE
+		d( cis) h([ a)] gis( a) %635
+		d cis32 h \appoggiatura a8 gis4
+		a8 r r
+		R4.
+		r8 r r16 d\pE
+		d( cis) h([ a)] gis a %640
+		d\fE cis32 h \appoggiatura a8 gis4
+		a8 r r
+		a4.\pE
+		h
+		\appoggiatura h16 \once \tieDashed cis4~ cis16 cis %645
+		d cis32 h a8[ gis]
+		a16 gis a8 r16 e'
+		e, gis8 h d16
+		d cis e8 r16 e
+		e, gis8 h d16 %650
+		d[ cis e8] r
+		R4.*5 %656
+		e,4.
+		\appoggiatura eis?8 fis4~ fis16 fis
+		fis8 gis8.[ gis16]
+		a[ gis32 fis] e8 dis %660
+		e r r16 h'
+		h, dis8 fis a16
+		a gis h8 r16 h
+		h, dis8 fis a16
+		a[ gis h8] gis~ %665
+		gis a gis
+		gis fis r
+		R4.*6 %673
+		fis16.[ gis32] a!8 gis
+		gis fis r %675
+		R4.*2
+		fis16.[ gis32] a!8 gis
+		gis fis r
+		R4.*13 %692
+		r8 r16 gis\fE h gis
+		fis8 dis16 fis h gis
+		fis8 dis16 fis h gis %695
+		fis[ dis] h8 r
+		cis'-! h-! r
+		a-! gis-! r
+		cis16 h32 a gis8[ fis]
+		e16 gis cis h a gis %700
+		fis a gis h e, h
+		cis a fis8 dis'
+		e r r
+		R4.
+		r8 r r16 a %705
+		a[ gis fis e] h' gis
+		cis a gis8[ fis]
+		e r r
+		e4.\pE
+		\appoggiatura eis16 fis4~ fis16 fis %710
+		\appoggiatura fis16 gis4~ gis16 gis
+		a[ gis32 fis] e8 dis
+		e r r
+		a4.
+		\appoggiatura ais16 \once \tieDashed h4~ h16 h %715
+		h8 cis8. cis16
+		d16[ h] a8 gis
+		a r r16 e'
+		e, gis8 h d16
+		d cis e8 r16 e %720
+		e, gis8 h d16
+		d cis e8 r
+		R4.*9 %731
+		r8 r16 \mvTr cis,-!\fE-\markup { \remark "Oboe" } d-! e-!
+		fis8 e d
+		a'16 e r cis-! d-! e-!
+		fis8 e d %735
+		a'16 e r cis-! d-! e-!
+		fis8 e cis
+		fis e r
+		h' a r
+		gis a16[ e cis e] %740
+		fis fis, e8[ gis]
+		a r r
+		R4.
+		r16 e'\fE e8 cis
+		R4. %745
+		r16 e e8 cis
+		R4.
+		r16 e e8 cis
+		R4.*11 %759
+		a'16\fE a, r cis-! d-! e-! %760
+		fis8 e d
+		a'16 e r cis-! d-! e-!
+		fis8 e d
+		a'16 e r cis-! d-! e-!
+		fis8 e e %765
+		fis16 a d cis h a
+		gis h h, d cis e
+		fis8 e h
+		cis16 e fis[ a d fis,]
+		e h' h, d cis e %770
+		fis d h gis' h, gis'
+		a8 a16[ e cis a]
+		e'8 e16[ cis a e]
+		cis'8 cis16[ a e cis]
+		a'8 cis e %775
+		a a a
+		a8 r r\fermata \bar "||" %777 finis
 	}
 }
