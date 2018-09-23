@@ -880,7 +880,7 @@ QuoniamAltoNotes = {
 		e,4 e8
 		e16. e32 e8 e' %720
 		e, e e
-		e16. dis32 e8 r
+		e16. d?32 e8 r
 		d'16.[ h32] h8.([\trill cis32 d)]
 		\appoggiatura d32 cis16[ h32 a]  a4
 		h16.[ gis32] gis8.([\trill a32 h)] %725
