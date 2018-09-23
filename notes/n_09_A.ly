@@ -864,7 +864,7 @@ QuoniamAltoNotes = {
 		fis8 fis r
 		e gis r
 		a gis r
-		a16 a fis4
+		a16 a gis8([^\critnote fis)]
 		e16 gis a([ h)] a gis %700
 		fis8 gis e
 		a16 a fis4

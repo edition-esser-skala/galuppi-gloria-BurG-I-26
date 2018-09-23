@@ -680,7 +680,160 @@ QuoniamViolinoI = {
 		\clef treble
 		\key a \major \time 3/8 \tempoQuoniam
 			\set Score.currentBarNumber = #624
-		
+		\mvTr a'4.\pE-\markup { \remark "sotto voce" }
+		\appoggiatura ais16 h4. %625
+		\appoggiatura his16 cis4~ cis16 cis
+		d cis32 h a8[ gis]
+		a16 gis a8 r16 e'
+		e, gis8 h d16
+		\appoggiatura e32 d16 cis e8 r16 e %630
+		e, gis8 h d16
+		\appoggiatura e32 d16 cis e~[ e64 e,(\f fis gis)] a16 cis,
+		d8[ r32 fis-! gis-! ais-!] h16 dis,
+		e8[ r32 h'-! cis-! d!-!] e16 d
+		d(\p cis) \appoggiatura cis32 h16([ a)] gis( a) %635
+		d cis32 h \appoggiatura a8 gis4
+		a8[\f r32 e-! fis-! gis-!] a16 cis,
+		d8[ r32 fis-! gis-! ais-!] h16 dis,
+		e8[ r32 h'-! cis-! d!-!] e16 d
+		d\p cis \appoggiatura cis32 h16[ a] gis a %640
+		fis'\f[ e32 d] cis8 h
+		a16[ e] cis8 r
+		a'4.\pE
+		\appoggiatura ais16 h4~ h16 h
+		\appoggiatura h16 cis4~ cis16 cis %645
+		d cis32 h a8[ gis]
+		a16 gis a8 r16 e'
+		e, gis8 h d16
+		d cis e8 r16 e
+		e, gis8 h d16 %650
+		d[ cis e8] cis~
+		cis d cis
+		cis h16 e h gis
+		a4.
+		gis4 h8 %655
+		cis16 h32 a \appoggiatura gis8 fis4
+		e4.
+		\appoggiatura eis8 fis4~ fis16 fis
+		fis[ gis] gis8. gis16
+		a[ gis32 fis] e8 dis %660
+		e16 dis? e8 r16 h'
+		h, dis8 fis a16
+		a gis h8 r16 h
+		h, dis8 fis a16~
+		a[ gis h8] gis~ %665
+		gis a gis
+		gis fis16 h' fis dis
+		e4.
+		dis8 fis h
+		gis16 fis32 e \appoggiatura dis8 cis4 %670
+		h16[ fis] h,8 r
+		r dis' e
+		dis?4 r8
+		fis,16[ gis] a!8 gis
+		gis fis r %675
+		r dis' e
+		dis?4 r8
+		fis,16.[ gis32] a!8 gis
+		gis fis r
+		dis'4.\pocoF %680
+		e8\p h r
+		dis4.\pocoF
+		e8\p h gis
+		e'-! dis-! cis-!
+		h8. cis16 h16.[ e32] %685
+		cis16 h32 a \appoggiatura gis8 fis4
+		\appoggiatura fis8 gis4 r8
+		e'-! dis-! cis-!
+		h8. cis16 h16.[ e32]
+		cis16 h32 a \appoggiatura gis8 fis4 %690
+		gis8 r r16 h'\f
+		cis[ h32 a] gis8 fis\trill
+		e16 h32 gis e16[ gis'32 e] h'16 gis
+		fis dis32 fis h,16[ fis'32 dis] h'16 gis
+		fis dis32 fis h,16[ fis'32 dis] h'16 gis %695
+		fis dis32 fis h,16[ fis dis8]
+		cis'' h r32 e, gis h
+		a8 gis r32 e gis h
+		cis16 h32 a gis8[ fis]
+		e32 e gis gis cis[ cis h h] a a gis gis %700
+		fis16 a gis h e, h
+		cis a fis h h, dis
+		<e h' e>8 r32 h'-! cis-! dis?-! e16[ gis,]
+		a8[ r32 cis-! dis-! e-!] fis16 ais,
+		h8[ r32 fis'-! gis-! a!-!] h16 a %705
+		a gis \appoggiatura gis32 fis16[ e] h' gis
+		cis cis, h16.[ e32] fis8\trill
+		e16[ h] e,8 r
+		e4.\p
+		\appoggiatura eis16 fis4~ fis16 fis %710
+		fis8 gis8. gis16
+		a[ gis32 fis] e8 dis
+		e e' r
+		a,4.
+		\appoggiatura ais16 h4~ h16 h %715
+		\appoggiatura h cis4~ cis16 cis
+		d cis32 h a8[ gis]
+		a16 gis a8 r16 e'
+		e, gis8 h d16
+		d cis e8 r16 e %720
+		e, gis8 h d16
+		d cis e8 r
+		r fis-! d-!
+		r e-! cis-!
+		r d-! h-! %725
+		cis-! d-! e-!
+		h( cis d)
+		cis-! d-! e-!
+		d h' h,
+		cis r e %730
+		fis16 d \appoggiatura cis8 h4
+		a'16\f a, r cis-! d-! e-!
+		fis a32 fis e16[ a32 e] d16 h'32 d,
+		a'16 a, r cis-! d-! e-!
+		fis a32 fis e16[ a32 e] d16 h'32 d, %735
+		a'16 a, r cis d e
+		fis a32 fis e16[ a32 e] cis16 e
+		fis8 e r
+		h' a r
+		gis16 h32 gis a16[ e cis e] %740
+		fis fis, e8[ gis]
+		a a,16[ h cis d]
+		e4.\pE
+		r16 e'\fE a8 cis,
+		e,4.\p %745
+		r16 e'\f a8 cis,
+		e,4.\p
+		r16 e'\f a8 e
+		r fis-!\pE d-!
+		r e-! cis-! %750
+		r d-! h-!
+		cis-! d-! e-!
+		h( cis d)
+		cis-! d-! e-!
+		d h' h, %755
+		cis r e
+		fis16 d \appoggiatura cis8 h4
+		cis8 r e
+		fis16 e32 d cis8[ h]
+		a'16\f a, r cis-! d-! e-! %760
+		fis a32 fis e16[ a32 e] d16 h'32 d,
+		a'16 a, r cis-! d-! e-!
+		fis a32 fis e16[ a32 e] d16 h'32 d,
+		a'16 a, r cis-! d-! e-!
+		fis a32 fis e16[ a32 e] cis16 e %765
+		fis32 fis a a d[ d cis cis] h h a a
+		gis16 h h, d cis e
+		fis fis, e h' gis h
+		cis d32 e fis16[ a d fis,]
+		e h' h, d cis e %770
+		fis d h gis' h, gis'
+		a e32 cis a'16[ e cis a]
+		e' cis32 a e'16[ cis a e]
+		cis' a32 e cis'16[ a e cis]
+		a8 <a e' cis'> <e' cis' e> %775
+		<e cis' a'> q q
+		q8 r r\fermata \bar "||" %777 finis
 	}
 }
 
