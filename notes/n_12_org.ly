@@ -1473,9 +1473,9 @@ CumSanctoOrgano = {
 		fis4 fis8 e! dis4 r %780
 		dis? r r2
 		e4 r cis r
-		d! r h2~
+		d! r h2~ \noBreak
 		h a4 r\fermata \bar "||"
-		\tempoCumSanctoFuga \mvTr d2\fE-\tuttiE d %785
+		\tempoCumSanctoFuga \mvTr d2\fE-\tuttiE d \noBreak %785
 		g fis4. fis8
 		h4. h8 a4 h8 a
 		g4 a8 g fis4 e8 d
@@ -1501,8 +1501,8 @@ CumSanctoOrgano = {
 		a4 r r d~ %800
 		d cis2 h4~
 		h fis' d e
-		a, \clef treble << { s4 h'' } \\ { a2 g!4 } >>
-		\clef bass d,,2 d
+		a, \clef treble << { cis'8 a h4 e } \\ { a,2 g!4 } >>
+		\clef bass d,2 d
 		g fis4. fis8 %805
 		h4. h8 a4 h8 a
 		g4 a8 g fis4 e8 d
@@ -1602,7 +1602,7 @@ CumSanctoBassFigures = \figuremode {
 	r
 	r2 <6>
 	r4 <6> r2
-	r4 <4+> <6> <5> %815
+	<[_+]>4 <4+> <6> <5> %815
 	<6 5> <5> <6 5> <5 _!>
 	<7! 5> <6 4> <5 4> <6 3>
 	<5 _+> <6 4> <5 4> <6+ 3>
