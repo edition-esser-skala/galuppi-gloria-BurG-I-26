@@ -896,8 +896,8 @@ CumSanctoSopranoNotes = {
 		cis4. cis8 fis4. fis8 %800
 		e4 fis8 e d4 e8([ d)]
 		cis4 h8([ a)] h2
-		a8 h([ cis a] h4 e
-		a,) d r8 fis,[ g a]
+		a8 h[ cis a] h4 e
+		a, d r8 fis,[ g a]
 		h4 cis d8[ e fis d] %805
 		g[ fis e d] cis4 d
 		h cis a d
@@ -961,8 +961,8 @@ CumSanctoSopranoLyrics = \lyricmode {
 	Spi -- ri -- tu in %800
 	glo -- ri -- a De -- i __
 	Pa -- tris, a --
-	men, a --
-	men, a --
+	men, a -- _ _
+	_ men, a --
 	_ _ _ %805
 	_ _ _
 	_ _ _ _

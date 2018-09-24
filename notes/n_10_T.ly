@@ -459,10 +459,135 @@ CumSanctoTenoreNotes = {
 		\clef "treble_8"
 		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
 			\set Score.currentBarNumber = #778
-		
+		R1*6 %783
+		R1\fermataMarkup \bar "||"
+		\tempoCumSanctoFuga R1*4 %788
+		r2 \mvTr a\fE^\tuttiE
+		a d %790
+		cis4. cis8 fis4. fis8
+		e4 fis8 e d4 e8([ d)]
+		cis4 h8([ a)] h2
+		a r4 g8[ a]
+		h4 cis d8[ e fis d] %795
+		g4 e cis d
+		h cis d8[ a] d4~
+		d cis d d8[ e]
+		fis[ e d cis] h2
+		a4 r r d~ %800
+		d cis2 h4
+		a fis' d e
+		a, r r2
+		R1
+		d4 e fis d~ %805
+		d e2 d4~
+		d cis d d~
+		d cis e2
+		e4 r r2
+		R1 %810
+		r4 a, d4. cis8
+		h4 g cis4. h8
+		ais4 ais r fis
+		h4. a8 g4 c
+		h8[ cis dis h] e[ h] e4~ %815
+		e d2 c4~
+		c h d8[ a] d4~
+		d cis h e~
+		e d cis2
+		g' fis4 g8[ fis] %820
+		e4 fis8[ e] d4 r
+		g,2 g
+		c h4. h8
+		e4. e8 d4 e8 d
+		c4 d8([ c)] h4( d~) %825
+		d cis d4.( cis8
+		h2) a4 d8 cis
+		h4 cis8([ h)] a4 fis'~
+		fis e2 d4
+		cis d8[ cis] h4 cis %830
+		a d8[ c] h4 g
+		a d2 e4~
+		e d2 cis!4
+		fis1
+		e4 cis h4 e %835
+		a, fis'8[ e] d4 e8[ d]
+		cis4 d2 cis4
+		d fis, e a
+		a fis'8[( e] d4 e8[ d])
+		cis4 fis2 e4~ %840
+		e d2 cis4
+		fis d2 e4~
+		e fis e2
+		fis4 r r2
+		r4 fis g e %845
+		fis r r2
+		r4 fis g e
+		fis e fis cis
+		d e fis e
+		fis r r2\fermata \bar "|." %850 FINIS
 	}
 }
 
 CumSanctoTenoreLyrics = \lyricmode {
+	Cum %789
+	San -- cto %790
+	Spi -- ri -- tu in
+	glo -- ri -- a De -- i __
+	Pa -- tris, a --
+	men, a --
+	_ _ _ %795
+	_ _ _ _
+	_ _ _ _
+	_ men, a --
+	_ _
+	men, a -- %800
+	_ _
+	_ _ _ _
+	men,
 	
+	a -- _ _ _ %805
+	_ _
+	_ _ _
+	men, a --
+	men,
+	%810
+	a -- _ _
+	_ _ _ _
+	_ men, a --
+	_ _ _ _
+	_ _ _ %815
+	_ _
+	_ _ _
+	_ _ _
+	_ men,
+	a -- _ _ %820
+	_ _ men.
+	Cum San --
+	cto Spi -- ri --
+	tu in glo -- ri -- a
+	De -- i __ Pa -- %825
+	tris, a --
+	men, De -- i
+	Pa -- tris, a -- _
+	_ _
+	_ _ _ _ %830
+	_ _ _ men,
+	a -- _ _
+	_ _
+	_
+	_ _ _ _ %835
+	men, a -- _ _
+	_ _ _
+	_ _ _ _
+	men, a --
+	men, a -- _ %840
+	_ _
+	_ _ _
+	men, a --
+	men,
+	a -- men, a -- %845
+	men,
+	a -- men, a --
+	men, a -- men, a --
+	men, a -- men, a --
+	men. %850 FINIS
 }
