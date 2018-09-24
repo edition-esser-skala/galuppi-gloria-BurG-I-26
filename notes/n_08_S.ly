@@ -1008,5 +1008,5 @@ CumSanctoSopranoLyrics = \lyricmode {
 	a -- men, a --
 	men, a -- men, a --
 	men, a -- men, a --
-	men.
+	men. %850 FINIS
 }

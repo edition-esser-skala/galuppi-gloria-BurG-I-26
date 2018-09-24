@@ -1070,10 +1070,135 @@ CumSanctoAltoNotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
 			\set Score.currentBarNumber = #778
-		
+		R1*2
+		r2 r8 \mvTr fis\pE^\soloE fis h %780
+		h fis16 fis r8 fis a a16 a h8 fis
+		g! g r4 r r8 a
+		fis fis16 fis r8 fis gis4 gis8 h
+		h8.([ a32 h] cis8) gis a a r4\fermata \bar "||"
+		\tempoCumSanctoFuga R1*9 %793
+		\mvTr d,2\fE^\tuttiE d
+		g fis4. fis8 %795
+		h4. h8 a4 h8 a
+		g4 a8([ g)] fis4 e8([ d)]
+		e2 d4 r
+		r d8[ e] fis4 gis
+		a8[ h cis a] d4 h %800
+		gis a fis gis
+		a8[ e] a2 gis4
+		a a2 g4~
+		g fis8[ e] fis4 d~
+		d e a fis %805
+		r g2 fis4~
+		fis e fis gis8[ a]
+		gis4 a2( gis4)
+		a r r fis
+		h4. a8 g!4 e %810
+		a4. g8 fis4 fis
+		R1
+		r4 cis fis4. e8
+		d4 fis h a8[ g]
+		fis4 r r g %815
+		a fis g e
+		fis g2 fis4
+		gis a2 gis4
+		ais h2 ais4
+		h cis ais h~ %820
+		h a2 g!4
+		g r r2
+		e8[ d e fis] g[ a h g]
+		c[ h a g] fis4 g
+		e fis g h8 a %825
+		g4 a8([ g)] fis4 a~
+		a gis a fis~
+		fis eis fis r
+		r2 r4 g8[ fis]
+		e4 fis2 e4~ %830
+		e d2 e4
+		fis r r g~
+		g fis2 e4~
+		e d a' h
+		e, a2 gis4 %835
+		a a2( gis4)
+		a h8[ a] g4 a8[ g]
+		fis4 d2 cis4
+		d a'2 g4~
+		g fis h cis8[ h] %840
+		a4 h8[ a] g4 a8[ g]
+		a4 fis h8[ a g h]
+		a4 a a2
+		a4 r r2
+		r4 a h a %845
+		a r r2
+		r4 a a a
+		a a a a
+		a a a a
+		a r r2\fermata \bar "|." %850 FINIS
 	}
 }
 
 CumSanctoAltoLyrics = \lyricmode {
+	Cum San -- cto %780
+	Spi -- ri -- tu in glo -- ri -- a De -- i
+	Pa -- tris, in
+	glo -- ri -- a, in glo -- ri -- a
+	De -- i Pa -- tris.
 	
+	Cum San -- %794
+	cto Spi -- ri -- %795
+	tu in glo -- ri -- a
+	De -- i __ Pa -- tris,
+	a -- men,
+	a -- _ _
+	_ _ _ %800
+	_ _ _ _
+	_ _ _
+	men, a -- _
+	_ _ _
+	_ _ men, %805
+	a -- _
+	_ _ _
+	men, a --
+	men, a --
+	_ _ _ _ %810
+	_ _ _ men,
+	
+	a -- _ _
+	_ _ _ _
+	men, a -- %815
+	_ _ _ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _ _ %820
+	_ _
+	men,
+	a -- _
+	_ _ _
+	_ _ men, De -- i %825
+	Pa -- tris, a -- _
+	_ _ _
+	_ men,
+	a --
+	_ _ _ %830
+	_ _
+	men, a --
+	_ _
+	_ _ _
+	_ _ _ %835
+	men, a --
+	men, a -- _ _
+	_ _ _
+	men, a -- _
+	_ _ _ %840
+	_ _ _ _
+	_ _ _
+	_ men, a --
+	men,
+	a -- men, a -- %845
+	men,
+	a -- men, a --
+	men, a -- men, a --
+	men, a -- men, a --
+	men. %850 FINIS
 }
