@@ -1130,7 +1130,7 @@ CumSanctoAltoNotes = {
 		a4 r r2
 		r4 a h a %845
 		a r r2
-		r4 a a a
+		r4 a h^\critnote a
 		a a a a
 		a a a a
 		a r r2\fermata \bar "|." %850 FINIS

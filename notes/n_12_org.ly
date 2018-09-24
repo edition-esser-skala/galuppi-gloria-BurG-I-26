@@ -1500,8 +1500,8 @@ CumSanctoOrgano = {
 		g a d, r
 		\clef "treble_8" fis'8 e d cis h2
 		a4 r r d~ %800
-		d cis2 h4~
-		h fis' d e
+		d cis2 h4
+		a-\critnote fis' d e
 		a, \clef treble << { cis'8 a h4 e } \\ { a,2 g!4 } >>
 		\clef bass d,2 d
 		g fis4. fis8 %805
@@ -1590,7 +1590,7 @@ CumSanctoBassFigures = \figuremode {
 	<5>2 <5>4 <6\\>
 	r2. <[6]>4 %800
 	<[4\+]> <[6]> <[2]> <[6\\]>
-	<[7] [2]> <[3]> <[6] [5]> <[_+]>
+	r2 <[6] [5]>4 <[_+]>
 	r1
 	<5 4>4 <\l 3> r2
 	<5 3>4 <6 4> <6>2 %805

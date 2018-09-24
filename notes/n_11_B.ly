@@ -472,10 +472,127 @@ CumSanctoBassoNotes = {
 		\clef bass
 		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
 			\set Score.currentBarNumber = #778
-		
+		R1*6 \noBreak %783
+		R1\fermataMarkup \bar "||"
+		\tempoCumSanctoFuga \mvTr d2\fE^\tuttiE d \noBreak %785
+		g fis4. fis8
+		h4. h8 a4 h8 a
+		g4 a8([ g)] fis4 e8([ d)]
+		e2 d4 r
+		r4 d8[ e] fis4 gis %790
+		a8[ h cis a] d4 h
+		gis a fis gis
+		a8[ e] a2 g4~
+		g fis g4. fis8
+		e2 d4 r %795
+		r g2 fis4~
+		fis e fis h
+		g a d, r
+		R1*5 %803
+		d2 d
+		g fis4. fis8 %805
+		h4. h8 a4 h8 a
+		g4 a8([ g)] fis4 e8([ d)]
+		e4 a e2
+		a,4 r r2
+		R1 %810
+		r2 r4 d
+		g4. fis8 e4 cis
+		fis4. e8 d4 h
+		r d e8[ fis g a]
+		h4 a g c %815
+		a h g a
+		d,1
+		e
+		fis~
+		fis2. h4 %820
+		g a fis g
+		e8[ d e fis] g[ a h g]
+		a2 g4 r
+		r c2 h4~
+		h a g4. fis8 %825
+		e4 a, d r
+		R1*3
+		r2 d %830
+		d g
+		fis4. fis8 h4. h8
+		a4 h8 a g4 a8([ g)]
+		fis4( fis8[ e] fis4) gis
+		a1~ %835
+		a~
+		a~
+		a~
+		a
+		a4 h8[ a] g4 a8[ g] %840
+		fis4 g8[ fis] e4 fis8[ e]
+		d[ e fis d] g[ a h g]
+		a4 d a2
+		d,4 r r2
+		r4 d g a %845
+		d, r r2
+		r4 d g a
+		d, a' d a
+		d, a' d a
+		d, r r2\fermata \bar "|." %850 FINIS
 	}
 }
 
 CumSanctoBassoLyrics = \lyricmode {
+	Cum San -- %785
+	cto Spi -- ri --
+	tu in glo -- ri -- a
+	De -- i __ Pa -- tris,
+	a -- men,
+	a -- _ _ %790
+	_ _ _
+	_ _ _ _
+	_ _ _
+	_ _ _
+	_ men, %795
+	a -- _
+	_ _ _
+	_ _ men.
 	
+	Cum San -- %804
+	cto Spi -- ri -- %805
+	tu in glo -- ri -- a
+	De -- i __ Pa -- tris,
+	a -- men, a --
+	men,
+	%810
+	a --
+	_ _ _ _
+	_ _ _ men,
+	a -- _
+	_ _ _ _ %815
+	_ _ _ _
+	_
+	_
+	_
+	_ %820
+	_ _ _ _
+	_ _
+	_ men,
+	a -- _
+	_ _ _ %825
+	_ _ men.
+	
+	Cum %830
+	San -- cto
+	Spi -- ri -- tu in
+	glo -- ri -- a De -- i __
+	Pa -- tris,
+	a -- %835
+	
+	men, a -- _ _ %840
+	_ _ _ _
+	_ _
+	_ men, a --
+	men,
+	a -- men, a -- %845
+	men,
+	a -- men, a --
+	men, a -- men, a --
+	men, a -- men, a --
+	men. %850 FINIS
 }
