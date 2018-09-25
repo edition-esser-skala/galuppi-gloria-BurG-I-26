@@ -843,6 +843,75 @@ CumSanctoViola = {
 		\clef treble
 		\key d \major \time 4/4 \tempoCumSancto
 			\set Score.currentBarNumber = #778
-		
+		eis4-!\fE r r2
+		R1
+		fis4 fis8 e! dis4 r %780
+		dis-\parenthesize-! r r2
+		e4-! r cis-! r
+		d-\parenthesize-! r h2~\pE \noBreak
+		h a4 r\fermata \bar "||"
+		\tempoCumSanctoFuga R1*4 %788
+		r2 a\fE
+		a d %790
+		cis4. cis8 fis4. fis8
+		e4 fis8 e d4 e8 d
+		cis4 h8 a h2
+		a r4 g8 a
+		h4 cis d8 e fis d %795
+		g4 e cis d
+		h cis d8 a d4~
+		d cis d d8 e
+		fis e d cis h2
+		a4 r r d~ %800
+		d cis2 h4
+		a fis' d e
+		a, r r2
+		R1
+		d4 e fis d~ %805
+		d e2 d4~
+		d cis d d~
+		d cis e e
+		e r r2
+		R1 %810
+		r4 a, d4. cis8
+		h4 g cis4. h8
+		ais4 ais r fis
+		h4. a8 g4 c
+		h8 cis dis h e h e4~ %815
+		e d2 c4~
+		c h d8 a d4~
+		d cis h e~
+		e d cis2
+		g' fis4 g8 fis %820
+		e4 fis8 e d4 r
+		g,2 g
+		c h4. h8
+		e4. e8 d4 e8 d
+		c4 d8 c h4 d~ %825
+		d cis d4. cis8
+		h2 a4 d8 cis
+		h4 cis8 h a4 fis'~
+		fis e2 d4
+		cis d8 cis h4 cis %830
+		a d8 c h4 g
+		a d2 e4~
+		e d2 cis!4
+		fis2 fis
+		e4 cis h4 e %835
+		a, fis'8 e d4 e8 d
+		cis4 d2 cis4
+		d fis, e a
+		a fis'8 e d4 e8 d
+		cis4 fis2 e4~ %840
+		e d2 cis4
+		fis d2 e4~
+		e fis e e
+		fis r r2
+		r4 d d cis %845
+		d r r2
+		r4 d d cis
+		d cis' d e,
+		fis cis' d e,
+		fis r r2\fermata \bar "|." %850 FINIS
 	}
 }
