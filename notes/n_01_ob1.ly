@@ -560,7 +560,7 @@ CumSanctoOboeI = {
 		g fis4. fis8 %795
 		h4. h8 a4 h8 a
 		g4 a8 g fis4 e8 d
-		e2 d4 r
+		\pa e2 d4 r
 		r d8 e fis4 gis
 		a8 h cis a d4 h %800
 		gis a fis gis
@@ -606,7 +606,7 @@ CumSanctoOboeI = {
 		a4 h8 a g4 a8 g
 		a4 fis h8 a g h
 		a4 a a2
-		a8 r h a g8.(\trill fis32 g) a8 g
+		a8 r h a g8.(\trill fis32 g) a8 g \pd
 		fis4 fis g e %845
 		fis h8 a g8.(\trill fis32 g) a8 g
 		fis4 fis g e

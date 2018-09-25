@@ -551,6 +551,61 @@ CumSanctoOboeII = {
 		\clef treble
 		\key d \major \time 4/4 \tempoCumSancto
 			\set Score.currentBarNumber = #778
-		
+		R1*6 %783
+		R1\fermataMarkup \bar "||"
+		\tempoCumSanctoFuga R1*13 %797
+		r2 a'\fE
+		a d
+		cis4. cis8 fis4. fis8 %800
+		e4 fis8 e d4 e8 d
+		cis4 h8 a h4 h
+		a8 h cis a h4 e
+		a, d fis,8 fis g a
+		h4 cis d8 e fis d %805
+		g fis e d cis4 d
+		h cis a d
+		h cis h2
+		cis4 cis fis4. e8
+		d4 h e4. d8 %810
+		cis4 a r2
+		R1
+		r2 h
+		h e
+		dis4. dis8 g4. g8 %815
+		fis4 g8 fis e4 fis8 e
+		d!4 c8 h a4 h~
+		h a h cis~
+		cis h cis fis~
+		fis e2 d4~ %820
+		d c2 h4
+		c? a h8 c d h
+		c4 a h8 c d h
+		g4 a2 h4
+		g a h r %825
+		r2 r4 fis'8 e
+		d4 e8 d cis!4 a
+		gis2 cis4 d8 cis
+		h4 cis8 h ais4 h~
+		h a g! a8 g %830
+		fis4 g8 a h4 cis
+		d8 e fis d g fis e d
+		cis4 d h cis
+		a h8 cis d cis d h
+		cis4 fis8 e d4 e8 d %835
+		cis4 cis h e
+		a, d h e
+		a, h8 a g4 a8 g
+		fis4 d' h e
+		a, d g cis, %840
+		fis h, e a,
+		d8 cis d a h cis d h
+		cis4 d d cis
+		d8 r d2 cis4
+		d-\critnote d d cis %845
+		d d2 cis4
+		d d d cis
+		d e fis cis
+		d e fis cis
+		d r r2\fermata \bar "|." %850 FINIS
 	}
 }

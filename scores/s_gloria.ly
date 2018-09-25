@@ -468,7 +468,7 @@
 					>>
 				>>
 				\new StaffGroup <<
-					\new Staff <<
+					\new Staff \with { soloText = \markup { \remark "Ob I" } } <<
 						\set Staff.instrumentName = "Oboe I, II"
 						\partcombine \CumSanctoOboeI \CumSanctoOboeII
 					>>
