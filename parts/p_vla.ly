@@ -49,38 +49,15 @@
 
 \book {
 	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "1" "I N T R O I T U S"
-	}
-	\bookpart {
 		\header {
-			movement = "1.1 REQUIEM"
+			movement = "1 GLORIA"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\IntroitusViola
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "2" "K Y R I E"
-	}
-	\bookpart {
-		\header {
-			movement = "2.1 KYRIE"
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\KyrieViola
+						\GloriaViola
 					}
 				>>
 			>>
@@ -88,14 +65,14 @@
 	}
 	\bookpart {
 		\header {
-			movement = "2.2 CHRISTE"
+			movement = "2 LAUDAMUS TE"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\ChristeViola
+						\LaudamusViola
 					}
 				>>
 			>>
@@ -103,33 +80,14 @@
 	}
 	\bookpart {
 		\header {
-			movement = "2.3 KYRIE II"
+			movement = "3 GRATIAS"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\KyrieIIViola
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "3" "S E Q U E N T I A"
-	}
-	\bookpart {
-		\header {
-			movement = "3.1 DIES IRAE"
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\DiesIraeViola
+						\GratiasViola
 					}
 				>>
 			>>
@@ -137,14 +95,14 @@
 	}
 	\bookpart {
 		\header {
-			movement = "3.2 QUANTUS TREMOR"
+			movement = "4 DOMINE DEUS"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\QuantusTremorViola
+						\DomineDeusViola
 					}
 				>>
 			>>
@@ -152,14 +110,14 @@
 	}
 	\bookpart {
 		\header {
-			movement = "3.3 TUBA MIRUM"
+			movement = "5 QUI TOLLIS"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\TubaMirumViola
+						\QuiTollisViola
 					}
 				>>
 			>>
@@ -167,14 +125,14 @@
 	}
 	\bookpart {
 		\header {
-			movement = "3.4 MORS STUPEBIT"
+			movement = "6 QUI SEDES"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\MorsStupebitViola
+						\QuiSedesViola
 					}
 				>>
 			>>
@@ -182,15 +140,14 @@
 	}
 	\bookpart {
 		\header {
-			movement = "3.5 LIBER SCRIPTUS"
+			movement = "7 QUONIAM"
 		}
-		\paper { systems-per-page = #6 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\LiberScriptusViola
+						\QuoniamViola
 					}
 				>>
 			>>
@@ -198,155 +155,14 @@
 	}
 	\bookpart {
 		\header {
-			movement = "3.6 IUDEX ERGO – QUID SUM MISER"
+			movement = "8 CUM SANCTO SPIRITU"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\IudexErgoViola
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			movement = "3.7 REX TREMENDAE – RECORDARE"
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\RexTremendaeViola
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			movement = "3.8 QUAERENS ME – IUSTE IUDEX"
-		}
-		\paper { systems-per-page = #6 }
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\QuaerensMeViola
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			movement = "3.9 INGEMISCO"
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\IngemiscoViola
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			movement = "3.10 QUI MARIAM – PRECES MEAE"
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\QuiMariamViola
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			movement = "3.11 INTER OVES – CONFUTATIS"
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\InterOvesViola
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			movement = "3.12 ORO SUPPLEX"
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\OroSupplexViola
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			movement = "3.13 LACRIMOSA"
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\LacrimosaViola
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "4" "O F F E R T O R I U M"
-	}
-	\bookpart {
-		\header {
-			movement = "4.1 DOMINE IESU CHRISTE"
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\DomineIesuViola
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			movement = "4.2 HOSTIAS ET PRECES"
-		}
-		\paper { systems-per-page = #6 }
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\HostiasViola
+						\CumSanctoViola
 					}
 				>>
 			>>
