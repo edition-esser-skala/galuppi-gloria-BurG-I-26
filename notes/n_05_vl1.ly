@@ -844,7 +844,7 @@ CumSanctoViolinoI = {
 			\set Score.currentBarNumber = #778
 		gis''4-!\fE r r2
 		R1
-		a4 fis,8 e dis4 r %780
+		a4 fis,8 e! dis4 r %780
 		fis'-! r r2
 		g!4-! r e-! r
 		fis-! r d2~\p \noBreak
@@ -901,11 +901,11 @@ CumSanctoViolinoI = {
 		a4 fis h8 a g h
 		a4 a a2
 		a8 r h a g8.(\trill fis32 g) a8 g
-		fis4 <fis a, d,> <g h, d,> <e cis e,>
+		fis4 <fis a, d,> <g h, d,> <e cis e,> %845
 		<fis a, d,> h8 a g8.(\trill fis32 g) a8 g
 		fis4 <fis a, d,> <g h, d,> <e cis e,>
 		<fis a, d,> <e cis e,> <fis a, d,> <cis' a,>
 		<d fis, d,> <e, cis e,> <fis a, d,> <a cis, e,>
-		<fis a, d,> r r2\fermata \bar "|."
+		<fis a, d,> r r2\fermata \bar "|." %850 FINIS
 	}
 }
