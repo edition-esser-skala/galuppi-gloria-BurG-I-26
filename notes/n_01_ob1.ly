@@ -553,6 +553,65 @@ CumSanctoOboeI = {
 		\clef treble
 		\key d \major \time 4/4 \tempoCumSancto
 			\set Score.currentBarNumber = #778
-		
+		R1*6 %783
+		R1\fermataMarkup \bar "||"
+		\tempoCumSanctoFuga R1*9 %793
+		d'2\fE d
+		g fis4. fis8 %795
+		h4. h8 a4 h8 a
+		g4 a8 g fis4 e8 d
+		e2 d4 r
+		r d8 e fis4 gis
+		a8 h cis a d4 h %800
+		gis a fis gis
+		a8 e a2 gis4
+		a a2 g4~
+		g fis8 e fis4 d~
+		d e a fis %805
+		r g2 fis4~
+		fis e fis gis8 a
+		gis4 a a gis
+		a r r fis
+		h4. a8 g!4 e %810
+		a4. g8 fis4 fis
+		R1
+		r4 cis fis4. e8
+		d4 fis h a8 g
+		fis4 r r g %815
+		a fis g e
+		fis g2 fis4
+		gis a2 gis4
+		ais h2 ais4
+		h cis ais h~ %820
+		h a2 g!4
+		g r r2
+		e8 d e fis g a h g
+		c h a g fis4 g
+		e fis g h8 a %825
+		g4 a8 g fis4 a~
+		a gis a fis~
+		fis eis fis r
+		r2 r4 g8 fis
+		e4 fis2 e4~ %830
+		e d2 e4
+		fis r r g~
+		g fis2 e4~
+		e d a' h
+		e, a2 gis4 %835
+		a a2 gis4
+		a h8 a g4 a8 g
+		fis4 d2 cis4
+		d a'2 g4~
+		g fis h cis8 h %840
+		a4 h8 a g4 a8 g
+		a4 fis h8 a g h
+		a4 a a2
+		a8 r h a g8.(\trill fis32 g) a8 g
+		fis4 fis g e %845
+		fis h8 a g8.(\trill fis32 g) a8 g
+		fis4 fis g e
+		fis a a e
+		fis a a e
+		fis r r2\fermata \bar "|." %850 FINIS
 	}
 }
