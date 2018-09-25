@@ -840,7 +840,7 @@ QuoniamViola = {
 
 CumSanctoViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 4/4 \tempoCumSancto
 			\set Score.currentBarNumber = #778
 		eis4-!\fE r r2

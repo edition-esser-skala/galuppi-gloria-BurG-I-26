@@ -494,25 +494,25 @@
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \CumSanctoSopranoNotes }
 					}
-% 					\new Lyrics \lyricsto Soprano \CumSanctoSopranoLyrics
+					\new Lyrics \lyricsto Soprano \CumSanctoSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \CumSanctoAltoNotes }
 					}
-% 					\new Lyrics \lyricsto Alto \CumSanctoAltoLyrics
+					\new Lyrics \lyricsto Alto \CumSanctoAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \CumSanctoTenoreNotes }
 					}
-% 					\new Lyrics \lyricsto Tenore \CumSanctoTenoreLyrics
+					\new Lyrics \lyricsto Tenore \CumSanctoTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
 						\new Voice = "Basso" { \dynamicUp \CumSanctoBassoNotes }
 					}
-% 					\new Lyrics \lyricsto Basso \CumSanctoBassoLyrics
+					\new Lyrics \lyricsto Basso \CumSanctoBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
