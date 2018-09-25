@@ -133,6 +133,26 @@ GloriaCornoI = {
 	}
 }
 
+LaudamusCornoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/2 \tempoLaudamus
+			\set Score.currentBarNumber = #188
+		\override MultiMeasureRest.minimum-length = #40
+			R1*120 \bar "||" %307 finis
+	}
+}
+
+GratiasCornoI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoGratias
+			\set Score.currentBarNumber = #308
+		\override MultiMeasureRest.minimum-length = #40
+			R1*50 \bar "||" %357 finis
+	}
+}
+
 DomineDeusCornoI = {
 	\relative c' {
 		\clef treble
@@ -229,6 +249,16 @@ QuiTollisCornoI = {
 		f8 r r4 r2 %515
 		R1*4
 		R1\fermataMarkup \bar "||" %%20 finis
+	}
+}
+
+QuiSedesCornoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \tempoQuiSedes
+			\set Score.currentBarNumber = #521
+		\override MultiMeasureRest.minimum-length = #40
+			R1*103 \bar "||" %623 finis
 	}
 }
 

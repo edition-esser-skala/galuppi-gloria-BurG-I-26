@@ -174,6 +174,16 @@ GloriaOboeII = {
 	}
 }
 
+LaudamusOboeII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/2 \tempoLaudamus
+			\set Score.currentBarNumber = #188
+		\override MultiMeasureRest.minimum-length = #40
+			R1*120 \bar "||" %307 finis
+	}
+}
+
 GratiasOboeII = {
 	\relative c' {
 		\clef treble

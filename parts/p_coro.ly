@@ -7,8 +7,47 @@
 \include "../definitions.ly"
 
 \paper {
-	first-page-number = #1
-	systems-per-page = #1
+	#(set-paper-size "a4" 'portrait)
+	indent = 2\cm
+	top-margin = 1.5\cm
+	system-separator-markup = ##f
+	system-system-spacing =
+    #'((basic-distance . 30)
+       (minimum-distance . 30)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-system-spacing =
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-markup-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . -100)
+       (stretchability . 0))
+		
+	markup-system-spacing =
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
+       (padding . -100)
+       (stretchability . 0))
+	
+	last-bottom-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . 0)
+       (stretchability . 1.0e7))
+	systems-per-page = #2
+}
+
+\layout {
+	\context {
+		\Lyrics
+		\override LyricText.font-size = #-.5
+	}
 }
 
 #(set-global-staff-size 15.87)
@@ -20,55 +59,21 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in D" } }
-						\partcombine \GloriaCornoI \GloriaCornoII
-					>>
-				>>
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \GloriaOboeI \GloriaOboeII
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\GloriaViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\GloriaViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\GloriaViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
 					}
 					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
 					}
 					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \TenoreIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
 					}
 					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
@@ -89,33 +94,15 @@
 					\GloriaBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 120 }
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "2 LAUDAMUS TE"
 		}
-		\paper { systems-per-page = #2 page-count = #12 }
+		\paper { systems-per-page = #4 }
 		\score {
 			<<
-				\new StaffGroup \with { \smallerGroupDistance } <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\LaudamusViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\LaudamusViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\LaudamusViola
-					>>
-				>>
 				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
@@ -133,8 +120,6 @@
 					\LaudamusBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 2 = 60 }
 		}
 	}
 	\bookpart {
@@ -143,28 +128,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \GratiasOboeI \GratiasOboeII
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\GratiasViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\GratiasViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\GratiasViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -200,45 +163,16 @@
 					\GratiasBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 2 = 80 } % 4 = 60
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "4 DOMINE DEUS"
 		}
+		\paper { systems-per-page = #4 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in C" } }
-						\partcombine \DomineDeusCornoI \DomineDeusCornoII
-					>>
-				>>
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \DomineDeusOboeI \DomineDeusOboeII
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\DomineDeusViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\DomineDeusViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\DomineDeusViola
-					>>
-				>>
-				\new ChoirStaff <<
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \DomineDeusSopranoNotes }
@@ -255,8 +189,6 @@
 					\DomineDeusBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
 		}
 	}
 	\bookpart {
@@ -265,34 +197,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[in C]" } }
-						\partcombine \QuiTollisCornoI \QuiTollisCornoII
-					>>
-				>>
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \QuiTollisOboeI \QuiTollisOboeII
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\QuiTollisViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\QuiTollisViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\QuiTollisViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -328,39 +232,16 @@
 					\QuiTollisBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 80 }
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "6 QUI SEDES"
 		}
+		\paper { systems-per-page = #4 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \QuiSedesOboeI \QuiSedesOboeII
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\QuiSedesViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\QuiSedesViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\QuiSedesViola
-					>>
-				>>
-				\new ChoirStaff <<
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \QuiSedesAltoNotes }
@@ -377,8 +258,6 @@
 					\QuiSedesBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 2 = 72 }
 		}
 	}
 	\bookpart {
@@ -387,34 +266,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in D" } }
-						\partcombine \QuoniamCornoI \QuoniamCornoII
-					>>
-				>>
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Flauto I, II" "Oboe I, II" } }
-						\partcombine \QuoniamOboeI \QuoniamOboeII
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\QuoniamViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\QuoniamViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\QuoniamViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff = "SopranoStaff" {
 						\set Staff.instrumentName = "Soprano"
@@ -451,8 +302,6 @@
 					\QuoniamBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 8 = 120 }
 		}
 	}
 	\bookpart {
@@ -461,34 +310,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[in D]" } }
-						\partcombine \CumSanctoCornoI \CumSanctoCornoII
-					>>
-				>>
-				\new StaffGroup <<
-					\new Staff \with { soloText = \markup { \medium \remark "Ob I" } } <<
-						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \CumSanctoOboeI \CumSanctoOboeII
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\CumSanctoViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\CumSanctoViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\CumSanctoViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -524,8 +345,6 @@
 					\CumSanctoBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 120 }
 		}
 	}
 }
