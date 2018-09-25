@@ -280,6 +280,45 @@ CumSanctoCornoII = {
 		\clef treble
 		\key d \major \time 4/4 \tempoCumSancto
 			\set Score.currentBarNumber = #778
-		
+		R1*6 %783
+		R1\fermataMarkup \bar "||"
+		\tempoCumSanctoFuga R1*20 %804
+		d2\fE d %805
+		d' a4 r
+		d e fis d
+		e a, e'2
+		a,4 r r2
+		R1*5 %814
+		fis'2 e4 r %815
+		R1
+		d
+		e
+		fis~
+		fis2 r %820
+		R1*2
+		r2 d
+		e d4 d
+		e d d2 %825
+		e4 a, fis r
+		R1*5 %831
+		d2 d
+		a'4 d2 a4
+		fis r r2
+		a,1~ %835
+		a4 a' d e
+		a,1
+		r4 d e a,
+		a,1
+		a4 d'2 e4 %840
+		a,2 e'
+		fis4 d d e
+		a, d a a
+		fis r r2
+		r4 d' d a %845
+		d r r2
+		r4 d d a
+		fis a d a
+		fis a d a
+		fis r r2\fermata \bar "|." %850 FINIS
 	}
 }

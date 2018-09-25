@@ -285,8 +285,8 @@ CumSanctoCornoI = {
 		\tempoCumSanctoFuga R1*20 %804
 		d'2\fE d %805
 		g e4 r
-		d e a, fis'
-		e e e2
+		\pa d e a, \pd fis'
+		\pao e e \pao e2
 		e4 r r2
 		R1*5 %814
 		fis2 e4 r %815
@@ -305,9 +305,9 @@ CumSanctoCornoI = {
 		e4 fis2 e4
 		fis r r2
 		a,1~ %835
-		a4 e' fis e
-		a,1
-		r4 fis' e e
+		a4 e' fis \pa e
+		a,1 \pd
+		r4 fis' \pao e e
 		a,1
 		a4 fis'2 e4~ %840
 		e d2 a4
