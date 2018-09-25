@@ -883,7 +883,7 @@ CumSanctoSopranoNotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
 			\set Score.currentBarNumber = #778
-		r2 r8 \mvTr gis'\pE^\soloE gis cis
+		r2 r8 \mvTr gis'\fE^\soloE gis cis
 		cis gis16 gis r8 gis h h16 h cis8 gis
 		a a r4 r2 %780
 		R1

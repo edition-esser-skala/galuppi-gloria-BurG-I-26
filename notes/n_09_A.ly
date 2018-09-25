@@ -1071,7 +1071,7 @@ CumSanctoAltoNotes = {
 		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
 			\set Score.currentBarNumber = #778
 		R1*2
-		r2 r8 \mvTr fis\pE^\soloE fis h %780
+		r2 r8 \mvTr fis\fE^\soloE fis h %780
 		h fis16 fis r8 fis a a16 a h8 fis
 		g! g r4 r r8 a
 		fis fis16 fis r8 fis gis4 gis8 h

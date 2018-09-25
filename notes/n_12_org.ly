@@ -1468,12 +1468,12 @@ CumSanctoOrgano = {
 		\clef bass
 		\key d \major \time 4/4 \tempoCumSancto
 			\set Score.currentBarNumber = #778
-		\mvTr eis4\pE-\soloE r r2
+		\mvTr eis4\fE-\soloE r r2
 		R1
 		fis4 fis8 e! dis4 r %780
 		dis? r r2
 		e4 r cis r
-		d! r h2~ \noBreak
+		d! r h2~\pE \noBreak
 		h a4 r\fermata \bar "||"
 		\tempoCumSanctoFuga \mvTr d2\fE-\tuttiE d \noBreak %785
 		g fis4. fis8
