@@ -1,17 +1,23 @@
-composer: Galuppi, Baldassare
+composer:
+  last: Galuppi
+  first: Baldassare
 title: Gloria
 id: BurG I/26
 genre: mass
-scoring: S, A (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cor (C/D), 2 vl, vla, b, org
+scoring: S, A (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cor (C/D/A), 2 vl, 2 vla, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: D-Dl
     shelfmark: Mus.2973-D-13
-    type: manuscript copy
     date: 1760–1770
     rism: 212006145
-    url: http://digital.slub-dresden.de/id426248201
+    url: https://digital.slub-dresden.de/id426248201
+    license: public domain
+    principal: true
 github: galuppi-gloria-BurG-I-26
-imslp: Gloria_in_D_major_(Galuppi%2C_Baldassare)
-notes:
-
+parts:
+  ob1: Oboe I\\Flauto I
+  ob2: Oboe II\\Flauto II
+  cor12: Corno I, II in C/D/A
+  vla: Viola I, II
